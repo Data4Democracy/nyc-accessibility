@@ -10,8 +10,8 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Simple demo – Tangram</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://mapzen.com/js/mapzen.css">
+    <script src="https://mapzen.com/js/mapzen.min.js"></script>
 
     <style>
         body {
@@ -32,25 +32,31 @@
   <body>
     <div id="map"></div>
 
-    <!-- leaflet -->
-    <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
-
     <!-- Main tangram library -->
     <script src="https://mapzen.com/tangram/0.10/tangram.min.js"></script>
 
     <!-- Demo setup -->
     <script>
+        L.Mapzen.apiKey = 'mapzen-tDHBHDp'
       
-        var map = L.map('map');
+        var nyc = [40.70531887544228, -74.00976419448853];
 
-        var layer = Tangram.leafletLayer({
-            scene: 'scene.yaml',
-            attribution: '<a href="https://mapzen.com/tangram" target="_blank">Tangram</a> | &copy; OSM contributors | <a href="https://mapzen.com/" target="_blank">Mapzen</a>'
+        var map = L.Mapzen.map('map', {
+        center: nyc,
+        zoom: 15,
+        scene: 'scene.yaml',
         });
 
-        layer.addTo(map);
+        map.zoomControl.setPosition('topright')
 
-        map.setView([40.70531887544228, -74.00976419448853], 15);
+        <!-- var layer = Tangram.leafletLayer({ -->
+        <!--     scene: 'scene.yaml', -->
+        <!--     attribution: '<a href="https://mapzen.com/tangram" target="_blank">Tangram</a> | &copy; OSM contributors | <a href="https://mapzen.com/" target="_blank">Mapzen</a>' -->
+        <!-- }); -->
+
+        <!-- layer.addTo(map); -->
+
+        <!-- map.setView(, 15); -->
 
     </script>
 
