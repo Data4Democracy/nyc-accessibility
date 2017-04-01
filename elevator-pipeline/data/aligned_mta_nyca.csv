@@ -1,0 +1,475 @@
+rowid,mta_name,mta_lines,mta_id,spacer,nyca_name,nyca_lines,nyca_id
+0,103rd St,1,159,,103rd St,"('1',)",106
+1,103rd St,4-6-6 Express,458,,103rd St,"('6',)",459
+2,103rd St,A-B-C,161,,103rd St,"('B', 'C')",108
+3,103rd St - Corona Plaza,7,189,,103rd St - Corona Plaza,"('7',)",146
+4,104th St,A-S,98,,104th St,"('A',)",24
+5,104th-102nd Sts,J-Z,14,,104th-102nd Sts,"('J', 'Z')",221
+6,110th St,4-6-6 Express,450,,110th St,"('6',)",451
+7,111th St,7,190,,111th St,"('7',)",147
+8,111th St,A-S,83,,111th St,"('A',)",158
+9,111th St,J,209,,111th St,"('J',)",174
+10,116th St,3-Feb,170,,116th St,"('2', '3')",122
+11,116th St,4-6-6 Express,462,,116th St,"('6',)",463
+12,116th St,A-B-C,398,,116th St,"('B', 'C')",399
+13,116th St - Columbia University,1,167,,116th St - Columbia University,"('1',)",118
+14,121st St,J-Z,210,,121st St,"('J', 'Z')",175
+15,125th St,1,287,,125th St,"('1',)",278
+16,125th St,3-Feb,168,,125th St,"('2', '3')",119
+17,125th St,4-5-6-6 Express,468,,125th St,"('4', '5', '6', '6e', 'mn')",469
+18,125th St,A-B-C-D,399,,125th St,"('A', 'B', 'C', 'D')",400
+19,135th St,3-Feb,169,,135th St,"('2', '3')",120
+20,135th St,A-B-C,440,,135th St,"('B', 'C')",441
+21,137th St - City College,1,172,,137th St - City College,"('1',)",125
+22,138th St - Grand Concourse,5-Apr,141,,138th St - Grand Concourse,"('4', '5')",80
+23,145th St,1,156,,145th St,"('1',)",103
+24,145th St,3,173,,145th St,"('3',)",126
+25,145th St,A-B-C-D,295,,145th St,"('A', 'B', 'C', 'D')",289
+26,149th St - Grand Concourse,5-Feb,289,,149th St - Grand Concourse,"('2', '5', '4')",282
+27,149th St - Grand Concourse,4,47,,14th St,"('1', '2', '3')",440
+28,14th St,1/2/03,439,,14th St - 6 Av,"('L', 'F', 'M')",442
+29,14th St,A-C-E,444,,14th St - 8 Av,"('L', 'A', 'C', 'E')",445
+30,14th St,F-M,441,,,,445
+31,155th St,A-C,411,,155th St,"('B', 'D')",290
+32,155th St,B-D,296,,155th St,"('C',)",412
+33,157th St,1,157,,157th St,"('1',)",104
+34,15th St - Prospect Park,F-G,107,,15th St - Prospect Park,"('F', 'G')",38
+35,161st St - Yankee Stadium,4,48,,161st St - Yankee Stadium,"('B', 'D', '4')",291
+36,161st St - Yankee Stadium,B-D,297,,,,291
+37,163rd St - Amsterdam Av,A-C,412,,163rd St - Amsterdam Av,"('C',)",413
+38,167th St,4,291,,167th St,"('4',)",285
+39,167th St,B-D,22,,167th St,"('B', 'D')",292
+40,168th St,1,177,,168th St,"('A', 'C', '1')",133
+41,168th St,A-C,58,,,,133
+42,169th St,F,188,,169th St,"('F',)",145
+43,170th St,4,264,,170th St,"('4',)",249
+44,170th St,B-D,176,,170th St,"('B', 'D')",129
+45,174th St,5-Feb,256,,174th St,"('2', '5')",240
+46,174th-175th Sts,B-D,21,,174th-175th Sts,"('B', 'D')",130
+47,175th St,A,180,,175th St,"('A',)",135
+48,176th St,4,174,,176th St,"('4',)",127
+49,181st St,1,178,,181st St,"('1',)",132
+50,181st St,A,396,,181st St,"('A',)",397
+51,182nd-183rd Sts,B-D,20,,182nd-183rd Sts,"('B', 'D')",124
+52,183rd St,4,407,,183rd St,"('4',)",408
+53,18th Ave,D,322,,18th Ave,"('D',)",323
+54,18th Ave,F,308,,18th Ave,"('F',)",306
+55,18th Ave,N,316,,18th Ave,"('N',)",317
+56,18th St,2-Jan,203,,18th St,"('1',)",165
+57,190th St,A,397,,190th St,"('A',)",398
+58,191st St,1,179,,191st St,"('1',)",134
+59,1st Ave,L,146,,1st Ave,"('L',)",85
+60,207th St,1,269,,207th St,"('1',)",255
+61,20th Ave,D,321,,20th Ave,"('D',)",322
+62,20th Ave,N,315,,20th Ave,"('N',)",316
+63,215th St,1,268,,215th St,"('1',)",254
+64,219th St,5-Feb,273,,219th St,"('2', '5')",263
+65,21st St,G,154,,21st St,"('G',)",100
+66,21st St - Queensbridge,F,346,,21st St - Queensbridge,"('F',)",347
+67,225th St,5-Feb,248,,225th St,"('2', '5')",229
+68,231st St,1,267,,231st St,"('1',)",253
+69,233rd St,5-Feb,87,,233rd St,"('2', '5')",8
+70,238th St,1,6,,238th St,"('1',)",257
+71,23rd St,2-Jan,96,,23rd St,"('1',)",20
+72,23rd St,4-6-6 Express,92,,23rd St,"('6',)",13
+73,23rd St,A-C-E,436,,23rd St,"('C', 'E')",437
+74,23rd St,F-M,365,,23rd St,"('F', 'M')",366
+75,23rd St,N-Q-R-W,380,,23rd St,"('N', 'R')",381
+76,25th Ave,D,313,,25th Ave,"('D',)",314
+77,25th St,D-N-R,393,,25th St,"('R',)",394
+78,28th St,2-Jan,199,,28th St,"('1',)",161
+79,28th St,4-6-6 Express,200,,28th St,"('6',)",162
+80,28th St,N-Q-R-W,144,,28th St,"('N', 'R')",83
+,,,,,2nd Ave,"('F',)",372
+81,30th Ave,N-W,304,,30th Ave,"('N', 'Q')",302
+82,33rd St,4-6-6 Express,32,,33rd St,"('6',)",6
+83,33rd St,7,293,,33rd St,"('7',)",287
+84,34th St - Hudson Yards,7-7 Express,470,,,,
+85,34th St - Penn Station,1/2/03,358,,34th St - Penn Station,"('1', '2', '3', 'lirr')",359
+86,34th St - Penn Station,A-C-E,437,,34th St - Penn Station,"('A', 'C', 'E', 'lirr')",438
+87,36th Ave,N-W,78,,36th Ave,"('N', 'Q')",102
+88,36th St,D-N-R,389,,36th St,"('D', 'N', 'R')",390
+89,36th St,E-M-R,10,,36th St,"('M', 'R')",295
+90,39th Ave,N-W,155,,39th Ave,"('N', 'Q')",101
+91,3rd Ave,L,383,,3rd Ave,"('L',)",384
+92,3rd Ave - 138th St,6-6 Express,27,,3rd Ave - 138th St,"('6', '6e')",22
+93,3rd Ave - 149th St,5-Feb,290,,3rd Ave - 149th St,"('2', '5')",283
+94,40th St,7,294,,40th St,"('7',)",288
+95,42nd St - Bryant Pk,B-D-F-M,60,,42nd St - Bryant Pk,"('B', 'D', 'F', 'M')",88
+96,42nd St - Port Authority Bus Term,A-C-E,362,,42nd St - Port Authority Bus Term,"('A', 'C', 'E')",363
+97,45th St,N-R,388,,45th St,"('R',)",389
+98,46th St,7,239,,46th St,"('7',)",214
+99,46th St,E-M-R,237,,46th St,"('M', 'R')",212
+100,47th-50th Sts - Rockefeller Ctr,B-D-F-M,349,,47th-50th Sts - Rockefeller Ctr,"('B', 'D', 'F', 'M')",350
+101,49th St,N-Q-R-W,354,,49th St,"('N', 'Q', 'R')",355
+102,4th Av - 9th St,D-N-R,382,,4th Ave - 9th St,"('F', 'G', 'R')",375
+103,4th Av - 9th St,F-G,374,,,,375
+104,50th St,2-Jan,3,,50th St,"('1', '2')",29
+105,50th St,A-C-E,347,,50th St,"('C', 'E')",348
+106,50th St,D,311,,50th St,"('D',)",311
+107,51st St,4-6-6 Express,85,,51st St,"('6',)",3
+108,52nd St,7,236,,52nd St,"('7',)",211
+109,53rd St,N-R,391,,53rd St,"('R',)",392
+110,55th St,D,62,,55th St,"('D',)",310
+111,57th St,F,350,,57th St,"('F',)",351
+112,57th St,N-Q-R-W,355,,57th St - 7 Av,"('N', 'Q', 'R')",356
+113,59th St,N-R,387,,59th St,"('N', 'R')",388
+114,59th St - Columbus Circle,2-Jan,94,,,,354
+115,59th St - Columbus Circle,A-B-C-D,353,,59th St - Columbus Circle,"('A', 'B', 'C', 'D', '1')",354
+116,5th Ave - Bryant Pk,7-7 Express,466,,5th Ave,"('7', '7e')",467
+117,5th Ave - 53rd St,E-M,142,,5th Ave - 53rd St,"('E', 'M')",81
+118,`,N-R-W,356,,5th Ave - 59th St,"('N', 'Q', 'R')",357
+119,62nd St,D,323,,62nd St,"('D',)",324
+120,63rd Dr - Rego Park,E-M-R,191,,63rd Dr - Rego Park,"('M', 'R')",148
+121,65th St,E-M-R,9,,65th St,"('M', 'R')",206
+122,66th St - Lincoln Ctr,2-Jan,88,,66th St - Lincoln Ctr,"('1',)",9
+123,67th Ave,E-M-R,67,,67th Ave,"('M', 'R')",171
+124,68th St - Hunter College,4-6-6 Express,102,,68th St - Hunter College,"('6',)",31
+125,69th St,7,230,,69th St,"('7',)",204
+126,6th Ave,L,442,,,,
+127,71st St,D,320,,71st St,"('D',)",321
+128,72nd St,1/2/03,162,,72nd St,"('1', '2', '3')",110
+129,72nd St,A-B-C,56,,72nd St,"('B', 'C')",111
+130,72nd St,Q,641,,,,
+131,74th St - Broadway,7,231,,74th St - Broadway,"('7',)",205
+132,75th Ave,E-F,164,,75th Ave,"('E', 'F')",113
+133,75th St - Eldert Ln,J-Z,229,,75th St - Eldert Ln,"('J', 'Z')",203
+134,77th St,4-6-6 Express,34,,77th St,"('6',)",156
+135,77th St,R,309,,77th St,"('R',)",308
+136,79th St,2-Jan,193,,79th St,"('1',)",150
+137,79th St,D,319,,79th St,"('D',)",320
+138,7th Ave,B-D-E,348,,7th Ave,"('B', 'D', 'E')",349
+139,7th Ave,B-Q,120,,7th Ave,"('B', 'Q')",53
+140,7th Ave,F-G,108,,7th Ave,"('F', 'G')",39
+141,80th St,A-S,465,,80th St,"('A',)",466
+142,81st St,A-B-C,163,,81st St,"('B', 'C')",112
+143,82nd St - Jackson Hts,7,240,,82nd St - Jackson Hts,"('7',)",215
+144,85th St - Forest Pky,J,207,,85th St - Forest Pky,"('J',)",172
+145,86th St,2-Jan,86,,86th St,"('1',)",4
+146,86th St,4-5-6-6 Express,451,,86th St,"('4', '5', '6', '6e')",452
+147,86th St,A-B-C,165,,86th St,"('B', 'C')",115
+148,86th St,Q,642,,,,
+149,86th St,R,318,,86th St,"('R',)",319
+150,88th St,A-S,460,,88th St,"('A',)",461
+151,8th Ave,L,443,,,,
+152,8th Ave,N,77,,8th Ave,"('N',)",313
+153,8th St - NYU,N-Q-R-W,401,,8th St - NYU,"('N', 'R')",402
+154,90th St - Elmhurst Av,7,241,,90th St - Elmhurst Av,"('7',)",216
+155,96th St,1/2/03,158,,96th St,"('1', '2', '3')",105
+156,96th St,4-6-6 Express,33,,96th St,"('6',)",18
+157,96th St,A-B-C,57,,96th St,"('B', 'C')",116
+158,96th St,Q,643,,,,
+159,9th Ave,D,390,,9th Ave,"('D',)",391
+160,Alabama Ave,J,225,,Alabama Ave,"('J', 'Z')",198
+161,Allerton Ave,5-Feb,257,,Allerton Ave,"('2', '5')",242
+162,Aqueduct - North Conduit Av,A,243,,Aqueduct - North Conduit Av,"('A',)",220
+163,Aqueduct Racetrack,A,124,,Aqueduct Racetrack,"('A',)",58
+164,Astor Pl,4-6-6 Express,1,,Astor Pl,"('6',)",15
+165,Astoria - Ditmars Blvd,N-W,252,,Astoria - Ditmars Blvd,"('N', 'Q')",234
+166,Astoria Blvd,N-W,251,,Astoria Blvd,"('N', 'Q')",233
+167,Atlantic Av - Barclay's Center,2-3-4-5,116,,Atlantic Ave,"('B', 'D', 'Q', 'N', 'R', '2', '3', '4', '5', 'lirr')",49
+168,Atlantic Av - Barclay's Center,B-Q,121,,,,49
+169,Atlantic Av - Barclay's Center,D-N-Q-R,122,,,,49
+170,Atlantic Ave,L,194,,Atlantic Ave,"('L',)",151
+171,Ave H,Q,344,,Ave H,"('Q',)",345
+172,Ave I,F,342,,Ave I,"('F',)",343
+173,Ave J,Q,343,,Ave J,"('Q',)",344
+174,Ave M,Q,340,,Ave M,"('Q',)",341
+175,Ave N,F,338,,Ave N,"('F',)",339
+176,Ave P,F,337,,Ave P,"('F',)",338
+177,Ave U,F,325,,Ave U,"('F',)",326
+178,Ave U,N,331,,Ave U,"('N',)",332
+179,Ave U,Q,329,,Ave U,"('Q',)",330
+180,Ave X,F,334,,Ave X,"('F',)",335
+181,Bay 50th St,D,335,,Bay 50th St,"('D',)",336
+182,Bay Pky,D,314,,Bay Pky,"('D',)",315
+183,Bay Pky,F,339,,Bay Pky,"('F',)",340
+184,Bay Pky,N,341,,Bay Pky,"('N',)",342
+185,Bay Ridge - 95th St,R,317,,Bay Ridge - 95th St,"('R',)",318
+186,Bay Ridge Ave,R,310,,Bay Ridge Ave,"('R',)",309
+187,Baychester Ave,5,277,,Baychester Ave,"('5',)",267
+188,Beach 105th St,A-S,16,,Beach 105th St,"('A', 'S')",138
+189,Beach 25th St,A,186,,Beach 25th St,"('A',)",143
+190,Beach 36th St,A,185,,Beach 36th St,"('A',)",142
+191,Beach 44th St,A,181,,Beach 44th St,"('A',)",136
+192,Beach 60th St,A,182,,Beach 60th St,"('A',)",137
+193,Beach 67th St,A,205,,Beach 67th St,"('A',)",169
+194,Beach 90th St,A-S,17,,Beach 90th St,"('A', 'S')",141
+195,Beach 98th St,A-S,183,,Beach 98th St,"('A', 'S')",139
+196,Bedford - Nostrand Aves,G,106,,Bedford - Nostrand Aves,"('G',)",37
+197,Bedford Ave,L,151,,Bedford Ave,"('L',)",94
+198,Bedford Park Blvd,B-D,265,,Bedford Park Blvd,"('B', 'D')",251
+199,Bedford Park Blvd - Lehman College,4,260,,Bedford Park Blvd - Lehman College,"('4',)",245
+200,Bergen St,2/3/04,4,,Bergen St,"('2', '3')",48
+201,Bergen St,F-G,376,,Bergen St,"('F', 'G')",377
+202,Beverly Rd,5-Feb,130,,Beverly Rd,"('2', '5')",66
+203,Beverly Rd,Q,111,,Beverly Rd,"('Q',)",42
+204,Bleecker St,4-6-6 Express,457,,Bleecker St,"('6',)",25
+205,Borough Hall,3-Feb,406,,Borough Hall,"('2', '3', '4', '5')",57
+206,Borough Hall,5-Apr,123,,,,57
+207,Botanic Garden,S,281,,Botanic Garden,"('S',)",271
+208,Bowery,J-Z,434,,Bowery,"('J', 'Z')",435
+209,Bowling Green,5-Apr,419,,Bowling Green,"('4', '5')",420
+210,Briarwood - Van Wyck Blvd,E-F,244,,Briarwood - Van Wyck Blvd,"('E', 'F')",222
+211,Brighton Beach,B-Q,327,,Brighton Beach,"('B', 'Q')",328
+212,Broad Channel,A-S,99,,Broad Channel,"('A', 'S')",27
+213,Broad St,J-Z,428,,Broad St,"('J', 'Z')",429
+214,Broadway,G,71,,Broadway,"('G',)",95
+215,Broadway,N-W,79,,Broadway,"('N', 'Q')",301
+216,Broadway - Lafayette St,B-D-F-M,433,,Broadway - Lafayette St,"('B', 'D', 'F', 'M')",434
+217,Broadway Junction,A-C,386,,Broadway Junction,"('A', 'C', 'J', 'L', 'Z')",274
+218,Broadway Junction,J-Z,224,,,,274
+219,Broadway Junction,L,283,,,,274
+220,Bronx Park East,5-Feb,44,,Bronx Park East,"('2', '5')",261
+221,Brook Ave,6,292,,Brook Ave,"('6',)",286
+222,Brooklyn Bridge - City Hall,4-5-6-6 Express,29,,Brooklyn Bridge - City Hall,"('4', '5', '6', '6e')",5
+223,Brooklyn College - Flatbush Ave,5-Feb,133,,Brooklyn College - Flatbush Ave,"('2', '5')",69
+224,Buhre Ave,6-6 Express,26,,Buhre Ave,"('6', '6e')",2
+225,Burke Ave,5-Feb,276,,Burke Ave,"('2', '5')",266
+226,Burnside Ave,4,175,,Burnside Ave,"('4',)",128
+227,Bushwick - Aberdeen,L,282,,Bushwick - Aberdeen,"('L',)",272
+228,Canal St,2-Jan,90,,Canal St,"('1',)",11
+229,Canal St,4-6-6 Express,2,,,,436
+230,Canal St,J-Z,415,,Canal St,"('J', 'Z', 'N', 'Q', 'R', '6', '6e')",436
+231,Canal St,N-Q,435,,,,436
+232,Canal St,R-W,417,,,,436
+233,Canal St - Holland Tunnel,A-C-E,410,,Canal St,"('A', 'C', 'E')",411
+234,Canarsie - Rockaway Pkwy,L,219,,Canarsie - Rockaway Pkwy,"('L',)",189
+235,Carroll St,F-G,394,,Carroll St,"('F', 'G')",395
+236,Castle Hill Ave,6-6 Express,28,,Castle Hill Ave,"('6', '6e')",26
+237,Cathedral Pkwy (110th St),1,166,,Cathedral Pkwy (110th St),"('1',)",117
+238,Cathedral Pkwy (110th St),A-B-C,7,,Cathedral Pkwy (110th St),"('B', 'C')",109
+239,Central Ave,M,302,,Central Ave,"('M',)",299
+240,Central Park North (110th St),3-Feb,160,,Central Park North (110th St),"('2', '3')",107
+241,Chambers St,1/2/03,404,,Chambers St,"('1', '2', '3')",405
+242,Chambers St,A-C,361,,Chambers St,"('A', 'C')",362
+243,Chambers St,J-Z,414,,Chambers St,"('J', 'Z')",415
+244,Chauncey St,J-Z,35,,Chauncey St,"('J', 'Z')",195
+245,Christopher St - Sheridan Sq,2-Jan,195,,Christopher St - Sheridan Sq,"('1',)",152
+246,Church Ave,5-Feb,131,,Church Ave,"('2', '5')",67
+247,Church Ave,B-Q,112,,Church Ave,"('B', 'Q')",43
+248,Church Ave,F-G,110,,Church Ave,"('F', 'G')",41
+249,City Hall,R-W,416,,City Hall,"('R',)",417
+250,Clark St,3-Feb,446,,Clark St,"('2', '3')",447
+251,Classon Ave,G,70,,Classon Ave,"('G',)",36
+252,Cleveland St,J,215,,Cleveland St,"('J',)",184
+253,Clinton - Washington Aves,A-C,448,,Clinton - Washington Aves,"('C',)",449
+254,Clinton - Washington Aves,G,119,,Clinton - Washington Aves,"('G',)",52
+255,Coney Island - Stillwell Av,D-F-N-Q,469,,Coney Island - Stillwell Av,"('D', 'F', 'N', 'Q')",470
+256,Cortelyou Rd,Q,461,,Cortelyou Rd,"('Q',)",462
+257,Cortlandt St,1,426,,Cortlandt St,"('R',)",430
+258,Cortlandt St,R-W,429,,Cortlandt St (Temporarily Closed),"('1',)",427
+259,Court Sq,7-7 Express,93,,Court Sq,"('7', '7e', 'G')",14
+260,Court Sq - 23rd St,E-M,66,,Court Sq - 23 St,"('E', 'M')",98
+261,Court St,N-R,378,,Court St,"('R',)",379
+262,Crescent St,J-Z,227,,Crescent St,"('J', 'Z')",201
+263,Crown Hts - Utica Ave,4-Mar,135,,Crown Hts - Utica Ave,"('3', '4')",72
+264,Cypress Ave,6,255,,Cypress Ave,"('6',)",237
+265,Cypress Hills,J,228,,Cypress Hills,"('J',)",202
+266,DeKalb Ave,B-D-N-Q-R,15,,DeKalb Ave,"('B', 'Q', 'R')",59
+267,DeKalb Ave,L,235,,DeKalb Ave,"('L',)",210
+268,Delancey St - Essex St,F,370,,Delancey St - Essex St,"('F', 'J', 'M', 'Z')",371
+269,Delancey St - Essex St,J-M-Z,11,,,,371
+270,Ditmas Ave,F,69,,Ditmas Ave,"('F',)",307
+271,Dyckman St,1,286,,Dyckman St,"('1',)",277
+272,Dyckman St,A,431,,Dyckman St,"('A',)",432
+273,E 105th St,L,220,,E 105th St,"('L',)",190
+274,E 143rd St - St Mary's St,6,258,,E 143rd St - St Mary's St,"('6',)",243
+275,E 149th St,6,50,,E 149th St,"('6',)",153
+276,E 180th St,5-Feb,285,,E 180th St,"('2', '5')",276
+277,East Broadway,F,369,,East Broadway,"('F',)",370
+278,Eastchester - Dyre Ave,5,278,,Eastchester - Dyre Ave,"('5',)",268
+279,Eastern Pkwy - Bklyn Museum,2/3/04,129,,Eastern Pkwy - Bklyn Museum,"('2', '3')",64
+280,Elder Ave,6,249,,Elder Ave,"('6',)",230
+281,Elmhurst Ave,E-M-R,37,,Elmhurst Ave,"('M', 'R')",218
+282,Euclid Ave,A-C-S,459,,Euclid Ave,"('A', 'C')",460
+283,Far Rockaway - Mott Ave,A,55,,Far Rockaway - Mott Ave,"('A',)",194
+284,Flushing - Main St,7-7 Express,25,,Flushing - Main St,"('7', '7e')",159
+285,Flushing Ave,G,364,,Flushing Ave,"('G',)",365
+286,Flushing Ave,J-M,372,,Flushing Ave,"('J', 'M')",373
+287,Fordham Rd,4,408,,Fordham Rd,"('4',)",409
+288,Fordham Rd,B-D,263,,Fordham Rd,"('B', 'D')",248
+289,Forest Ave,M,449,,Forest Ave,"('M',)",450
+290,Forest Hills - 71st Av,E-F-M-R,245,,Forest Hills - 71st Av,"('E', 'F', 'M', 'R')",223
+291,Franklin Ave,2-3-4-5,42,,Franklin Ave,"('2', '3', '4', '5')",65
+292,Franklin Ave,A-C,447,,Franklin Ave,"('S', 'C')",280
+293,Franklin Ave - Fulton St,S,288,,,,280
+294,Franklin St,2-Jan,464,,Franklin St,"('1',)",465
+295,Freeman St,5-Feb,18,,Freeman St,"('2', '5')",228
+296,Fresh Pond Rd,M,423,,Fresh Pond Rd,"('M',)",424
+297,Ft Hamilton Pkwy,D,392,,Ft Hamilton Pkwy,"('D',)",393
+298,Ft Hamilton Pkwy,F-G,109,,Ft Hamilton Pkwy,"('F', 'G')",40
+299,Ft Hamilton Pkwy,N,312,,Ft Hamilton Pkwy,"('N',)",312
+300,Fulton St,3-Feb,402,,Fulton St,"('A', 'C', 'J', 'Z', '2', '3', '4', '5')",414
+301,Fulton St,5-Apr,427,,,,414
+302,Fulton St,A-C,360,,,,414
+303,Fulton St,G,118,,Fulton St,"('G',)",51
+304,Fulton St,J-Z,413,,,,414
+305,Gates Ave,J-Z,301,,Gates Ave,"('J', 'Z')",298
+306,Graham Ave,L,150,,Graham Ave,"('L',)",92
+307,Grand Army Plaza,2/3/04,115,,Grand Army Plaza,"('2', '3')",47
+308,Grand Ave - Newtown,E-M-R,68,,Grand Ave - Newtown,"('M', 'R')",217
+309,Grand Central - 42nd St,4-5-6-6 Express,31,,Grand Central - 42nd St,"('4', '5', '6', '6e', 'S', '7', '7e', 'mn')",471
+310,Grand Central - 42nd St,7-7 Express,204,,,,471
+311,Grand Central - 42nd St,S,81,,,,471
+312,Grand St,B-D,432,,Grand St,"('B', 'D')",433
+313,Grand St,L,149,,Grand St,"('L',)",91
+314,Grant Ave,A-S,192,,Grant Ave,"('A',)",149
+315,Gravesend - 86th St,N,336,,Gravesend - 86th St,"('N',)",337
+316,Greenpoint Ave,G,138,,Greenpoint Ave,"('G',)",76
+317,Gun Hill Rd,5-Feb,40,,Gun Hill Rd,"('2', '5')",262
+318,Gun Hill Rd,5,284,,Gun Hill Rd,"('5',)",275
+319,Halsey St,J,75,,Halsey St,"('J',)",197
+320,Halsey St,L,211,,Halsey St,"('L',)",177
+321,Harlem - 148 St,3,261,,Harlem - 148 St,"('3',)",246
+322,Herald Sq - 34th St,B-D-F-M,366,,Herald Sq - 34th St,"('N', 'Q', 'R', 'B', 'D', 'F', 'M')",84
+323,Herald Sq - 34th St,N-Q-R-W,145,,,,84
+324,Hewes St,J-M,140,,Hewes St,"('J', 'M')",78
+325,High St,A-C,453,,High St,"('A', 'C')",454
+326,Houston St,2-Jan,97,,Houston St,"('1',)",21
+327,Howard Beach - JFK Airport,A,242,,Howard Beach - JFK Airport,"('A',)",219
+328,Hoyt - Schermerhorn Sts,A-C-G,367,,Hoyt - Schermerhorn Sts,"('A', 'C', 'G')",368
+329,Hoyt St,3-Feb,405,,Hoyt St,"('2', '3')",406
+330,Hunters Point Ave,7-7 Express,95,,Hunters Point Ave,"('7', '7e')",17
+331,Hunts Point Ave,6-6 Express,89,,Hunts Point Ave,"('6', '6e')",10
+332,Intervale Ave,5-Feb,19,,Intervale Ave,"('2', '5')",239
+333,Inwood - 207th St,A,270,,Inwood - 207th St,"('A',)",256
+334,Jackson Ave,5-Feb,253,,Jackson Ave,"('2', '5')",235
+335,Jackson Hts - Roosevelt Av,E-F-M-R,438,,Jackson Hts - Roosevelt Av,"('E', 'F', 'M', 'R')",439
+336,Jamaica - 179th St,F,279,,Jamaica - 179th St,"('F',)",269
+337,Jamaica - Van Wyck,E,63,,Jamaica - Van Wyck,"('E',)",225
+338,Jamaica Ctr - Parsons / Archer,E-J-Z,247,,Jamaica Ctr - Parsons / Archer,"('E', 'J', 'Z')",226
+339,Jay St - MetroTech,A-C-F,368,,Jay St - Metrotech,"('A', 'C', 'F', 'R')",369
+340,Jay St - MetroTech,N-R,377,,,,369
+341,Jefferson St,L,305,,Jefferson St,"('L',)",303
+342,Junction Blvd,7-7 Express,24,,Junction Blvd,"('7', '7e')",35
+343,Junius St,4-Mar,217,,Junius St,"('3',)",187
+344,Kew Gardens - Union Tpke,E-F,64,,Kew Gardens - Union Tpke,"('E', 'F')",114
+345,Kings Hwy,B-Q,330,,Kings Hwy,"('B', 'Q')",331
+346,Kings Hwy,F,326,,Kings Hwy,"('F',)",327
+347,Kings Hwy,N,332,,Kings Hwy,"('N',)",333
+348,Kingsbridge Rd,4,259,,Kingsbridge Rd,"('4',)",244
+349,Kingsbridge Rd,B-D,59,,Kingsbridge Rd,"('B', 'D')",250
+350,Kingston - Throop Aves,A-C,8,,Kingston - Throop Aves,"('C',)",74
+351,Kingston Ave,4-Mar,136,,Kingston Ave,"('3',)",73
+352,Knickerbocker Ave,M,303,,Knickerbocker Ave,"('M',)",300
+353,Kosciuszko St,J,300,,Kosciuszko St,"('J',)",297
+354,Lafayette Ave,A-C,454,,Lafayette Ave,"('C',)",455
+355,Lexington Ave - 53rd St,E-M,143,,Lexington Ave - 53rd St,"('E', 'M')",82
+356,Lexington Ave - 59th St,4-5-6-6 Express,49,,59th St,"('4', '5', '6', '6e')",7
+357,Lexington Ave - 59th St,N-R-W,357,,Lexington Ave - 59th St,"('N', 'Q', 'R')",358
+358,Lexington Ave - 63rd St,F-Q,351,,Lexington Ave - 63rd St,"('F',)",352
+359,Liberty Ave,A-C,385,,Liberty Ave,"('C',)",386
+360,Livonia Ave,L,216,,Livonia Ave,"('L',)",185
+361,Long Island City - Court Sq,G,153,,,,
+362,Longwood Ave,6,250,,Longwood Ave,"('6',)",232
+363,Lorimer St,J-M,76,,Lorimer St,"('J', 'M')",96
+364,Lorimer St,L,72,,Lorimer St,"('L',)",93
+365,Lower East Side - 2nd Ave,F,371,,,,
+366,Marble Hill - 225th St,1,266,,Marble Hill - 225th St,"('1',)",252
+367,Marcy Ave,J-M-Z,139,,Marcy Ave,"('J', 'M', 'Z')",77
+368,Metropolitan Ave,G,148,,Metropolitan Ave,"('G',)",90
+369,Mets - Willets Point,7-7 Express,23,,Mets - Willets Point,"('7', '7e')",19
+370,Middle Village - Metropolitan Ave,M,424,,Middle Village - Metropolitan Ave,"('M',)",425
+371,Middletown Rd,6-6 Express,91,,Middletown Rd,"('6', '6e')",12
+372,Montrose Ave,L,152,,Montrose Ave,"('L',)",97
+373,Morgan Ave,L,306,,Morgan Ave,"('L',)",304
+374,Morris Park,5,125,,Morris Park,"('5',)",60
+375,Morrison Av - Soundview,6,51,,Morrison Av - Soundview,"('6',)",231
+376,Mosholu Pkwy,4,274,,Mosholu Pkwy,"('4',)",264
+377,Mt Eden Ave,4,262,,Mt Eden Ave,"('4',)",247
+378,Myrtle - Wyckoff Aves,L,212,,Myrtle - Wyckoff Ave,"('L', 'M')",178
+379,Myrtle - Wyckoff Aves,M,233,,,,178
+380,Myrtle Ave,J-M-Z,373,,Myrtle Ave,"('J', 'M', 'Z')",374
+381,Myrtle-Willoughby Aves,G,363,,Myrtle-Willoughby Aves,"('G',)",364
+382,Nassau Ave,G,137,,Nassau Ave,"('G',)",75
+383,Neck Rd,Q,345,,Neck Rd,"('Q',)",346
+384,Neptune Ave,F,333,,Neptune Ave,"('F',)",334
+385,Nereid Ave (238 St),5-Feb,41,,Nereid Ave (238 St),"('2', '5')",281
+386,Nevins St,2-3-4-5,128,,Nevins St,"('2', '3', '4', '5')",63
+387,New Lots Ave,4-Mar,213,,New Lots Ave,"('3',)",179
+388,New Lots Ave,L,223,,New Lots Ave,"('L',)",193
+389,New Utrecht Ave,N,324,,New Utrecht Ave,"('N',)",325
+390,Newkirk Ave,5-Feb,132,,Newkirk Ave,"('2', '5')",68
+391,Newkirk Ave,B-Q,113,,Newkirk Ave,"('B', 'Q')",44
+392,Northern Blvd,E-M-R,238,,Northern Blvd,"('M', 'R')",213
+393,Norwood - 205th St,D,275,,Norwood - 205th St,"('D',)",265
+394,Norwood Ave,J-Z,13,,Norwood Ave,"('J', 'Z')",200
+395,Nostrand Ave,4-Mar,445,,Nostrand Ave,"('3',)",446
+396,Nostrand Ave,A-C,127,,Nostrand Ave,"('A', 'C')",62
+397,Ocean Pkwy,Q,100,,Ocean Pkwy,"('Q',)",28
+398,Ozone Park - Lefferts Blvd,A-S,196,,Ozone Park - Lefferts Blvd,"('A',)",154
+399,Park Pl,3-Feb,403,,Park Pl,"('2', '3')",404
+400,Park Pl,S,82,,Park Pl,"('S',)",279
+401,Parkchester,6-6 Express,463,,Parkchester,"('6', '6e')",464
+402,Parkside Ave,Q,114,,Parkside Ave,"('Q',)",45
+403,Parsons Blvd,F,187,,Parsons Blvd,"('F',)",144
+404,Pelham Bay Park,6-6 Express,201,,Pelham Bay Park,"('6', '6e')",163
+405,Pelham Pkwy,5-Feb,39,,Pelham Pkwy,"('2', '5')",241
+406,Pelham Pkwy,5,126,,Pelham Pkwy,"('5',)",61
+407,Pennsylvania Ave,4-Mar,5,,Pennsylvania Ave,"('3',)",181
+408,President St,5-Feb,455,,President St,"('2', '5')",456
+409,Prince St,N-Q-R-W,400,,Prince St,"('N', 'R')",401
+410,Prospect Ave,5-Feb,254,,Prospect Ave,"('2', '5')",236
+411,Prospect Ave,D-N-R,381,,Prospect Ave,"('R',)",382
+412,Prospect Park,B-Q-S,61,,Prospect Park,"('B', 'Q', 'S')",46
+413,Queens Plz,E-M-R,307,,Queens Plz,"('E', 'M', 'R')",305
+414,Queensboro Plz,7-7 Express-N-W,103,,Queensboro Plz,"('7', '7e', 'N', 'Q')",32
+415,Ralph Ave,A-C,38,,Ralph Ave,"('C',)",293
+416,Rector St,1,425,,Rector St,"('1',)",426
+417,Rector St,R-W,422,,Rector St,"('R',)",423
+418,Rockaway Ave,4-Mar,218,,Rockaway Ave,"('3',)",188
+419,Rockaway Ave,A-C,117,,Rockaway Ave,"('C',)",50
+420,Rockaway Blvd,A-S,104,,Rockaway Blvd,"('A',)",33
+421,Rockaway Park - Beach 116 St,A-S,184,,Rockaway Park - Beach 116 St,"('A', 'S')",140
+422,Roosevelt Island - Main St,F,352,,Roosevelt Island,"('F',)",353
+423,Saratoga Ave,4-Mar,221,,Saratoga Ave,"('3',)",191
+424,Seneca Ave,M,234,,Seneca Ave,"('M',)",209
+425,Sheepshead Bay,B-Q,328,,Sheepshead Bay,"('B', 'Q')",329
+426,Shepherd Ave,A-C,226,,Shepherd Ave,"('C',)",199
+427,Simpson St,5-Feb,43,,Simpson St,"('2', '5')",227
+428,Smith - 9th Sts,F-G,375,,Smith - 9th Sts,"('F', 'G')",376
+429,South Ferry,1,418,,South Ferry,"('1',)",419
+430,Spring St,4-6-6 Express,467,,Spring St,"('6',)",468
+431,Spring St,A-C-E,395,,Spring St,"('C', 'E')",396
+432,St Lawrence Ave,6,53,,St Lawrence Ave,"('6',)",260
+433,Steinway St,E-M-R,299,,Steinway St,"('M', 'R')",296
+434,Sterling St,5-Feb,134,,Sterling St,"('2', '5')",71
+435,Sutphin Blvd,F,246,,Sutphin Blvd,"('F',)",224
+436,Sutphin Blvd - Archer Av,E-J-Z,65,,Sutphin Blvd - Archer Av,"('E', 'J', 'Z')",176
+437,Sutter Ave,L,73,,Sutter Ave,"('L',)",186
+438,Sutter Ave - Rutland Road,4-Mar,222,,Sutter Ave - Rutland Road,"('3',)",192
+439,Times Sq - 42nd St,1/2/03,359,,Times Sq - 42nd St,"('1', '2', '3', '7', '7e', 'N', 'Q', 'R', 'S')",360
+440,Times Sq - 42nd St,7-7 Express,197,,,,360
+441,Times Sq - 42nd St,N-Q-R-W,80,,,,360
+442,Times Sq - 42nd St,S,147,,,,360
+443,Tremont Ave,B-D,171,,Tremont Ave,"('B', 'D')",123
+444,Union Sq - 14th St,4-5-6-6 Express,105,,Union Sq - 14th St,"('4', '5', '6', '6e', 'N', 'Q', 'R', 'L')",34
+445,Union Sq - 14th St,L,384,,,,34
+446,Union Sq - 14th St,N-Q-R-W,379,,,,34
+447,Union St,D-N-R,36,,Union St,"('R',)",55
+448,Utica Ave,A-C,298,,Utica Ave,"('A', 'C')",294
+449,Van Cortlandt Park - 242nd St,1,271,,Van Cortlandt Park - 242nd St,"('1',)",258
+450,Van Siclen Ave,4-Mar,46,,Van Siclen Ave,"('3',)",180
+451,Van Siclen Ave,A-C,214,,Van Siclen Ave,"('C',)",182
+452,Van Siclen Ave,J-Z,12,,Van Siclen Ave,"('J', 'Z')",183
+453,Vernon Blvd - Jackson Ave,7-7 Express,101,,Vernon Blvd - Jackson Ave,"('7', '7e')",30
+454,W 4th St - Washington Sq (Lower),B-D-F-M,84,,W 4th St - Washington Sq,"('B', 'D', 'F', 'M', 'A', 'C', 'E')",1
+455,W 4th St - Washington Sq (Upper),A-C-E,206,,,,1
+456,W 8th St - NY Aquarium,F-Q,198,,W 8th St - NY Aquarium,"('F', 'Q')",160
+457,Wakefield - 241st St,2,280,,Wakefield - 241st St,"('2',)",270
+458,Wall St,3-Feb,430,,Wall St,"('2', '3')",431
+459,Wall St,5-Apr,420,,Wall St,"('4', '5')",421
+460,West Farms Sq - E Tremont Av,5-Feb,272,,West Farms Sq - E Tremont Av,"('2', '5')",259
+461,Westchester Sq - E Tremont Ave,6-6 Express,202,,Westchester Sq - E Tremont Ave,"('6', '6e')",164
+462,Whitehall St,R-W,421,,Whitehall St South Ferry,"('R',)",422
+463,Whitlock Ave,6,52,,Whitlock Ave,"('6',)",238
+464,Wilson Ave,L,74,,Wilson Ave,"('L',)",273
+465,Winthrop St,5-Feb,45,,Winthrop St,"('2', '5')",70
+466,Woodhaven Blvd,J-Z,208,,Woodhaven Blvd,"('J', 'Z')",173
+467,Woodhaven Blvd - Queens Mall,E-M-R,232,,Woodhaven Blvd - Queens Mall,"('M', 'R')",207
+468,Woodlawn,4,456,,Woodlawn,"('4',)",457
+469,Woodside - 61st St,7-7 Express,54,,Woodside - 61st St,"('7', '7e', 'lirr')",157
+470,World Trade Center,E,409,,World Trade Center,"('E',)",410
+471,York St,F,452,,York St,"('F',)",453
+472,Zerega Ave,6-6 Express,30,,Zerega Ave,"('6', '6e')",23
