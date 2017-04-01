@@ -16,7 +16,7 @@ def collect_stations_data():
 
 def store_stations_to_postgres(stations_data, postgres_session):
     for station in stations_data:
-        new_row = StationPulls(id=station['id'],
+        new_row = StationPulls(station_id=station['id'],
                                name=station['name'],
                                lines=station['lines'],
                                has_machines=station['has_machines'],

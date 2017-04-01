@@ -5,7 +5,8 @@ CREATE TABLE tweets(
 	);
 
 CREATE TABLE station_pulls(
-    id BIGINT PRIMARY KEY NOT NULL,
+    id BIGSERIAL PRIMARY KEY NOT NULL,
+    station_id BIGINT,
     name TEXT NOT NULL,
     lines TEXT[],
     has_machines BOOLEAN,

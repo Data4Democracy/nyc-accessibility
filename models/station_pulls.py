@@ -9,6 +9,7 @@ class StationPulls(Base):
     __tablename__ = 'station_pulls'
 
     id = Column('id', BIGINT, primary_key=True, unique=True)
+    station_id = Column('station_id', BIGINT)
     name = Column('name', TEXT)
     lines = Column('lines', ARRAY(TEXT))
     has_machines = Column('has_machines', BOOLEAN)
