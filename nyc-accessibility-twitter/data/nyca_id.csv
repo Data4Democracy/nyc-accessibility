@@ -1,12 +1,101 @@
 nyca_id,name,number_of_elevators,location,serving
-1,W 4th St - Washington Sq,3,,Northbound Ll Platform To Northbound Ul Platform
+1,W 4th St - Washington Sq,3,,Southbound Ll Platform To Southbound Ul Platform
 1,W 4th St - Washington Sq,3,NE corner of West 3rd Street and Sixth Avenue,Street To Mezzanine
 1,W 4th St - Washington Sq,3,,Middle Mezzanine To Uptown Platforms
 1,W 4th St - Washington Sq,3,,Middle Mezzanine To Downtown Platforms
-1,W 4th St - Washington Sq,3,,Southbound Ll Platform To Southbound Ul Platform
+1,W 4th St - Washington Sq,3,,Northbound Ll Platform To Northbound Ul Platform
+3,51st St,2,,Downtown Platform To Passageway
+3,51st St,2,,Uptown Platform To Passageway
+3,51st St,2,,Mezzanine To Platform
+5,Brooklyn Bridge - City Hall,3,East of City Hall near Chambers Street and Centre Street,Street To Mezzanine
+5,Brooklyn Bridge - City Hall,3,,Mezzanine To Uptown
+5,Brooklyn Bridge - City Hall,3,,Mezzanine To Downtown
+8,233rd St,3,NW corner of White Plains Road and 233 Street,Street To Mezzanine
+8,233rd St,3,,Mezzanine To Uptown
+8,233rd St,3,,Mezzanine To Platform
+9,66th St - Lincoln Ctr,2,Southwest corner of 66th Street and Broadway,Street To Mezzanine And Downtown Platform
+9,66th St - Lincoln Ctr,2,Southeast corner of 66th Street and Broadway,Street To Mezzanine & Uptown Platform
 10,Hunts Point Ave,3,Hunts Point Avenue between Bruckner Boulevard and East 163rd Street,Street To Mezzanine
 10,Hunts Point Ave,3,,Southbound Platform To Mezzanine
 10,Hunts Point Ave,3,,Northbound Platform To Mezzanine
+14,Court Sq,3,,Street To Mezzanine Passageway To E/G/M Trains
+14,Court Sq,3,,Street To Mezzanine
+14,Court Sq,3,,Street To Mezzanine
+14,Court Sq,3,NE corner of Jackson Avenue and 23rd Street,Street To Mezzanine
+14,Court Sq,3,,Level 2 To Mezzanine
+14,Court Sq,3,,Street To Mezzanine
+14,Court Sq,3,,Street To Mezzanine Passageway To E/G/M Trains
+25,Bleecker St,5,,Downtown 6 Mezzanine To Uptown B/D/F/M Platform
+25,Bleecker St,5,North side of Houston Street between Lafayette and Crosby Streets,Street To Mezzanine And Downtown 6 Platform
+25,Bleecker St,5,,Uptown 6 Mezzanine To Downtown B/D/F/M Platform
+25,Bleecker St,5,,Uptown 6 Mezzanine To Uptown B/D/F/M Platform
+25,Bleecker St,5,,Downtown 6 Mezzanine To Downtown B/D/F/M Platform
+25,Bleecker St,5,,Northbound Platform To Mezzanine
+34,Union Sq - 14th St,3,,Street To Mezzanine All Trains
+34,Union Sq - 14th St,3,,Street To Mezzanine All Trains
+34,Union Sq - 14th St,3,NE corner of 14th Street and Park Avenue South (Union Square East),Street To Mezzanine
+34,Union Sq - 14th St,3,,"Mezzanine To Uptown Platform N,Q,R"
+34,Union Sq - 14th St,3,,Mezzanine To Downtown Platform(N&R)
+35,Junction Blvd,3,NE corner of Junction Boulevard and Roosevelt Avenue,Street To Mezzanine & Overpass
+35,Junction Blvd,3,,Overpass To Uptown Platform
+35,Junction Blvd,3,,Overpass To Downtown Platform
+41,Church Ave,3,NW corner of Church Avenue and McDonald Avenue,Street To Mezzanine
+41,Church Ave,3,,Mezzanine To Uptown
+41,Church Ave,3,,Mezzanine To Downtown
+46,Prospect Park,2,Lincoln Road between Flatbush Avenue and Ocean Avenue,Street To Uptown Platform
+46,Prospect Park,2,Lincoln Road between Flatbush Avenue and Ocean Avenue,Street To Downtown Platform
+49,Atlantic Ave,10,,Street To Mezzanine
+49,Atlantic Ave,10,Hanson Place and Flatbush Avenue,B/Q/2/3/4/5/LIRR
+49,Atlantic Ave,10,Pacific Street and Fourth Avenue,Street to D/N/R
+49,Atlantic Ave,10,,"Middle Mezzanine To B,Q Platform"
+49,Atlantic Ave,10,,Mezzanine To Downtown
+49,Atlantic Ave,10,,"Uptown 2, 3 Platform To Mezzanine"
+49,Atlantic Ave,10,,"Mezzanine To 4, 5 Platform"
+49,Atlantic Ave,10,,Mezzanine To Uptown
+49,Atlantic Ave,10,,Unknown
+49,Atlantic Ave,10,,"Mezzanine To Downtown 2,3 Platform"
+49,Atlantic Ave,10,,Lower Mezzanine To Upper Mezzanine
+49,Atlantic Ave,10,,Lower Mezzanine To Street
+49,Atlantic Ave,10,,Street To Mezzanine
+57,Borough Hall,2,In front of Supreme Court Building at Court Street and Montague Street,Street To Mezzanine
+57,Borough Hall,2,,Mezzanine To Uptown And Downtown Platforms
+57,Borough Hall,2,,Southbound Platform To Mezzanine
+59,DeKalb Ave,3,SE corner of DeKalb Avenue and Flatbush Avenue,Street To Mezzanine
+59,DeKalb Ave,3,,Mezzanine To Uptown
+59,DeKalb Ave,3,,Mezzanine To Downtown
+59,DeKalb Ave,3,,Southbound Platform To Mezzanine
+59,DeKalb Ave,3,,Northbound Platform To Mezzanine
+67,Church Ave,2,SW corner of Church Avenue and Nostrand Avenue,Street To Downtown Platform
+67,Church Ave,2,SE corner of Church Avenue and Nostrand Avenue,Street To Uptown Platform
+69,Brooklyn College - Flatbush Ave,1,Corner of Flatbush Avenue and Nostrand Avenue,Street To Platforms
+72,Crown Hts - Utica Ave,2,Corner of Utica Avenue and Eastern Parkway,Street To Mezzanine
+72,Crown Hts - Utica Ave,2,,Mezzanine To Platforms
+77,Marcy Ave,2,Corner of Marcy Avenue and Broadway,Street To Mezzanine And Downtown Platform
+77,Marcy Ave,2,Corner of Marcy Avenue and Broadway,Street To Mezzanine & Uptown Platform
+82,Lexington Ave - 53rd St,1,,Mezzanine To Platform
+82,Lexington Ave - 53rd St,1,,Center Island Platform To Mezzanine
+82,Lexington Ave - 53rd St,1,,Center Island Platform To Mezzanine (3rd Ave)
+82,Lexington Ave - 53rd St,1,,Center Island Platform To Mezzanine (3rd Ave)
+82,Lexington Ave - 53rd St,1,,Center Island Platform To Mezzanine
+82,Lexington Ave - 53rd St,1,,Passageway Mezzanine To Platform E/M
+82,Lexington Ave - 53rd St,1,,Center Island Platform To Mezzanine
+84,Herald Sq - 34th St,5,Herald Center building on west side of Broadway south of 34th Street,Street To Mezzanine
+84,Herald Sq - 34th St,5,,Mezzanine To Uptown
+84,Herald Sq - 34th St,5,,Mezzanine To Downtown
+84,Herald Sq - 34th St,5,,Mezzanine To Uptown
+84,Herald Sq - 34th St,5,,Mezzanine To Downtown
+84,Herald Sq - 34th St,5,,Mall Landing To Street
+84,Herald Sq - 34th St,5,,Northbound Platform To Mezzanine
+84,Herald Sq - 34th St,5,,Northbound Platform To Mezzanine
+84,Herald Sq - 34th St,5,,Mezzanine To Mall Landing
+84,Herald Sq - 34th St,5,,Northbound Platform To Mezzanine
+84,Herald Sq - 34th St,5,,Southbound Platform To Mezzanine
+84,Herald Sq - 34th St,5,,Mezzanine And Uptown
+84,Herald Sq - 34th St,5,,Southbound Platform To Mezzanine
+84,Herald Sq - 34th St,5,,Mall Landing To Street
+84,Herald Sq - 34th St,5,,Mezzanine To Mall Landing
+84,Herald Sq - 34th St,5,,Southbound Platform To Mezzanine
+84,Herald Sq - 34th St,5,,Southbound Platform To Mezzanine
 105,96th St,2,Either south side of 96th Street and north side of 95th Street (Inside station house),Street To Downtown Platform
 105,96th St,2,Either south side of 96th Street and north side of 95th Street (Inside station house),Street To Uptown Platform
 110,72nd St,2,North side of 72nd Street between Broadway and Amsterdam Avenue (Inside station house),Street To Uptown Platform
@@ -24,13 +113,6 @@ nyca_id,name,number_of_elevators,location,serving
 133,168th St,7,,Mezzanine To Downtown
 135,175th St,2,NE corner of 177th Street and Fort Washington Avenue,Street To Mezzanine
 135,175th St,2,,Mezzanine To Platform
-14,Court Sq,3,,Street To Mezzanine
-14,Court Sq,3,,Street To Mezzanine
-14,Court Sq,3,NE corner of Jackson Avenue and 23rd Street,Street To Mezzanine
-14,Court Sq,3,,Street To Mezzanine
-14,Court Sq,3,,Level 2 To Mezzanine
-14,Court Sq,3,,Street To Mezzanine Passageway To E/G/M Trains
-14,Court Sq,3,,Street To Mezzanine Passageway To E/G/M Trains
 140,Rockaway Park - Beach 116 St,1,,Unknown
 157,Woodside - 61st St,5,NE corner of 61st Street and Roosevelt Avenue,Street To Lirr Platform A & Mezzanine
 157,Woodside - 61st St,5,,Mezzanine To Lirr Platform B
@@ -38,22 +120,22 @@ nyca_id,name,number_of_elevators,location,serving
 157,Woodside - 61st St,5,,Mezzanine To Uptown
 157,Woodside - 61st St,5,,Mezzanine To Downtown
 157,Woodside - 61st St,5,,Street To Mezzanine
-159,Flushing - Main St,1,Roosevelt Avenue east of Main Street,Street To Mezzanine &Platforms
 159,Flushing - Main St,1,,Street To Mezzanine
+159,Flushing - Main St,1,Roosevelt Avenue east of Main Street,Street To Mezzanine &Platforms
 159,Flushing - Main St,1,,Street To Mezzanine
 159,Flushing - Main St,1,,Street To Mezzanine
 163,Pelham Bay Park,2,,Mezzanine To Street
 163,Pelham Bay Park,2,"Back of station beyond escalators, near corner of Westchester Avenue and Bruckner Boulevard",Street To Mezzanine
 163,Pelham Bay Park,2,,Mezzanine To Platform
 163,Pelham Bay Park,2,,Center Island Platform To Street
-176,Sutphin Blvd - Archer Av,7,,Center Island Upper Platform To Mezzanine
-176,Sutphin Blvd - Archer Av,7,,3 Landings
+176,Sutphin Blvd - Archer Av,7,,Yard To Storage Room
 176,Sutphin Blvd - Archer Av,7,,Mezzanine To Platform
 176,Sutphin Blvd - Archer Av,7,,Street To Ta Mezzanine And Lirr Overpass
-176,Sutphin Blvd - Archer Av,7,,Street To Ta Mezzanine And Lirr Overpass
-176,Sutphin Blvd - Archer Av,7,,Yard To Storage Room
-176,Sutphin Blvd - Archer Av,7,,Street To Ta Mezzanine And Lirr Overpass
+176,Sutphin Blvd - Archer Av,7,,3 Landings
 176,Sutphin Blvd - Archer Av,7,,Street To Lirr To Air Train
+176,Sutphin Blvd - Archer Av,7,,Street To Ta Mezzanine And Lirr Overpass
+176,Sutphin Blvd - Archer Av,7,,Street To Ta Mezzanine And Lirr Overpass
+176,Sutphin Blvd - Archer Av,7,,Center Island Upper Platform To Mezzanine
 176,Sutphin Blvd - Archer Av,7,,Center Island Lower Platform To Center Island Upper Platform
 176,Sutphin Blvd - Archer Av,7,,Center Island Upper Platform To Mezzanine
 176,Sutphin Blvd - Archer Av,7,,Center Island Lower Platform To Center Island Upper Platform
@@ -64,11 +146,11 @@ nyca_id,name,number_of_elevators,location,serving
 178,Myrtle - Wyckoff Ave,3,,Lower Mezzanine To Upper Mezzanine
 194,Far Rockaway - Mott Ave,2,Corner of Mott Avenue and Beach 22nd Street (Inside station house),Street To Platform
 194,Far Rockaway - Mott Ave,2,Corner of Mott Avenue and Beach 22nd Street (Inside station house),Street To Platform
+205,74th St - Broadway,4,,Lower Mezzanine To Upper Mezzanine
 205,74th St - Broadway,4,Roosevelt Avenue between 74th and 75th Streets,Middle Mezzanine To Street To Irt Mezzanine To Northbound Irt Platform(7)
 205,74th St - Broadway,4,,Lower Mezzanine To Uptown E/F/M/R Platform
 205,74th St - Broadway,4,,Mezzanine To Downtown 7
 205,74th St - Broadway,4,,Mezzanine To Downtown E/F/M/R
-205,74th St - Broadway,4,,Lower Mezzanine To Upper Mezzanine
 205,74th St - Broadway,4,,Lower Mezzanine To Upper Mezzanine
 205,74th St - Broadway,4,,Lower Mezzanine To Upper Mezzanine
 205,74th St - Broadway,4,,Lower Mezzanine To Upper Mezzanine
@@ -94,27 +176,21 @@ nyca_id,name,number_of_elevators,location,serving
 226,Jamaica Ctr - Parsons / Archer,2,,Mezzanine To Platforms
 226,Jamaica Ctr - Parsons / Archer,2,,Center Island Lower Platform To Mezzanine
 226,Jamaica Ctr - Parsons / Archer,2,,Mezzanine To Platform
-226,Jamaica Ctr - Parsons / Archer,2,,Platform To Mezzanine
-226,Jamaica Ctr - Parsons / Archer,2,,Mezzanine To Street
 226,Jamaica Ctr - Parsons / Archer,2,,Center Island Lower Platform To Mezzanine
-226,Jamaica Ctr - Parsons / Archer,2,,Platform To Mezzanine
 226,Jamaica Ctr - Parsons / Archer,2,,Center Island Upper Platform To Mezzanine
 226,Jamaica Ctr - Parsons / Archer,2,,Mezzanine To Street
+226,Jamaica Ctr - Parsons / Archer,2,,Mezzanine To Street
+226,Jamaica Ctr - Parsons / Archer,2,,Platform To Mezzanine
+226,Jamaica Ctr - Parsons / Archer,2,,Platform To Mezzanine
 226,Jamaica Ctr - Parsons / Archer,2,,Mezzanine To Street
 226,Jamaica Ctr - Parsons / Archer,2,,Center Island Upper Platform To Mezzanine
 227,Simpson St,2,NW corner of Simpson Street and Westchester Avenue,Street To Mezzanine And Downtown Platform
 227,Simpson St,2,SE corner of Simpson Street and Westchester Avenue,Street To Mezzanine & Uptown Platform
+241,Pelham Pkwy,3,,Mezzanine To Southbound Platform
 241,Pelham Pkwy,3,SW corner of Pelham Parkway and White Plains Road,Street To Mezzanine
 241,Pelham Pkwy,3,,Mezzanine To Downtown
 241,Pelham Pkwy,3,,Mezzanine To Uptown
-241,Pelham Pkwy,3,,Mezzanine To Southbound Platform
 241,Pelham Pkwy,3,,Street To Mezzanine
-25,Bleecker St,5,North side of Houston Street between Lafayette and Crosby Streets,Street To Mezzanine And Downtown 6 Platform
-25,Bleecker St,5,,Uptown 6 Mezzanine To Downtown B/D/F/M Platform
-25,Bleecker St,5,,Uptown 6 Mezzanine To Uptown B/D/F/M Platform
-25,Bleecker St,5,,Downtown 6 Mezzanine To Uptown B/D/F/M Platform
-25,Bleecker St,5,,Downtown 6 Mezzanine To Downtown B/D/F/M Platform
-25,Bleecker St,5,,Northbound Platform To Mezzanine
 250,Kingsbridge Rd,3,NE corner of E. Kingsbridge Road and Grand Concourse,Street To Mezzanine
 250,Kingsbridge Rd,3,,Mezzanine To Southbound Platform
 250,Kingsbridge Rd,3,,Northbound Platform To Mezzanine
@@ -122,8 +198,8 @@ nyca_id,name,number_of_elevators,location,serving
 253,231st St,2,SW corner of 231 Street and Broadway,Street To Mezzanine
 256,Inwood - 207th St,2,SW corner of Broadway and 207th Street,Street To Mezzanine
 256,Inwood - 207th St,2,,Mezzanine To Platform
-262,Gun Hill Rd,2,Inside main entrance on White Plains Road between Gun Hill Road and 211 Street,Street To Mezzanine And Downtown Platform
 262,Gun Hill Rd,2,Inside main entrance on White Plains Road between Gun Hill Road and 211 Street,Street To Mezzanine & Uptown Platform
+262,Gun Hill Rd,2,Inside main entrance on White Plains Road between Gun Hill Road and 211 Street,Street To Mezzanine And Downtown Platform
 262,Gun Hill Rd,2,,Street To Mezzanine
 262,Gun Hill Rd,2,,Street To Mezzanine
 269,Jamaica - 179th St,3,SE corner of 179th Place and Hillside Avenue,Street To Mezzanine
@@ -137,19 +213,16 @@ nyca_id,name,number_of_elevators,location,serving
 280,Franklin Ave,2,,Lower Mezzanine To Platform
 283,3rd Ave - 149th St,2,NW corner of 149th Street and Third Avenue,Street To Downtown Platform
 283,3rd Ave - 149th St,2,SW corner of 149th Street and Third Avenue,Street To Uptown Platform
-291,161st St - Yankee Stadium,5,NE corner of 161st Street and River Avenue,Street To Mezzanine
-291,161st St - Yankee Stadium,5,,"Mezzanine To Uptown B, D"
-291,161st St - Yankee Stadium,5,,Mezzanines To Downtown 4 Platform
-291,161st St - Yankee Stadium,5,,Mezzanines To  Uptown 4 Platform
-291,161st St - Yankee Stadium,5,,"Mezzanine To Downtown B, D"
 291,161st St - Yankee Stadium,5,,Lower Mezzanine To Upper Mezzanine
+291,161st St - Yankee Stadium,5,NE corner of 161st Street and River Avenue,Street To Mezzanine
+291,161st St - Yankee Stadium,5,,Mezzanines To Downtown 4 Platform
+291,161st St - Yankee Stadium,5,,"Mezzanine To Downtown B, D"
+291,161st St - Yankee Stadium,5,,Mezzanines To  Uptown 4 Platform
+291,161st St - Yankee Stadium,5,,"Mezzanine To Uptown B, D"
 291,161st St - Yankee Stadium,5,,Lower Mezzanine To Upper Mezzanine
 294,Utica Ave,3,NW corner of Fulton Street and Malcolm X Boulevard,Street To Mezzanine
 294,Utica Ave,3,,Mezzanine To Platform
 294,Utica Ave,3,,Platform To Mezzanine
-3,51st St,2,,Downtown Platform To Passageway
-3,51st St,2,,Uptown Platform To Passageway
-3,51st St,2,,Mezzanine To Platform
 305,Queens Plz,3,Corner of Queens Plaza South and Jackson Avenue,Street To Mezzanine
 305,Queens Plz,3,,Mezzanine To Uptown
 305,Queens Plz,3,,Mezzanine To Downtown
@@ -158,89 +231,81 @@ nyca_id,name,number_of_elevators,location,serving
 315,Bay Pky,3,,Mezzanine To Downtown
 331,Kings Hwy,2,Kings Highway between 15th and 16th Streets (Inside station house),Street To Uptown Platform
 331,Kings Hwy,2,Kings Highway between 15th and 16th Streets (Inside station house),Street To Downtown Platform
-34,Union Sq - 14th St,3,,Street To Mezzanine All Trains
-34,Union Sq - 14th St,3,,Street To Mezzanine All Trains
-34,Union Sq - 14th St,3,NE corner of 14th Street and Park Avenue South (Union Square East),Street To Mezzanine
-34,Union Sq - 14th St,3,,"Mezzanine To Uptown Platform N,Q,R"
-34,Union Sq - 14th St,3,,Mezzanine To Downtown Platform(N&R)
 347,21st St - Queensbridge,3,NW corner of 21st Street and 41st Avenue,Street To Mezzanine
 347,21st St - Queensbridge,3,,Mezzanine To Uptown
 347,21st St - Queensbridge,3,,Mezzanine To Downtown
+347,21st St - Queensbridge,3,,Southbound Platform To Mezzanine
+347,21st St - Queensbridge,3,,Mezzanine To Street
+347,21st St - Queensbridge,3,,Mezzanine To Street
+347,21st St - Queensbridge,3,,Southbound Platform To Mezzanine
 347,21st St - Queensbridge,3,,Northbound Platform To Mezzanine
-347,21st St - Queensbridge,3,,Mezzanine To Street
-347,21st St - Queensbridge,3,,Mezzanine To Street
-347,21st St - Queensbridge,3,,Southbound Platform To Mezzanine
-347,21st St - Queensbridge,3,,Southbound Platform To Mezzanine
 347,21st St - Queensbridge,3,,Northbound Platform To Mezzanine
 348,50th St,0,,Street To Mezzanine
 348,50th St,0,,Mezzanine To E Train Platform
-35,Junction Blvd,3,NE corner of Junction Boulevard and Roosevelt Avenue,Street To Mezzanine & Overpass
-35,Junction Blvd,3,,Overpass To Uptown Platform
-35,Junction Blvd,3,,Overpass To Downtown Platform
 350,47th-50th Sts - Rockefeller Ctr,3,NW corner of 6th Avenue and 49 Street,Street To Mezzanine
 350,47th-50th Sts - Rockefeller Ctr,3,,Mezzanine To Downtown
 350,47th-50th Sts - Rockefeller Ctr,3,,Mezzanine To Uptown
 352,Lexington Ave - 63rd St,2,,Street To Mezzanine
 352,Lexington Ave - 63rd St,2,,Mezzanine To Downtown And Downtown To Uptown Platform
-352,Lexington Ave - 63rd St,2,,Southbound Platform To Level 3
 352,Lexington Ave - 63rd St,2,,Mezzanine To Street
 352,Lexington Ave - 63rd St,2,,Level 3 To Level 2
+352,Lexington Ave - 63rd St,2,,Southbound Platform To Level 3
 352,Lexington Ave - 63rd St,2,,Level 2 To Mezzanine
 352,Lexington Ave - 63rd St,2,,Level 2 To Mezzanine
 352,Lexington Ave - 63rd St,2,,Level 3 To Level 2
-352,Lexington Ave - 63rd St,2,,Southbound Platform To Level 3
 352,Lexington Ave - 63rd St,2,,Northbound Platform To Upper Platform
 352,Lexington Ave - 63rd St,2,,Mezzanine To Street
+352,Lexington Ave - 63rd St,2,,Southbound Platform To Level 3
 352,Lexington Ave - 63rd St,2,,Northbound Platform To Upper Platform
-353,Roosevelt Island,2,,Street To Uptown Platform
 353,Roosevelt Island,2,,Street To Downtown Platform
+353,Roosevelt Island,2,,Street To Uptown Platform
+353,Roosevelt Island,2,,Southbound Platform To Lower Mezzanine
+353,Roosevelt Island,2,,Northbound Platform To Lower Mezzanine
+353,Roosevelt Island,2,,Center Mezzanine To Street
 353,Roosevelt Island,2,,Upper Mezzanine To Street
 353,Roosevelt Island,2,,Northbound Platform To Lower Mezzanine
-353,Roosevelt Island,2,,Southbound Platform To Lower Mezzanine
-353,Roosevelt Island,2,,Center Mezzanine To Street
 353,Roosevelt Island,2,,Lower Mezzanine To Upper Mezzanine
 353,Roosevelt Island,2,,Center Mezzanine To Upper Mezzanine
+353,Roosevelt Island,2,,Lower Mezzanine To Upper Mezzanine
 353,Roosevelt Island,2,,Southbound Platform To Lower Mezzanine
 353,Roosevelt Island,2,,Upper Mezzanine To Street
-353,Roosevelt Island,2,,Northbound Platform To Lower Mezzanine
-353,Roosevelt Island,2,,Lower Mezzanine To Upper Mezzanine
-354,59th St - Columbus Circle,5,Northwest corner of Columbus Circle and Central Park West,Street To Mezzanine And Uptown 1 Platform
 354,59th St - Columbus Circle,5,Southwest corner of 8th Av and Columbus Circle,Street To Mezzanine All Trains
-354,59th St - Columbus Circle,5,,Mezzanine And Uptown
+354,59th St - Columbus Circle,5,Northwest corner of Columbus Circle and Central Park West,Street To Mezzanine And Uptown 1 Platform
 354,59th St - Columbus Circle,5,,Mezzanine And Downtown
 354,59th St - Columbus Circle,5,,Mezzanine And Uptown
-354,59th St - Columbus Circle,5,,Street To Mezzanine All Trains
+354,59th St - Columbus Circle,5,,Mezzanine And Uptown
 354,59th St - Columbus Circle,5,,3 Landings
+354,59th St - Columbus Circle,5,,Street To Mezzanine All Trains
 354,59th St - Columbus Circle,5,,Street To Mezzanine All Trains
 359,34th St - Penn Station,3,,Mezzanine To Downtown Local Platform
 359,34th St - Penn Station,3,,Mezzanine To Express Platform
 359,34th St - Penn Station,3,,Mezzanine To Uptown Local Platform
-360,Times Sq - 42nd St,4,,Street To Mezzanine All Trains
-360,Times Sq - 42nd St,4,,"Mezzanine And Uptown 1,2,3 Trains Platform"
-360,Times Sq - 42nd St,4,,Mezzanine To Downtown Platform & 7 Platform
-360,Times Sq - 42nd St,4,,Mezzanine To Downtown
 360,Times Sq - 42nd St,4,,Mezzanine To Uptown
+360,Times Sq - 42nd St,4,,Mezzanine To Downtown
+360,Times Sq - 42nd St,4,,Mezzanine To Downtown Platform & 7 Platform
+360,Times Sq - 42nd St,4,,"Mezzanine And Uptown 1,2,3 Trains Platform"
 360,Times Sq - 42nd St,4,,Center Island Platform To Mezzanine (41 St / 7 Ave)
-360,Times Sq - 42nd St,4,,Center Island Platform To Mezzanine (41 St / 7 Ave)
-360,Times Sq - 42nd St,4,,Street To Mezzanine All Trains
-360,Times Sq - 42nd St,4,,Street To Mezzanine All Trains
-360,Times Sq - 42nd St,4,,Street To Mezzanine All Trains
 360,Times Sq - 42nd St,4,,Center Island Platform To Mezzanine (41 St / Bway)
+360,Times Sq - 42nd St,4,,Center Island Platform To Mezzanine (41 St / 7 Ave)
+360,Times Sq - 42nd St,4,,Street To Mezzanine All Trains
+360,Times Sq - 42nd St,4,,Street To Mezzanine All Trains
+360,Times Sq - 42nd St,4,,Street To Mezzanine All Trains
+360,Times Sq - 42nd St,4,,Street To Mezzanine All Trains
+363,42nd St - Port Authority Bus Term,3,,Bus Terminal To Lower Mezzanine
+363,42nd St - Port Authority Bus Term,3,,Bus Terminal To Lower Mezzanine
+363,42nd St - Port Authority Bus Term,3,,Bus Terminal To Lower Mezzanine
 363,42nd St - Port Authority Bus Term,3,,Mezzanine To Street
-363,42nd St - Port Authority Bus Term,3,,Bus Terminal To Lower Mezzanine
-363,42nd St - Port Authority Bus Term,3,,Bus Terminal To Lower Mezzanine
-363,42nd St - Port Authority Bus Term,3,,Bus Terminal To Lower Mezzanine
 363,42nd St - Port Authority Bus Term,3,,Lower Mezzanine To Upper Mezzanine
 369,Jay St - Metrotech,4,NE corner of Jay and Willoughby Streets,Street To Mezzanine
-369,Jay St - Metrotech,4,,Mezzanine And Downtown
-369,Jay St - Metrotech,4,,Mezzanine To Platform
 369,Jay St - Metrotech,4,,Mezzanine And Uptown
-369,Jay St - Metrotech,4,,Platform To Mezzanine
-369,Jay St - Metrotech,4,,Mezzanine To Street (South) Willoughby St
+369,Jay St - Metrotech,4,,Mezzanine To Platform
+369,Jay St - Metrotech,4,,Mezzanine And Downtown
 369,Jay St - Metrotech,4,,Mezzanine To Street (North) Myrtle Ave
+369,Jay St - Metrotech,4,,Platform To Mezzanine
+369,Jay St - Metrotech,4,,Mezzanine To Street (North) Myrtle Ave
+369,Jay St - Metrotech,4,,Mezzanine To Street (South) Willoughby St
 369,Jay St - Metrotech,4,,Mezzanine To Street (South) Willoughby St
 369,Jay St - Metrotech,4,,Mezzanine To Platform
-369,Jay St - Metrotech,4,,Mezzanine To Street (North) Myrtle Ave
 369,Jay St - Metrotech,4,,Lower Mezzanine To Platform
 373,Flushing Ave,3,SW corner of Flushing Avenue and Broadway,Street To Mezzanine
 373,Flushing Ave,3,,Mezzanine To Uptown
@@ -254,50 +319,47 @@ nyca_id,name,number_of_elevators,location,serving
 409,Fordham Rd,3,SE corner of Jerome Avenue and Fordham Road,Street To Mezzanine
 409,Fordham Rd,3,,Mezzanine To Uptown
 409,Fordham Rd,3,,Mezzanine To Downtown
-41,Church Ave,3,NW corner of Church Avenue and McDonald Avenue,Street To Mezzanine
-41,Church Ave,3,,Mezzanine To Uptown
-41,Church Ave,3,,Mezzanine To Downtown
 414,Fulton St,19,,33 Maiden Lane To Passageway
 414,Fulton St,19,,Passageway Transfer
-414,Fulton St,19,,Cortlandt St R Line
 414,Fulton St,19,,Corbin Building
+414,Fulton St,19,,Transit Center
+414,Fulton St,19,,Transit Center
 414,Fulton St,19,,Transit Center
 414,Fulton St,19,,Transit Center
 414,Fulton St,19,,Lower Mezzanine To Platform
-414,Fulton St,19,,Transit Center
 414,Fulton St,19,,4/5 & R/W Underpass
-414,Fulton St,19,,Cortlandt St R Line
-414,Fulton St,19,,Corbin Building
 414,Fulton St,19,,Transit Center
 414,Fulton St,19,,3 Landings
+414,Fulton St,19,,Cortlandt St R Line
+414,Fulton St,19,,Cortlandt St R Line
+414,Fulton St,19,,Corbin Building
 414,Fulton St,19,,Platform To Mezzanine
 414,Fulton St,19,,Upper Mezzanine To Street
-414,Fulton St,19,,Platform To Lower Mezzanine
-414,Fulton St,19,,Transit Center
 414,Fulton St,19,,Center Island Lower Platform To Mezzanine
-414,Fulton St,19,,4/5 & R/W Underpass
+414,Fulton St,19,,Transit Center
+414,Fulton St,19,,Platform To Lower Mezzanine
 414,Fulton St,19,,Upper Mezzanine To Street
+414,Fulton St,19,,4/5 & R/W Underpass
 414,Fulton St,19,,Transit Center
-414,Fulton St,19,,Transit Center
-414,Fulton St,19,,Lower Mezzanine To Upper Mezzanine
-414,Fulton St,19,,Transit Center
-414,Fulton St,19,,Transit Center
-414,Fulton St,19,,Corbin Building
 414,Fulton St,19,,Lower Mezzanine To Southbound Platform
+414,Fulton St,19,,Corbin Building
 414,Fulton St,19,,Transit Center
 414,Fulton St,19,,Lower Mezzanine To Upper Mezzanine
 414,Fulton St,19,,Transit Center
+414,Fulton St,19,,Lower Mezzanine To Upper Mezzanine
+414,Fulton St,19,,Transit Center
+414,Fulton St,19,,Transit Center
+420,Bowling Green,2,,Lower Mezzanine To Upper Mezzanine
 420,Bowling Green,2,NE corner of Broadway and Battery Place,Street To Mezzanine & Uptown Platform
 420,Bowling Green,2,,Mezzanine To Downtown
-420,Bowling Green,2,,Lower Mezzanine To Southbound Platform
 420,Bowling Green,2,,Lower Mezzanine To Upper Mezzanine
-420,Bowling Green,2,,Lower Mezzanine To Upper Mezzanine
-420,Bowling Green,2,,Lower Mezzanine To Southbound Platform
 420,Bowling Green,2,,Lower Mezzanine To Upper Mezzanine
 420,Bowling Green,2,,Lower Mezzanine To Upper Mezzanine
 420,Bowling Green,2,,Upper Mezzanine To Street
 420,Bowling Green,2,,Lower Mezzanine To Northbound Platform
 420,Bowling Green,2,,Lower Mezzanine To Northbound Platform
+420,Bowling Green,2,,Lower Mezzanine To Southbound Platform
+420,Bowling Green,2,,Lower Mezzanine To Southbound Platform
 430,Cortlandt St,19,,33 Maiden Lane To Passageway
 430,Cortlandt St,19,,Passageway Transfer
 430,Cortlandt St,19,,Cortlandt St R Line
@@ -328,10 +390,10 @@ nyca_id,name,number_of_elevators,location,serving
 430,Cortlandt St,19,,Transit Center
 430,Cortlandt St,19,,Lower Mezzanine To Upper Mezzanine
 430,Cortlandt St,19,,Transit Center
+434,Broadway - Lafayette St,5,,Downtown 6 Mezzanine To Uptown B/D/F/M Platform
 434,Broadway - Lafayette St,5,North side of Houston Street between Lafayette and Crosby Streets,Street To Mezzanine And Downtown 6 Platform
 434,Broadway - Lafayette St,5,,Uptown 6 Mezzanine To Downtown B/D/F/M Platform
 434,Broadway - Lafayette St,5,,Uptown 6 Mezzanine To Uptown B/D/F/M Platform
-434,Broadway - Lafayette St,5,,Downtown 6 Mezzanine To Uptown B/D/F/M Platform
 434,Broadway - Lafayette St,5,,Downtown 6 Mezzanine To Downtown B/D/F/M Platform
 434,Broadway - Lafayette St,5,,Northbound Platform To Mezzanine
 436,Canal St,2,NE corner of Canal Street and Lafayette Street,Street To Uptown Platform
@@ -340,25 +402,23 @@ nyca_id,name,number_of_elevators,location,serving
 438,34th St - Penn Station,4,,Mezzanine To Downtown Local Platform
 438,34th St - Penn Station,4,,Uptown Local Platform To Lower Mezzanine
 438,34th St - Penn Station,4,,Mezzanine To Express Platform
+439,Jackson Hts - Roosevelt Av,4,,Lower Mezzanine To Upper Mezzanine
 439,Jackson Hts - Roosevelt Av,4,Roosevelt Avenue between 74th and 75th Streets,Middle Mezzanine To Street To Irt Mezzanine To Northbound Irt Platform(7)
-439,Jackson Hts - Roosevelt Av,4,,Lower Mezzanine To Uptown E/F/M/R Platform
-439,Jackson Hts - Roosevelt Av,4,,Mezzanine To Downtown 7
 439,Jackson Hts - Roosevelt Av,4,,Mezzanine To Downtown E/F/M/R
+439,Jackson Hts - Roosevelt Av,4,,Mezzanine To Downtown 7
+439,Jackson Hts - Roosevelt Av,4,,Lower Mezzanine To Uptown E/F/M/R Platform
 439,Jackson Hts - Roosevelt Av,4,,Lower Mezzanine To Upper Mezzanine
 439,Jackson Hts - Roosevelt Av,4,,Lower Mezzanine To Upper Mezzanine
 439,Jackson Hts - Roosevelt Av,4,,Lower Mezzanine To Upper Mezzanine
 439,Jackson Hts - Roosevelt Av,4,,Lower Mezzanine To Upper Mezzanine
-439,Jackson Hts - Roosevelt Av,4,,Lower Mezzanine To Upper Mezzanine
-445,14th St - 8 Av,5,,Mezzanine To L Platform
 445,14th St - 8 Av,5,NW corner of 14th Street and Eighth Avenue,Street To Mezzanine
 445,14th St - 8 Av,5,,Mezzanine To Platform
 445,14th St - 8 Av,5,,"Mezzanine To Uptown A,C&E Platform"
+445,14th St - 8 Av,5,,Mezzanine To L Platform
 445,14th St - 8 Av,5,,"Mezzanine To Downtown A,C&E Platform"
-46,Prospect Park,2,Lincoln Road between Flatbush Avenue and Ocean Avenue,Street To Uptown Platform
-46,Prospect Park,2,Lincoln Road between Flatbush Avenue and Ocean Avenue,Street To Downtown Platform
+460,Euclid Ave,3,,Mezzanine To Uptown
 460,Euclid Ave,3,NE corner of Euclid Avenue and Pitkin Avenue,Street To Mezzanine
 460,Euclid Ave,3,,Mezzanine To Downtown
-460,Euclid Ave,3,,Mezzanine To Uptown
 469,125th St,2,NE corner of 125th Street and Lexington Avenue,Street To Mezzanine
 469,125th St,2,,Mezzanine To Uptown And Downtown Platforms
 470,Coney Island - Stillwell Av,3,,3 Landings
@@ -368,76 +428,16 @@ nyca_id,name,number_of_elevators,location,serving
 471,Grand Central - 42nd St,4,,Upper Mezzanine To Street (Gc Terminal)
 471,Grand Central - 42nd St,4,,Upper Mezzanine To Street (Gc Terminal)
 471,Grand Central - 42nd St,4,,"Mezzanine To Downtown 4,5,6 Platform"
-471,Grand Central - 42nd St,4,,Mezzanine To 7 Platform
 471,Grand Central - 42nd St,4,,"Mezzanine To Uptown 4,5,6 Platform"
+471,Grand Central - 42nd St,4,,Mezzanine To 7 Platform
+471,Grand Central - 42nd St,4,,Center Island Platform To Lower Mezzanine (West End)
 471,Grand Central - 42nd St,4,,Lower Mezzanine To Street (3rd Ave)
-471,Grand Central - 42nd St,4,,Center Island Platform To Lower Mezzanine (West End)
-471,Grand Central - 42nd St,4,,Center Island Platform To Lower Mezzanine (West End)
-471,Grand Central - 42nd St,4,,Lower Mezzanine To Upper Mezzanine (West End)
-471,Grand Central - 42nd St,4,,Unknown
+471,Grand Central - 42nd St,4,,Lower Mezzanine To Upper Mezzanine (Bowery)
 471,Grand Central - 42nd St,4,,Lower Mezzanine To Upper Mezzanine (West End)
 471,Grand Central - 42nd St,4,,Lower Mezzanine To Street (3rd Ave)
 471,Grand Central - 42nd St,4,,Lower Mezzanine To Upper Mezzanine (Bowery)
 471,Grand Central - 42nd St,4,,Unknown
+471,Grand Central - 42nd St,4,,Center Island Platform To Lower Mezzanine (West End)
 471,Grand Central - 42nd St,4,,Unknown
-471,Grand Central - 42nd St,4,,Lower Mezzanine To Upper Mezzanine (Bowery)
-49,Atlantic Ave,10,Pacific Street and Fourth Avenue,Street to D/N/R
-49,Atlantic Ave,10,Hanson Place and Flatbush Avenue,B/Q/2/3/4/5/LIRR
-49,Atlantic Ave,10,,"Middle Mezzanine To B,Q Platform"
-49,Atlantic Ave,10,,"Mezzanine To Downtown 2,3 Platform"
-49,Atlantic Ave,10,,"Mezzanine To 4, 5 Platform"
-49,Atlantic Ave,10,,Street To Mezzanine
-49,Atlantic Ave,10,,"Uptown 2, 3 Platform To Mezzanine"
-49,Atlantic Ave,10,,Mezzanine To Uptown
-49,Atlantic Ave,10,,Unknown
-49,Atlantic Ave,10,,Mezzanine To Downtown
-49,Atlantic Ave,10,,Lower Mezzanine To Upper Mezzanine
-49,Atlantic Ave,10,,Lower Mezzanine To Street
-49,Atlantic Ave,10,,Street To Mezzanine
-5,Brooklyn Bridge - City Hall,3,East of City Hall near Chambers Street and Centre Street,Street To Mezzanine
-5,Brooklyn Bridge - City Hall,3,,Mezzanine To Uptown
-5,Brooklyn Bridge - City Hall,3,,Mezzanine To Downtown
-57,Borough Hall,2,In front of Supreme Court Building at Court Street and Montague Street,Street To Mezzanine
-57,Borough Hall,2,,Mezzanine To Uptown And Downtown Platforms
-57,Borough Hall,2,,Southbound Platform To Mezzanine
-59,DeKalb Ave,3,SE corner of DeKalb Avenue and Flatbush Avenue,Street To Mezzanine
-59,DeKalb Ave,3,,Mezzanine To Uptown
-59,DeKalb Ave,3,,Mezzanine To Downtown
-59,DeKalb Ave,3,,Southbound Platform To Mezzanine
-59,DeKalb Ave,3,,Northbound Platform To Mezzanine
-67,Church Ave,2,SW corner of Church Avenue and Nostrand Avenue,Street To Downtown Platform
-67,Church Ave,2,SE corner of Church Avenue and Nostrand Avenue,Street To Uptown Platform
-69,Brooklyn College - Flatbush Ave,1,Corner of Flatbush Avenue and Nostrand Avenue,Street To Platforms
-72,Crown Hts - Utica Ave,2,Corner of Utica Avenue and Eastern Parkway,Street To Mezzanine
-72,Crown Hts - Utica Ave,2,,Mezzanine To Platforms
-77,Marcy Ave,2,Corner of Marcy Avenue and Broadway,Street To Mezzanine And Downtown Platform
-77,Marcy Ave,2,Corner of Marcy Avenue and Broadway,Street To Mezzanine & Uptown Platform
-8,233rd St,3,NW corner of White Plains Road and 233 Street,Street To Mezzanine
-8,233rd St,3,,Mezzanine To Uptown
-8,233rd St,3,,Mezzanine To Platform
-82,Lexington Ave - 53rd St,1,,Mezzanine To Platform
-82,Lexington Ave - 53rd St,1,,Center Island Platform To Mezzanine
-82,Lexington Ave - 53rd St,1,,Center Island Platform To Mezzanine (3rd Ave)
-82,Lexington Ave - 53rd St,1,,Center Island Platform To Mezzanine (3rd Ave)
-82,Lexington Ave - 53rd St,1,,Center Island Platform To Mezzanine
-82,Lexington Ave - 53rd St,1,,Passageway Mezzanine To Platform E/M
-82,Lexington Ave - 53rd St,1,,Center Island Platform To Mezzanine
-84,Herald Sq - 34th St,5,Herald Center building on west side of Broadway south of 34th Street,Street To Mezzanine
-84,Herald Sq - 34th St,5,,Mezzanine To Downtown
-84,Herald Sq - 34th St,5,,Mezzanine To Uptown
-84,Herald Sq - 34th St,5,,Mezzanine To Downtown
-84,Herald Sq - 34th St,5,,Mezzanine To Uptown
-84,Herald Sq - 34th St,5,,Mezzanine To Mall Landing
-84,Herald Sq - 34th St,5,,Southbound Platform To Mezzanine
-84,Herald Sq - 34th St,5,,Mall Landing To Street
-84,Herald Sq - 34th St,5,,Northbound Platform To Mezzanine
-84,Herald Sq - 34th St,5,,Southbound Platform To Mezzanine
-84,Herald Sq - 34th St,5,,Northbound Platform To Mezzanine
-84,Herald Sq - 34th St,5,,Mall Landing To Street
-84,Herald Sq - 34th St,5,,Northbound Platform To Mezzanine
-84,Herald Sq - 34th St,5,,Southbound Platform To Mezzanine
-84,Herald Sq - 34th St,5,,Southbound Platform To Mezzanine
-84,Herald Sq - 34th St,5,,Mezzanine And Uptown
-84,Herald Sq - 34th St,5,,Mezzanine To Mall Landing
-9,66th St - Lincoln Ctr,2,Southwest corner of 66th Street and Broadway,Street To Mezzanine And Downtown Platform
-9,66th St - Lincoln Ctr,2,Southeast corner of 66th Street and Broadway,Street To Mezzanine & Uptown Platform
+471,Grand Central - 42nd St,4,,Lower Mezzanine To Upper Mezzanine (West End)
+471,Grand Central - 42nd St,4,,Unknown

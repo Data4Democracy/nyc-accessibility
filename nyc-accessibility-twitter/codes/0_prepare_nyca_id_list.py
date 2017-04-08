@@ -6,11 +6,19 @@
 
 import pandas as pd
 import json
-
-json_path = '../../elevator-pipeline/data/'
+import requests
+import time
 
 # read in all station details
-json_df = pd.read_json('{}all_nyca_station_details.json'.format(json_path)).T
+nyca_stations = requests.get("http://www.nycaccessible.com/api/v1/stations/").json()
+def get_nyca_station_detail(station_id):
+    time.sleep(0.2) # Hack to avoid hitting API limits; should do exponential backoff here but too lazy
+    detail = requests.get(
+        "http://www.nycaccessible.com/api/v1/stations/{}.json".format(station_id)).json()
+    return detail
+all_nyca_station_details = {stn['id']:get_nyca_station_detail(stn['id']) for stn in nyca_stations}
+
+json_df = pd.DataFrame(all_nyca_station_details).T
 
 # keep only accessible stations
 accessible_df = json_df[json_df['is_accessible'] == True].copy()

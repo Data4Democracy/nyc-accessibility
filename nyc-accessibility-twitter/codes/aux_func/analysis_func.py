@@ -4,8 +4,6 @@ import pickle
 
 from collections import defaultdict
 
-json_path = '../../elevator-pipeline/data/'
-
 def station_scores_to_neighborhood_data(station_msr_dict):
     """
     Parameters
@@ -59,11 +57,11 @@ def create_map_input(station_scores_dict, msr_name):
     json file
         with 'output_name' as file name
     """
-    with open('{}neighborhood_data.json'.format(json_path)) as infile:
-        neighborhood_data = json.load(infile)
+    with open('../data/neighborhood_data', 'rb') as file_obj: 
+        neighborhood_data = pickle.load(file_obj)
 
-        # prepare the dictionary at neighborhood level
-        neighborhood_scores = station_scores_to_neighborhood_data(station_scores_dict)
+    # prepare the dictionary at neighborhood level
+    neighborhood_scores = station_scores_to_neighborhood_data(station_scores_dict)
 
     for n in neighborhood_data['features']:
         n_id = n['properties']['NTACode']

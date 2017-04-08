@@ -1,4 +1,4 @@
-# We prepare the mapping of nyca id to nta code and pickle it 
+# We prepare the mapping of nyca id to nta code and save it as json
 # into '../data/nyca_station_to_ntacode', so that we don't have to do this multiple times
 import pandas as pd
 import math
