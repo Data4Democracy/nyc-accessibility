@@ -1,26 +1,24 @@
 import pandas as pd
 import re
 
+from aux_func.reading_func import read_tweets
 from aux_func.cleaning_func \
     import clean_text_column, combine_continuing_tweets, pair_outage_fix
 
 ### Read in data
-df = pd.read_csv('../../data/nycoutages_tweets.csv')
-df.reset_index(drop = True, inplace = True)
+df = read_tweets()
 
 ### clean the data
 
 # clean the column with date
-df.rename(columns = {'tweet_id': 'date'}, inplace = True)
-df['date_date'] = pd.to_datetime(df['date'])
-df.drop('date', axis = 1, inplace = True)
-df.rename(columns = {'date_date': 'date'}, inplace = True)
+df['date'] = pd.to_datetime(df.loc[:, 'created_at'])
+df.drop(['id', 'created_at'], axis = 1, inplace = True)
 
 # split 'text' column to 'status', 'human_eq_type', 'name', 'serving' and 'location'
 df = clean_text_column(df)
 
 # keep only 'elevator' (remove escalator)
-df = df[df['human_eq_type'] != 'An escalator']
+df = df.loc[df['human_eq_type'] != 'An escalator', :]
 
 # Combine 'that elevator' record with the main record
 df = combine_continuing_tweets(df)

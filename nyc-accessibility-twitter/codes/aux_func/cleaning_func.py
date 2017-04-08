@@ -3,12 +3,12 @@ import re
 
 def clean_text_column(df):
     """
-    split 'text' column into 'status', 'human_eq_type', 'name', 'serving', and 'location'
+    split 'tweet_text' column into 'status', 'human_eq_type', 'name', 'serving', and 'location'
 
     Parameters
     ----------
     df: pandas.DataFrame
-        DataFrame with 'text' column
+        DataFrame with 'tweet_text' column
 
     Returns
     ----------
@@ -16,7 +16,7 @@ def clean_text_column(df):
         DataFrame with 'status', 'human_eq_type', 'name', 'serving' and 'location'
     """
 
-    ### split 'text' column into 'status' and 'desc'
+    ### split 'tweet_text' column into 'status' and 'desc'
     # write a function
     def take_status(txt):
         txt_split = txt.split(': ')
@@ -29,10 +29,10 @@ def clean_text_column(df):
         return status, desc
 
     # take out whether FIXED or OUTAGE
-    df['status'] = df['text'].apply(lambda x: take_status(x)[0])
+    df['status'] = df['tweet_text'].apply(lambda x: take_status(x)[0])
 
     # take out the description
-    df['desc'] = df['text'].apply(lambda x: take_status(x)[1])
+    df['desc'] = df['tweet_text'].apply(lambda x: take_status(x)[1])
 
     # remove the last part ('is...') from 'desc' 
     def remove_ending(txt):
@@ -108,7 +108,7 @@ def combine_continuing_tweets(df):
     ----------
     df: pandas.DataFrame
     """
-
+    df = df.copy()
     df['serving_lag'] = df['serving'].shift()
     df['human_eq_type_lag'] = df['human_eq_type'].shift()
 
@@ -121,8 +121,8 @@ def combine_continuing_tweets(df):
     df.drop(['serving_lag', 'human_eq_type_lag'], axis = 1, inplace = True)
 
     # drop the row with 'That elevator'
-    df = df[df['human_eq_type'] != 'That elevator']
-    df.drop(['desc', 'text'], axis = 1, inplace = True)
+    df = df.loc[df['human_eq_type'] != 'That elevator', :]
+    df.drop(['desc', 'tweet_text'], axis = 1, inplace = True)
 
     return df
 
