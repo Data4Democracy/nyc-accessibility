@@ -1,5 +1,7 @@
 # NYC Accessbility 
 
+[**Project Lead:**](https://github.com/Data4Democracy/read-this-first/blob/master/lead-role-description.md) [@henrypal](https://datafordemocracy.slack.com/messages/@henripal/)
+
 The NYC Accessibility project encompasses two sets of tools:
 
 * Mine social media for accessibility information: Investigate scraping sites like Yelp, Foursquare, and Twitter for details about accessibility at specific locations and generating automatic readings for a site like [AXS Map](http://www.axsmap.com/)
