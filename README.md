@@ -1,6 +1,6 @@
 # NYC Accessbility 
 
-[**Project Lead:**](https://github.com/Data4Democracy/read-this-first/blob/master/lead-role-description.md) [@henrypal](https://datafordemocracy.slack.com/messages/@henripal/)
+[**Project Lead:**](https://github.com/Data4Democracy/read-this-first/blob/master/lead-role-description.md) [@henripal](https://datafordemocracy.slack.com/messages/@henripal/)
 
 The NYC Accessibility project encompasses two sets of tools:
 
