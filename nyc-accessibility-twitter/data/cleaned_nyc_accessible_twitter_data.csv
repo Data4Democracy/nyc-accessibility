@@ -1,0 +1,645 @@
+name,human_eq_type,location,serving,status,date,status2,date2,time_spent_min,nyca_id,number_of_elevators
+125th St,An elevator,,Mezzanine And Downtown,OUTAGE,2017-03-15 12:18:12,FIXED,2017-03-15 13:08:33,50,400,3
+125th St,An elevator,,Mezzanine And Downtown,OUTAGE,2017-03-29 03:38:37,FIXED,2017-03-29 09:09:04,330,400,3
+125th St,An elevator,,Mezzanine And Downtown,OUTAGE,2017-03-30 18:28:44,FIXED,2017-03-30 21:58:46,210,400,3
+125th St,An elevator,,Mezzanine And Uptown,OUTAGE,2017-03-21 18:09:13,FIXED,2017-03-22 00:58:46,409,400,3
+125th St,An elevator,,Mezzanine And Uptown,OUTAGE,2017-03-30 04:18:39,FIXED,2017-03-30 09:38:27,319,400,3
+125th St,An elevator,,Mezzanine And Uptown,OUTAGE,2017-04-05 02:18:28,FIXED,2017-04-05 05:58:25,219,400,3
+125th St,An elevator,,Mezzanine To Uptown And Downtown Platforms,OUTAGE,2017-03-21 02:18:33,FIXED,2017-03-21 06:08:45,230,469,2
+125th St,An elevator,,Mezzanine To Uptown And Downtown Platforms,OUTAGE,2017-03-21 18:48:34,FIXED,2017-03-21 21:18:43,150,469,2
+125th St,An elevator,,Mezzanine To Uptown And Downtown Platforms,OUTAGE,2017-03-29 08:28:53,FIXED,2017-03-29 14:09:03,340,469,2
+125th St,An elevator,,Mezzanine To Uptown And Downtown Platforms,OUTAGE,2017-04-03 22:28:54,FIXED,2017-04-04 00:09:51,100,469,2
+125th St,An elevator,,Mezzanine To Uptown And Downtown Platforms,OUTAGE,2017-04-07 10:58:37,FIXED,2017-04-07 15:18:37,260,469,2
+125th St,An elevator,NE corner of 125th Street and Lexington Avenue,Street To Mezzanine,OUTAGE,2017-03-15 03:48:29,FIXED,2017-03-15 08:58:14,309,469,2
+125th St,An elevator,NE corner of 125th Street and Lexington Avenue,Street To Mezzanine,OUTAGE,2017-03-16 03:38:48,FIXED,2017-03-16 08:58:19,319,469,2
+125th St,An elevator,NE corner of 125th Street and Lexington Avenue,Street To Mezzanine,OUTAGE,2017-03-16 19:28:58,FIXED,2017-03-16 23:18:38,229,469,2
+125th St,An elevator,NE corner of 125th Street and Lexington Avenue,Street To Mezzanine,OUTAGE,2017-03-18 16:48:54,FIXED,2017-03-18 17:38:46,49,469,2
+125th St,An elevator,NE corner of 125th Street and Lexington Avenue,Street To Mezzanine,OUTAGE,2017-03-21 17:58:51,FIXED,2017-03-21 20:28:50,149,469,2
+125th St,An elevator,NE corner of 125th Street and Lexington Avenue,Street To Mezzanine,OUTAGE,2017-04-01 06:18:47,FIXED,2017-04-01 09:28:32,189,469,2
+125th St,An elevator,NE corner of 125th Street and Lexington Avenue,Street To Mezzanine,OUTAGE,2017-04-03 13:28:44,FIXED,2017-04-03 15:09:31,100,469,2
+125th St,An elevator,NE corner of 125th Street and Lexington Avenue,Street To Mezzanine,OUTAGE,2017-04-04 22:19:11,FIXED,2017-04-05 14:38:56,600,469,2
+125th St,An elevator,NE corner of 125th Street and Lexington Avenue,Street To Mezzanine,OUTAGE,2017-04-05 21:48:39,FIXED,2017-04-06 05:58:48,490,469,2
+125th St,An elevator,NE corner of 125th Street and Lexington Avenue,Street To Mezzanine,OUTAGE,2017-04-08 12:28:28,,,600,469,2
+125th St,An elevator,SW corner of 125 Street and Saint Nicholas Avenue,Street To Mezzanine,OUTAGE,2017-03-15 13:28:33,FIXED,2017-03-16 01:09:01,600,400,3
+125th St,An elevator,SW corner of 125 Street and Saint Nicholas Avenue,Street To Mezzanine,OUTAGE,2017-03-16 18:28:25,FIXED,2017-03-17 03:28:27,540,400,3
+125th St,An elevator,SW corner of 125 Street and Saint Nicholas Avenue,Street To Mezzanine,OUTAGE,2017-03-24 17:58:25,FIXED,2017-03-24 21:38:37,220,400,3
+125th St,An elevator,SW corner of 125 Street and Saint Nicholas Avenue,Street To Mezzanine,OUTAGE,2017-03-29 03:58:27,FIXED,2017-03-29 09:18:50,320,400,3
+125th St,An elevator,SW corner of 125 Street and Saint Nicholas Avenue,Street To Mezzanine,OUTAGE,2017-04-04 04:38:26,,,600,400,3
+125th St,An elevator,SW corner of 125 Street and Saint Nicholas Avenue,Street To Mezzanine,OUTAGE,2017-04-04 13:38:27,FIXED,2017-04-04 15:58:30,140,400,3
+14th St - 8 Av,An elevator,,Mezzanine To L Platform,OUTAGE,2017-03-15 04:38:23,FIXED,2017-03-15 08:58:14,259,445,5
+14th St - 8 Av,An elevator,,Mezzanine To L Platform,OUTAGE,2017-03-16 05:28:16,FIXED,2017-03-16 09:08:43,220,445,5
+14th St - 8 Av,An elevator,,Mezzanine To L Platform,OUTAGE,2017-03-19 14:18:30,FIXED,2017-03-19 22:38:24,499,445,5
+14th St - 8 Av,An elevator,,Mezzanine To L Platform,OUTAGE,2017-03-21 03:28:23,FIXED,2017-03-21 09:08:32,340,445,5
+14th St - 8 Av,An elevator,,Mezzanine To L Platform,OUTAGE,2017-03-22 03:38:27,FIXED,2017-03-22 09:08:57,330,445,5
+14th St - 8 Av,An elevator,,Mezzanine To L Platform,OUTAGE,2017-03-22 18:58:54,FIXED,2017-03-23 09:28:42,600,445,5
+14th St - 8 Av,An elevator,,Mezzanine To L Platform,OUTAGE,2017-03-27 22:28:56,FIXED,2017-03-29 00:38:41,129,445,5
+14th St - 8 Av,An elevator,,Mezzanine To L Platform,OUTAGE,2017-03-30 21:48:30,FIXED,2017-03-31 11:08:51,600,445,5
+14th St - 8 Av,An elevator,,Mezzanine To L Platform,OUTAGE,2017-03-31 23:08:47,FIXED,2017-04-01 00:58:57,110,445,5
+14th St - 8 Av,An elevator,,Mezzanine To L Platform,OUTAGE,2017-04-01 12:48:23,FIXED,2017-04-04 09:58:57,600,445,5
+14th St - 8 Av,An elevator,,Mezzanine To L Platform,OUTAGE,2017-04-05 02:18:28,FIXED,2017-04-05 09:09:01,410,445,5
+14th St - 8 Av,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-19 03:08:32,FIXED,2017-03-19 09:09:00,360,445,5
+14th St - 8 Av,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-20 03:18:27,FIXED,2017-03-20 08:58:19,339,445,5
+14th St - 8 Av,An elevator,,Mezzanine To Platform,OUTAGE,2017-04-04 20:49:00,,,600,445,5
+14th St - 8 Av,An elevator,NW corner of 14th Street and Eighth Avenue,Street To Mezzanine,OUTAGE,2017-03-21 15:09:42,FIXED,2017-03-21 15:48:46,39,445,5
+14th St - 8 Av,An elevator,NW corner of 14th Street and Eighth Avenue,Street To Mezzanine,OUTAGE,2017-03-27 11:48:30,FIXED,2017-03-27 21:19:03,570,445,5
+161st St - Yankee Stadium,An elevator,,"Mezzanine To Downtown B, D",OUTAGE,2017-03-16 04:18:13,FIXED,2017-03-16 09:18:16,300,291,5
+161st St - Yankee Stadium,An elevator,,"Mezzanine To Downtown B, D",OUTAGE,2017-03-20 04:48:28,FIXED,2017-03-20 09:18:32,270,291,5
+161st St - Yankee Stadium,An elevator,,"Mezzanine To Downtown B, D",OUTAGE,2017-04-07 09:09:13,FIXED,2017-04-07 19:08:54,599,291,5
+161st St - Yankee Stadium,An elevator,,"Mezzanine To Uptown B, D",OUTAGE,2017-03-20 21:58:40,FIXED,2017-03-21 01:18:36,199,291,5
+161st St - Yankee Stadium,An elevator,,"Mezzanine To Uptown B, D",OUTAGE,2017-03-22 04:38:49,FIXED,2017-03-22 07:28:44,169,291,5
+161st St - Yankee Stadium,An elevator,,"Mezzanine To Uptown B, D",OUTAGE,2017-03-23 03:38:45,FIXED,2017-03-23 08:28:45,290,291,5
+161st St - Yankee Stadium,An elevator,,"Mezzanine To Uptown B, D",OUTAGE,2017-03-24 00:58:39,FIXED,2017-03-24 05:28:53,270,291,5
+161st St - Yankee Stadium,An elevator,,"Mezzanine To Uptown B, D",OUTAGE,2017-03-25 02:18:21,FIXED,2017-03-25 06:28:19,249,291,5
+161st St - Yankee Stadium,An elevator,,"Mezzanine To Uptown B, D",OUTAGE,2017-03-25 22:38:21,FIXED,2017-03-26 00:58:18,139,291,5
+161st St - Yankee Stadium,An elevator,,"Mezzanine To Uptown B, D",OUTAGE,2017-03-27 04:58:32,FIXED,2017-03-27 06:28:31,89,291,5
+161st St - Yankee Stadium,An elevator,,"Mezzanine To Uptown B, D",OUTAGE,2017-03-28 20:58:36,FIXED,2017-03-29 17:08:38,600,291,5
+161st St - Yankee Stadium,An elevator,,"Mezzanine To Uptown B, D",OUTAGE,2017-03-30 13:18:34,FIXED,2017-03-30 17:08:43,230,291,5
+161st St - Yankee Stadium,An elevator,,"Mezzanine To Uptown B, D",OUTAGE,2017-03-31 16:08:55,FIXED,2017-03-31 18:38:50,149,291,5
+161st St - Yankee Stadium,An elevator,,"Mezzanine To Uptown B, D",OUTAGE,2017-04-04 06:28:36,FIXED,2017-04-04 13:58:51,450,291,5
+161st St - Yankee Stadium,An elevator,,"Mezzanine To Uptown B, D",OUTAGE,2017-04-07 05:09:02,FIXED,2017-04-07 06:38:33,89,291,5
+161st St - Yankee Stadium,An elevator,,Mezzanines To  Uptown 4 Platform,OUTAGE,2017-03-23 05:18:47,FIXED,2017-03-23 08:08:40,169,291,5
+161st St - Yankee Stadium,An elevator,,Mezzanines To  Uptown 4 Platform,OUTAGE,2017-03-31 13:28:57,FIXED,2017-03-31 15:58:32,149,291,5
+161st St - Yankee Stadium,An elevator,,Mezzanines To  Uptown 4 Platform,OUTAGE,2017-04-01 06:18:47,FIXED,2017-04-01 09:18:41,179,291,5
+161st St - Yankee Stadium,An elevator,,Mezzanines To Downtown 4 Platform,OUTAGE,2017-03-15 18:28:13,FIXED,2017-03-15 22:28:16,240,291,5
+161st St - Yankee Stadium,An elevator,,Mezzanines To Downtown 4 Platform,OUTAGE,2017-03-16 19:28:58,FIXED,2017-03-16 22:58:14,209,291,5
+161st St - Yankee Stadium,An elevator,,Mezzanines To Downtown 4 Platform,OUTAGE,2017-03-17 15:58:20,FIXED,2017-03-18 00:58:29,540,291,5
+161st St - Yankee Stadium,An elevator,,Mezzanines To Downtown 4 Platform,OUTAGE,2017-03-18 17:18:50,FIXED,2017-03-18 20:28:27,189,291,5
+161st St - Yankee Stadium,An elevator,,Mezzanines To Downtown 4 Platform,OUTAGE,2017-03-20 03:08:42,FIXED,2017-03-20 04:38:24,89,291,5
+161st St - Yankee Stadium,An elevator,,Mezzanines To Downtown 4 Platform,OUTAGE,2017-03-20 18:28:49,FIXED,2017-03-20 22:28:47,239,291,5
+161st St - Yankee Stadium,An elevator,,Mezzanines To Downtown 4 Platform,OUTAGE,2017-03-21 14:38:58,FIXED,2017-03-21 21:08:58,390,291,5
+161st St - Yankee Stadium,An elevator,,Mezzanines To Downtown 4 Platform,OUTAGE,2017-03-22 15:10:06,,,600,291,5
+161st St - Yankee Stadium,An elevator,,Mezzanines To Downtown 4 Platform,OUTAGE,2017-03-23 16:58:42,FIXED,2017-03-23 23:48:22,409,291,5
+161st St - Yankee Stadium,An elevator,,Mezzanines To Downtown 4 Platform,OUTAGE,2017-03-24 16:08:27,FIXED,2017-03-25 09:28:43,600,291,5
+161st St - Yankee Stadium,An elevator,,Mezzanines To Downtown 4 Platform,OUTAGE,2017-03-26 11:38:18,FIXED,2017-03-27 17:28:52,350,291,5
+161st St - Yankee Stadium,An elevator,NE corner of 161st Street and River Avenue,Street To Mezzanine,OUTAGE,2017-03-19 11:18:40,FIXED,2017-03-19 14:08:59,170,291,5
+161st St - Yankee Stadium,An elevator,NE corner of 161st Street and River Avenue,Street To Mezzanine,OUTAGE,2017-03-26 21:28:39,FIXED,2017-03-27 01:28:34,239,291,5
+161st St - Yankee Stadium,An elevator,NE corner of 161st Street and River Avenue,Street To Mezzanine,OUTAGE,2017-04-01 06:18:47,FIXED,2017-04-01 19:58:27,600,291,5
+161st St - Yankee Stadium,An elevator,NE corner of 161st Street and River Avenue,Street To Mezzanine,OUTAGE,2017-04-05 11:38:29,FIXED,2017-04-07 08:48:38,600,291,5
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-15 07:58:12,FIXED,2017-03-15 10:48:43,170,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-15 07:58:12,FIXED,2017-03-15 10:48:43,170,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-15 07:58:12,FIXED,2017-03-15 10:48:43,170,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-15 07:58:12,FIXED,2017-03-15 10:48:43,170,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-16 03:58:22,FIXED,2017-03-16 09:08:44,310,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-16 03:58:22,FIXED,2017-03-16 09:08:44,310,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-16 03:58:22,FIXED,2017-03-16 09:08:44,310,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-16 03:58:22,FIXED,2017-03-16 09:08:44,310,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-17 03:58:39,FIXED,2017-03-17 08:58:25,299,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-17 03:58:39,FIXED,2017-03-17 08:58:25,299,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-17 03:58:39,FIXED,2017-03-17 08:58:25,299,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-17 03:58:39,FIXED,2017-03-17 08:58:25,299,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-19 21:08:58,FIXED,2017-03-20 09:18:32,600,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-19 21:08:58,FIXED,2017-03-20 09:18:32,600,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-19 21:08:58,FIXED,2017-03-20 09:18:32,600,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-19 21:08:58,FIXED,2017-03-20 09:18:32,600,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-21 03:28:23,FIXED,2017-03-21 05:28:51,120,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-21 03:28:23,FIXED,2017-03-21 05:28:51,120,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-21 03:28:23,FIXED,2017-03-21 05:28:51,120,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-21 03:28:23,FIXED,2017-03-21 05:28:51,120,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-22 03:58:23,FIXED,2017-03-22 09:08:58,310,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-22 03:58:23,FIXED,2017-03-22 09:08:58,310,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-22 03:58:23,FIXED,2017-03-22 09:08:58,310,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-22 03:58:23,FIXED,2017-03-22 09:08:58,310,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-23 04:18:47,FIXED,2017-03-23 07:18:26,179,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-23 04:18:47,FIXED,2017-03-23 07:18:26,179,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-23 04:18:47,FIXED,2017-03-23 07:18:26,179,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-23 04:18:47,FIXED,2017-03-23 07:18:26,179,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-27 03:38:47,FIXED,2017-03-27 06:38:45,179,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-27 03:38:47,FIXED,2017-03-27 06:38:45,179,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-27 03:38:47,FIXED,2017-03-27 06:38:45,179,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-27 03:38:47,FIXED,2017-03-27 06:38:45,179,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-27 10:38:21,,,600,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-27 10:38:21,,,600,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-27 10:38:21,,,600,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-27 10:38:21,,,600,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-29 00:38:32,FIXED,2017-03-29 09:28:41,530,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-29 00:38:32,FIXED,2017-03-29 09:28:41,530,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-29 00:38:32,FIXED,2017-03-29 09:28:41,530,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-29 00:38:32,FIXED,2017-03-29 09:28:41,530,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-29 23:08:30,FIXED,2017-03-30 00:18:46,70,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-29 23:08:30,FIXED,2017-03-30 00:18:46,70,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-29 23:08:30,FIXED,2017-03-30 00:18:46,70,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-29 23:08:30,FIXED,2017-03-30 00:18:46,70,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-31 04:48:44,FIXED,2017-03-31 05:38:53,50,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-31 04:48:44,FIXED,2017-03-31 05:38:53,50,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-31 04:48:44,FIXED,2017-03-31 05:38:53,50,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-03-31 04:48:44,FIXED,2017-03-31 05:38:53,50,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-04-02 09:28:45,FIXED,2017-04-02 10:58:25,89,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-04-02 09:28:45,FIXED,2017-04-02 10:58:25,89,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-04-02 09:28:45,FIXED,2017-04-02 10:58:25,89,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-04-02 09:28:45,FIXED,2017-04-02 10:58:25,89,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-04-03 03:48:27,,,600,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-04-03 03:48:27,,,600,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-04-03 03:48:27,,,600,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-04-03 03:48:27,,,600,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-04-04 03:48:38,FIXED,2017-04-04 17:38:52,600,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-04-04 03:48:38,FIXED,2017-04-04 17:38:52,600,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-04-04 03:48:38,FIXED,2017-04-04 17:38:52,600,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-04-04 03:48:38,FIXED,2017-04-04 17:38:52,600,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-04-04 20:38:59,FIXED,2017-04-05 09:09:03,600,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-04-04 20:38:59,FIXED,2017-04-05 09:09:03,600,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-04-04 20:38:59,FIXED,2017-04-05 09:09:03,600,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-04-04 20:38:59,FIXED,2017-04-05 09:09:03,600,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-04-07 01:58:42,FIXED,2017-04-07 04:58:43,180,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-04-07 01:58:42,FIXED,2017-04-07 04:58:43,180,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-04-07 01:58:42,FIXED,2017-04-07 04:58:43,180,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-04-07 01:58:42,FIXED,2017-04-07 04:58:43,180,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-04-08 12:28:28,,,600,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-04-08 12:28:28,,,600,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-04-08 12:28:28,,,600,133,7
+168th St,An elevator,,Lower Mezzanine To Upper Mezzanine,OUTAGE,2017-04-08 12:28:28,,,600,133,7
+168th St,An elevator,,Mezzanine And Uptown,OUTAGE,2017-04-07 03:38:36,,,600,133,7
+168th St,An elevator,,Mezzanine And Uptown,OUTAGE,2017-04-08 03:09:19,FIXED,2017-04-08 09:18:55,369,133,7
+168th St,An elevator,,Mezzanine To Downtown,OUTAGE,2017-03-27 03:48:43,FIXED,2017-03-27 09:18:39,329,133,7
+168th St,An elevator,,Mezzanine To Downtown,OUTAGE,2017-03-30 03:58:40,FIXED,2017-03-30 09:18:27,319,133,7
+168th St,An elevator,SE corner of 168 Street and St. Nicholas Avenue,Street To Mezzanine,OUTAGE,2017-03-23 06:28:17,FIXED,2017-03-23 09:28:43,180,133,7
+168th St,An elevator,SE corner of 168 Street and St. Nicholas Avenue,Street To Mezzanine,OUTAGE,2017-03-29 21:58:32,FIXED,2017-03-29 22:58:40,60,133,7
+168th St,An elevator,SE corner of 168 Street and St. Nicholas Avenue,Street To Mezzanine,OUTAGE,2017-03-30 03:58:40,FIXED,2017-03-30 09:38:26,339,133,7
+168th St,An elevator,SE corner of 168 Street and St. Nicholas Avenue,Street To Mezzanine,OUTAGE,2017-03-30 13:18:37,FIXED,2017-03-30 14:58:46,100,133,7
+168th St,An elevator,SE corner of 168 Street and St. Nicholas Avenue,Street To Mezzanine,OUTAGE,2017-04-01 00:38:41,FIXED,2017-04-01 07:28:47,410,133,7
+168th St,An elevator,SE corner of 168 Street and St. Nicholas Avenue,Street To Mezzanine,OUTAGE,2017-04-04 02:28:22,FIXED,2017-04-04 17:09:14,600,133,7
+168th St,An elevator,SE corner of 168 Street and St. Nicholas Avenue,Street To Mezzanine,OUTAGE,2017-04-06 14:08:54,FIXED,2017-04-06 15:38:19,89,133,7
+175th St,An elevator,NE corner of 177th Street and Fort Washington Avenue,Street To Mezzanine,OUTAGE,2017-03-25 06:48:33,FIXED,2017-03-25 09:58:43,190,135,2
+175th St,An elevator,NE corner of 177th Street and Fort Washington Avenue,Street To Mezzanine,OUTAGE,2017-03-26 06:58:29,FIXED,2017-03-26 09:38:42,160,135,2
+175th St,An elevator,NE corner of 177th Street and Fort Washington Avenue,Street To Mezzanine,OUTAGE,2017-03-27 04:38:25,FIXED,2017-03-27 07:58:33,200,135,2
+175th St,An elevator,NE corner of 177th Street and Fort Washington Avenue,Street To Mezzanine,OUTAGE,2017-03-31 05:38:32,FIXED,2017-03-31 17:09:07,600,135,2
+21st St - Queensbridge,An elevator,,Mezzanine To Downtown,OUTAGE,2017-03-20 01:08:34,FIXED,2017-03-20 08:38:37,450,347,3
+21st St - Queensbridge,An elevator,,Mezzanine To Downtown,OUTAGE,2017-03-20 21:58:40,FIXED,2017-03-20 22:58:48,60,347,3
+21st St - Queensbridge,An elevator,,Mezzanine To Downtown,OUTAGE,2017-03-25 16:28:44,FIXED,2017-03-25 17:08:49,40,347,3
+21st St - Queensbridge,An elevator,,Mezzanine To Downtown,OUTAGE,2017-03-27 12:38:31,FIXED,2017-03-27 16:28:44,230,347,3
+21st St - Queensbridge,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-18 22:58:43,FIXED,2017-03-19 01:08:31,129,347,3
+21st St - Queensbridge,An elevator,NW corner of 21st Street and 41st Avenue,Street To Mezzanine,OUTAGE,2017-03-15 03:58:34,FIXED,2017-03-15 09:28:31,329,347,3
+21st St - Queensbridge,An elevator,NW corner of 21st Street and 41st Avenue,Street To Mezzanine,OUTAGE,2017-03-16 05:38:15,FIXED,2017-03-16 07:58:33,140,347,3
+21st St - Queensbridge,An elevator,NW corner of 21st Street and 41st Avenue,Street To Mezzanine,OUTAGE,2017-03-21 21:08:58,FIXED,2017-03-21 22:18:54,69,347,3
+21st St - Queensbridge,An elevator,NW corner of 21st Street and 41st Avenue,Street To Mezzanine,OUTAGE,2017-03-26 23:58:27,FIXED,2017-03-27 02:08:43,130,347,3
+21st St - Queensbridge,An elevator,NW corner of 21st Street and 41st Avenue,Street To Mezzanine,OUTAGE,2017-03-27 20:09:40,FIXED,2017-03-27 23:38:51,209,347,3
+21st St - Queensbridge,An elevator,NW corner of 21st Street and 41st Avenue,Street To Mezzanine,OUTAGE,2017-03-29 17:08:37,FIXED,2017-03-30 00:18:45,430,347,3
+21st St - Queensbridge,An elevator,NW corner of 21st Street and 41st Avenue,Street To Mezzanine,OUTAGE,2017-04-07 04:08:46,FIXED,2017-04-07 04:58:42,49,347,3
+231st St,An elevator,SW corner of 231 Street and Broadway,Street To Mezzanine,OUTAGE,2017-03-15 00:48:25,FIXED,2017-03-15 04:58:13,249,253,2
+231st St,An elevator,SW corner of 231 Street and Broadway,Street To Mezzanine,OUTAGE,2017-03-16 12:18:29,FIXED,2017-03-16 16:38:24,259,253,2
+231st St,An elevator,SW corner of 231 Street and Broadway,Street To Mezzanine,OUTAGE,2017-03-19 21:28:31,FIXED,2017-03-20 01:18:42,230,253,2
+231st St,An elevator,SW corner of 231 Street and Broadway,Street To Mezzanine,OUTAGE,2017-03-27 04:18:49,FIXED,2017-03-27 09:28:34,309,253,2
+231st St,An elevator,SW corner of 231 Street and Broadway,Street To Mezzanine,OUTAGE,2017-03-28 03:48:40,FIXED,2017-03-28 09:09:18,320,253,2
+231st St,An elevator,SW corner of 231 Street and Broadway,Street To Mezzanine,OUTAGE,2017-04-03 22:19:02,FIXED,2017-04-04 03:58:23,339,253,2
+231st St,An elevator,SW corner of 231 Street and Broadway,Street To Mezzanine,OUTAGE,2017-04-04 15:29:14,FIXED,2017-04-04 17:28:51,119,253,2
+231st St,An elevator,SW corner of 231 Street and Broadway,Street To Mezzanine,OUTAGE,2017-04-05 04:48:28,FIXED,2017-04-05 08:09:11,200,253,2
+233rd St,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-16 15:48:14,FIXED,2017-03-16 17:28:30,100,8,3
+233rd St,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-16 15:48:15,FIXED,2017-03-16 17:38:22,110,8,3
+233rd St,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-18 09:48:19,FIXED,2017-03-18 17:38:45,470,8,3
+233rd St,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-25 12:58:50,FIXED,2017-03-25 20:38:30,459,8,3
+233rd St,An elevator,NW corner of White Plains Road and 233 Street,Street To Mezzanine,OUTAGE,2017-03-16 15:38:15,FIXED,2017-03-16 17:28:31,110,8,3
+233rd St,An elevator,NW corner of White Plains Road and 233 Street,Street To Mezzanine,OUTAGE,2017-03-21 17:48:29,FIXED,2017-03-21 19:18:30,90,8,3
+233rd St,An elevator,NW corner of White Plains Road and 233 Street,Street To Mezzanine,OUTAGE,2017-04-02 03:48:31,FIXED,2017-04-02 09:08:53,320,8,3
+233rd St,An elevator,NW corner of White Plains Road and 233 Street,Street To Mezzanine,OUTAGE,2017-04-03 03:48:28,FIXED,2017-04-03 09:08:45,320,8,3
+34th St - Penn Station,An elevator,,Mezzanine To Downtown Local Platform,OUTAGE,2017-03-15 04:18:23,FIXED,2017-03-15 08:48:22,269,359,3
+34th St - Penn Station,An elevator,,Mezzanine To Downtown Local Platform,OUTAGE,2017-03-15 04:18:23,FIXED,2017-03-15 08:48:22,269,438,4
+34th St - Penn Station,An elevator,,Mezzanine To Downtown Local Platform,OUTAGE,2017-03-21 03:18:27,FIXED,2017-03-21 09:28:33,370,359,3
+34th St - Penn Station,An elevator,,Mezzanine To Downtown Local Platform,OUTAGE,2017-03-21 03:18:27,FIXED,2017-03-21 09:28:33,370,438,4
+34th St - Penn Station,An elevator,,Mezzanine To Downtown Local Platform,OUTAGE,2017-03-22 03:09:58,FIXED,2017-03-22 09:18:46,368,359,3
+34th St - Penn Station,An elevator,,Mezzanine To Downtown Local Platform,OUTAGE,2017-03-22 03:09:58,FIXED,2017-03-22 09:18:46,368,438,4
+34th St - Penn Station,An elevator,,Mezzanine To Downtown Local Platform,OUTAGE,2017-04-03 13:38:56,FIXED,2017-04-03 15:58:54,139,359,3
+34th St - Penn Station,An elevator,,Mezzanine To Downtown Local Platform,OUTAGE,2017-04-03 13:38:56,FIXED,2017-04-03 15:58:54,139,438,4
+34th St - Penn Station,An elevator,,Mezzanine To Downtown Local Platform,OUTAGE,2017-04-05 20:28:45,FIXED,2017-04-05 20:48:23,19,359,3
+34th St - Penn Station,An elevator,,Mezzanine To Downtown Local Platform,OUTAGE,2017-04-05 20:28:45,FIXED,2017-04-05 20:48:23,19,438,4
+34th St - Penn Station,An elevator,,Mezzanine To Express Platform,OUTAGE,2017-03-18 13:48:34,FIXED,2017-03-18 15:58:43,130,359,3
+34th St - Penn Station,An elevator,,Mezzanine To Express Platform,OUTAGE,2017-03-18 13:48:34,FIXED,2017-03-18 15:58:43,130,438,4
+34th St - Penn Station,An elevator,,Mezzanine To Express Platform,OUTAGE,2017-03-31 14:28:34,FIXED,2017-03-31 20:09:02,340,359,3
+34th St - Penn Station,An elevator,,Mezzanine To Express Platform,OUTAGE,2017-03-31 14:28:34,FIXED,2017-03-31 20:09:02,340,438,4
+34th St - Penn Station,An elevator,,Mezzanine To Express Platform,OUTAGE,2017-04-02 03:18:34,FIXED,2017-04-02 09:08:53,350,359,3
+34th St - Penn Station,An elevator,,Mezzanine To Express Platform,OUTAGE,2017-04-02 03:18:34,FIXED,2017-04-02 09:08:53,350,438,4
+34th St - Penn Station,An elevator,,Mezzanine To Express Platform,OUTAGE,2017-04-03 03:18:47,FIXED,2017-04-03 09:18:49,360,359,3
+34th St - Penn Station,An elevator,,Mezzanine To Express Platform,OUTAGE,2017-04-03 03:18:47,FIXED,2017-04-03 09:18:49,360,438,4
+34th St - Penn Station,An elevator,,Mezzanine To Express Platform,OUTAGE,2017-04-08 06:18:18,FIXED,2017-04-08 07:09:02,50,359,3
+34th St - Penn Station,An elevator,,Mezzanine To Express Platform,OUTAGE,2017-04-08 06:18:18,FIXED,2017-04-08 07:09:02,50,438,4
+34th St - Penn Station,An elevator,,Mezzanine To Uptown Local Platform,OUTAGE,2017-03-16 12:38:24,FIXED,2017-03-16 16:48:27,250,359,3
+34th St - Penn Station,An elevator,,Mezzanine To Uptown Local Platform,OUTAGE,2017-03-17 03:18:18,FIXED,2017-03-17 09:28:15,369,359,3
+34th St - Penn Station,An elevator,,Mezzanine To Uptown Local Platform,OUTAGE,2017-03-18 03:28:18,FIXED,2017-03-18 09:28:48,360,359,3
+34th St - Penn Station,An elevator,,Uptown Local Platform To Lower Mezzanine,OUTAGE,2017-03-16 15:09:25,FIXED,2017-03-16 15:38:16,28,438,4
+34th St - Penn Station,An elevator,,Uptown Local Platform To Lower Mezzanine,OUTAGE,2017-03-20 13:58:46,FIXED,2017-03-20 15:18:52,80,438,4
+34th St - Penn Station,An elevator,,Uptown Local Platform To Lower Mezzanine,OUTAGE,2017-04-04 13:38:27,FIXED,2017-04-04 15:09:51,91,438,4
+34th St - Penn Station,An elevator,SE corner of 34th Street and Eighth Avenue,Street To Uptown Local Platform,OUTAGE,2017-03-30 02:18:32,,,600,438,4
+34th St - Penn Station,An elevator,SE corner of 34th Street and Eighth Avenue,Street To Uptown Local Platform,OUTAGE,2017-04-01 04:18:44,FIXED,2017-04-01 18:08:57,600,438,4
+34th St - Penn Station,An elevator,SE corner of 34th Street and Eighth Avenue,Street To Uptown Local Platform,OUTAGE,2017-04-06 03:18:13,,,600,438,4
+34th St - Penn Station,An elevator,SE corner of 34th Street and Eighth Avenue,Street To Uptown Local Platform,OUTAGE,2017-04-07 03:08:13,FIXED,2017-04-07 09:09:20,361,438,4
+3rd Ave - 149th St,An elevator,NW corner of 149th Street and Third Avenue,Street To Downtown Platform,OUTAGE,2017-03-14 20:38:33,FIXED,2017-03-14 23:18:24,159,283,2
+3rd Ave - 149th St,An elevator,NW corner of 149th Street and Third Avenue,Street To Downtown Platform,OUTAGE,2017-03-17 07:58:12,FIXED,2017-03-17 09:08:53,70,283,2
+3rd Ave - 149th St,An elevator,SW corner of 149th Street and Third Avenue,Street To Uptown Platform,OUTAGE,2017-03-17 04:08:16,FIXED,2017-03-17 08:48:21,280,283,2
+3rd Ave - 149th St,An elevator,SW corner of 149th Street and Third Avenue,Street To Uptown Platform,OUTAGE,2017-03-23 05:28:31,FIXED,2017-03-23 09:28:43,240,283,2
+3rd Ave - 149th St,An elevator,SW corner of 149th Street and Third Avenue,Street To Uptown Platform,OUTAGE,2017-03-28 23:58:51,FIXED,2017-03-29 05:58:39,359,283,2
+3rd Ave - 149th St,An elevator,SW corner of 149th Street and Third Avenue,Street To Uptown Platform,OUTAGE,2017-03-31 13:08:57,FIXED,2017-03-31 18:18:50,309,283,2
+42nd St - Port Authority Bus Term,An elevator,,Bus Terminal To Lower Mezzanine,OUTAGE,2017-03-23 19:58:34,FIXED,2017-03-23 23:48:22,229,363,3
+42nd St - Port Authority Bus Term,An elevator,,Bus Terminal To Lower Mezzanine,OUTAGE,2017-03-23 19:58:34,FIXED,2017-03-23 23:48:22,229,363,3
+42nd St - Port Authority Bus Term,An elevator,,Bus Terminal To Lower Mezzanine,OUTAGE,2017-03-23 19:58:34,FIXED,2017-03-23 23:48:22,229,363,3
+42nd St - Port Authority Bus Term,An elevator,,Bus Terminal To Lower Mezzanine,OUTAGE,2017-04-02 01:18:36,FIXED,2017-04-02 08:48:23,449,363,3
+42nd St - Port Authority Bus Term,An elevator,,Bus Terminal To Lower Mezzanine,OUTAGE,2017-04-02 01:18:36,FIXED,2017-04-02 08:48:23,449,363,3
+42nd St - Port Authority Bus Term,An elevator,,Bus Terminal To Lower Mezzanine,OUTAGE,2017-04-02 01:18:36,FIXED,2017-04-02 08:48:23,449,363,3
+42nd St - Port Authority Bus Term,An elevator,,Bus Terminal To Lower Mezzanine,OUTAGE,2017-04-05 18:58:14,FIXED,2017-04-05 23:38:21,280,363,3
+42nd St - Port Authority Bus Term,An elevator,,Bus Terminal To Lower Mezzanine,OUTAGE,2017-04-05 18:58:14,FIXED,2017-04-05 23:38:21,280,363,3
+42nd St - Port Authority Bus Term,An elevator,,Bus Terminal To Lower Mezzanine,OUTAGE,2017-04-05 18:58:14,FIXED,2017-04-05 23:38:21,280,363,3
+42nd St - Port Authority Bus Term,An elevator,,Bus Terminal To Lower Mezzanine,OUTAGE,2017-04-08 00:58:25,FIXED,2017-04-08 09:18:55,500,363,3
+42nd St - Port Authority Bus Term,An elevator,,Bus Terminal To Lower Mezzanine,OUTAGE,2017-04-08 00:58:25,FIXED,2017-04-08 09:18:55,500,363,3
+42nd St - Port Authority Bus Term,An elevator,,Bus Terminal To Lower Mezzanine,OUTAGE,2017-04-08 00:58:25,FIXED,2017-04-08 09:18:55,500,363,3
+47th-50th Sts - Rockefeller Ctr,An elevator,,Mezzanine To Downtown,OUTAGE,2017-03-24 17:58:26,FIXED,2017-03-24 21:28:44,210,350,3
+47th-50th Sts - Rockefeller Ctr,An elevator,,Mezzanine To Downtown,OUTAGE,2017-03-28 03:38:44,FIXED,2017-03-28 09:09:17,330,350,3
+47th-50th Sts - Rockefeller Ctr,An elevator,,Mezzanine To Downtown,OUTAGE,2017-03-29 03:28:47,FIXED,2017-03-29 09:09:04,340,350,3
+47th-50th Sts - Rockefeller Ctr,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-18 16:58:36,FIXED,2017-03-18 18:18:36,80,350,3
+47th-50th Sts - Rockefeller Ctr,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-31 05:38:32,FIXED,2017-03-31 08:48:37,190,350,3
+51st St,An elevator,,Uptown Platform To Passageway,OUTAGE,2017-03-27 14:58:25,,,600,3,2
+59th St - Columbus Circle,An elevator,,Mezzanine And Downtown,OUTAGE,2017-03-16 22:18:19,FIXED,2017-03-17 02:58:18,279,354,5
+59th St - Columbus Circle,An elevator,,Mezzanine And Downtown,OUTAGE,2017-03-18 00:09:32,FIXED,2017-03-18 02:48:29,158,354,5
+59th St - Columbus Circle,An elevator,,Mezzanine And Downtown,OUTAGE,2017-03-18 23:18:50,FIXED,2017-03-18 23:48:49,29,354,5
+59th St - Columbus Circle,An elevator,,Mezzanine And Downtown,OUTAGE,2017-03-19 19:38:29,FIXED,2017-03-20 08:38:38,600,354,5
+59th St - Columbus Circle,An elevator,,Mezzanine And Downtown,OUTAGE,2017-03-31 03:48:44,FIXED,2017-03-31 09:08:35,319,354,5
+59th St - Columbus Circle,An elevator,,Mezzanine And Downtown,OUTAGE,2017-04-01 03:28:41,FIXED,2017-04-01 08:58:45,330,354,5
+59th St - Columbus Circle,An elevator,,Mezzanine And Downtown,OUTAGE,2017-04-05 14:38:49,FIXED,2017-04-05 16:58:46,139,354,5
+59th St - Columbus Circle,An elevator,,Mezzanine And Uptown,OUTAGE,2017-03-18 00:09:33,FIXED,2017-03-18 00:18:21,8,354,5
+59th St - Columbus Circle,An elevator,,Mezzanine And Uptown,OUTAGE,2017-03-18 00:09:33,FIXED,2017-03-18 00:18:21,8,354,5
+59th St - Columbus Circle,An elevator,,Mezzanine And Uptown,OUTAGE,2017-03-19 00:38:44,FIXED,2017-03-19 08:48:28,489,354,5
+59th St - Columbus Circle,An elevator,,Mezzanine And Uptown,OUTAGE,2017-03-19 00:38:44,FIXED,2017-03-19 08:48:28,489,354,5
+59th St - Columbus Circle,An elevator,,Mezzanine And Uptown,OUTAGE,2017-03-24 13:08:31,FIXED,2017-03-24 15:38:44,150,354,5
+59th St - Columbus Circle,An elevator,,Mezzanine And Uptown,OUTAGE,2017-03-24 13:08:31,FIXED,2017-03-24 15:38:44,150,354,5
+59th St - Columbus Circle,An elevator,,Mezzanine And Uptown,OUTAGE,2017-03-30 15:38:46,FIXED,2017-03-30 16:58:44,79,354,5
+59th St - Columbus Circle,An elevator,,Mezzanine And Uptown,OUTAGE,2017-03-30 15:38:46,FIXED,2017-03-30 16:58:44,79,354,5
+59th St - Columbus Circle,An elevator,,Mezzanine And Uptown,OUTAGE,2017-04-08 03:28:33,,,600,354,5
+59th St - Columbus Circle,An elevator,,Mezzanine And Uptown,OUTAGE,2017-04-08 03:28:33,,,600,354,5
+59th St - Columbus Circle,An elevator,Northwest corner of Columbus Circle and Central Park West,Street To Mezzanine And Uptown 1 Platform,OUTAGE,2017-03-14 19:58:35,,,600,354,5
+59th St - Columbus Circle,An elevator,Northwest corner of Columbus Circle and Central Park West,Street To Mezzanine And Uptown 1 Platform,OUTAGE,2017-03-28 20:18:32,,,600,354,5
+59th St - Columbus Circle,An elevator,Northwest corner of Columbus Circle and Central Park West,Street To Mezzanine And Uptown 1 Platform,OUTAGE,2017-04-01 17:08:48,,,600,354,5
+72nd St,An elevator,North side of 72nd Street between Broadway and Amsterdam Avenue (Inside station house),Street To Downtown Platform,OUTAGE,2017-03-15 11:38:26,,,600,110,2
+72nd St,An elevator,North side of 72nd Street between Broadway and Amsterdam Avenue (Inside station house),Street To Downtown Platform,OUTAGE,2017-03-24 00:48:35,,,600,110,2
+72nd St,An elevator,North side of 72nd Street between Broadway and Amsterdam Avenue (Inside station house),Street To Uptown Platform,OUTAGE,2017-03-18 02:08:25,,,600,110,2
+72nd St,An elevator,North side of 72nd Street between Broadway and Amsterdam Avenue (Inside station house),Street To Uptown Platform,OUTAGE,2017-03-31 00:58:21,,,600,110,2
+72nd St,An elevator,North side of 72nd Street between Broadway and Amsterdam Avenue (Inside station house),Street To Uptown Platform,OUTAGE,2017-04-06 12:58:32,,,600,110,2
+96th St,An elevator,Either south side of 96th Street and north side of 95th Street (Inside station house),Street To Downtown Platform,OUTAGE,2017-03-19 00:58:33,,,600,105,2
+96th St,An elevator,Either south side of 96th Street and north side of 95th Street (Inside station house),Street To Downtown Platform,OUTAGE,2017-03-22 13:58:56,,,600,105,2
+96th St,An elevator,Either south side of 96th Street and north side of 95th Street (Inside station house),Street To Downtown Platform,OUTAGE,2017-03-23 06:38:29,,,600,105,2
+96th St,An elevator,Either south side of 96th Street and north side of 95th Street (Inside station house),Street To Downtown Platform,OUTAGE,2017-03-24 04:08:21,,,600,105,2
+96th St,An elevator,Either south side of 96th Street and north side of 95th Street (Inside station house),Street To Downtown Platform,OUTAGE,2017-03-25 03:18:54,,,600,105,2
+96th St,An elevator,Either south side of 96th Street and north side of 95th Street (Inside station house),Street To Downtown Platform,OUTAGE,2017-04-06 02:38:34,,,600,105,2
+96th St,An elevator,Either south side of 96th Street and north side of 95th Street (Inside station house),Street To Uptown Platform,OUTAGE,2017-03-30 03:58:41,,,600,105,2
+Atlantic Ave,An elevator,,"Mezzanine To 4, 5 Platform",OUTAGE,2017-03-25 06:28:18,FIXED,2017-03-25 08:58:38,150,49,10
+Atlantic Ave,An elevator,,"Mezzanine To 4, 5 Platform",OUTAGE,2017-03-28 22:08:36,FIXED,2017-03-29 01:58:50,230,49,10
+Atlantic Ave,An elevator,,Mezzanine To Downtown,OUTAGE,2017-03-25 03:48:38,FIXED,2017-03-25 06:09:04,140,49,10
+Atlantic Ave,An elevator,,"Mezzanine To Downtown 2,3 Platform",OUTAGE,2017-03-28 21:58:39,FIXED,2017-03-28 22:38:33,39,49,10
+Atlantic Ave,An elevator,,"Mezzanine To Downtown 2,3 Platform",OUTAGE,2017-04-07 13:28:34,FIXED,2017-04-08 08:38:47,600,49,10
+Atlantic Ave,An elevator,,"Middle Mezzanine To B,Q Platform",OUTAGE,2017-03-15 04:08:42,FIXED,2017-03-15 09:38:46,330,49,10
+Atlantic Ave,An elevator,,"Middle Mezzanine To B,Q Platform",OUTAGE,2017-03-16 03:58:22,FIXED,2017-03-16 09:08:43,310,49,10
+Atlantic Ave,An elevator,,"Middle Mezzanine To B,Q Platform",OUTAGE,2017-03-21 03:58:25,FIXED,2017-03-21 09:08:32,310,49,10
+Atlantic Ave,An elevator,,"Middle Mezzanine To B,Q Platform",OUTAGE,2017-03-29 04:08:47,FIXED,2017-03-29 09:09:04,300,49,10
+Atlantic Ave,An elevator,,"Middle Mezzanine To B,Q Platform",OUTAGE,2017-03-31 04:08:29,FIXED,2017-03-31 08:48:38,280,49,10
+Atlantic Ave,An elevator,,"Middle Mezzanine To B,Q Platform",OUTAGE,2017-04-01 04:18:46,FIXED,2017-04-01 08:48:49,270,49,10
+Atlantic Ave,An elevator,,"Middle Mezzanine To B,Q Platform",OUTAGE,2017-04-05 12:58:34,FIXED,2017-04-06 00:28:24,600,49,10
+Atlantic Ave,An elevator,,Street To Mezzanine,OUTAGE,2017-03-21 17:09:20,FIXED,2017-03-22 01:48:22,519,49,10
+Atlantic Ave,An elevator,,Street To Mezzanine,OUTAGE,2017-03-21 17:09:20,FIXED,2017-03-22 01:48:22,519,49,10
+Atlantic Ave,An elevator,,Street To Mezzanine,OUTAGE,2017-04-05 11:18:42,FIXED,2017-04-05 23:48:17,600,49,10
+Atlantic Ave,An elevator,,Street To Mezzanine,OUTAGE,2017-04-05 11:18:42,FIXED,2017-04-05 23:48:17,600,49,10
+Atlantic Ave,An elevator,,Street To Mezzanine,OUTAGE,2017-04-08 09:18:52,,,600,49,10
+Atlantic Ave,An elevator,,Street To Mezzanine,OUTAGE,2017-04-08 09:18:52,,,600,49,10
+Atlantic Ave,An elevator,,"Uptown 2, 3 Platform To Mezzanine",OUTAGE,2017-03-27 19:58:36,FIXED,2017-03-27 22:58:55,180,49,10
+Atlantic Ave,An elevator,Hanson Place and Flatbush Avenue,B/Q/2/3/4/5/LIRR,OUTAGE,2017-04-03 10:09:19,FIXED,2017-04-03 19:09:30,540,49,10
+Atlantic Ave,An elevator,Pacific Street and Fourth Avenue,Street to D/N/R,OUTAGE,2017-03-24 04:08:22,FIXED,2017-03-24 08:48:46,280,49,10
+Atlantic Ave,An elevator,Pacific Street and Fourth Avenue,Street to D/N/R,OUTAGE,2017-03-27 12:38:31,FIXED,2017-03-27 17:08:56,270,49,10
+Atlantic Ave,An elevator,Pacific Street and Fourth Avenue,Street to D/N/R,OUTAGE,2017-04-04 11:18:35,FIXED,2017-04-04 17:28:51,370,49,10
+Atlantic Ave,An elevator,Pacific Street and Fourth Avenue,Street to D/N/R,OUTAGE,2017-04-04 23:58:48,FIXED,2017-04-05 17:08:44,600,49,10
+Bay Pky,An elevator,,Mezzanine To Downtown,OUTAGE,2017-03-24 07:09:03,FIXED,2017-03-24 07:58:40,49,315,3
+Bay Pky,An elevator,NW corner of Bay Parkway and 86th Street,Street To Mezzanine,OUTAGE,2017-03-15 12:08:29,FIXED,2017-03-15 18:18:27,369,315,3
+Bay Pky,An elevator,NW corner of Bay Parkway and 86th Street,Street To Mezzanine,OUTAGE,2017-03-16 21:18:30,FIXED,2017-03-17 06:08:26,529,315,3
+Bay Pky,An elevator,NW corner of Bay Parkway and 86th Street,Street To Mezzanine,OUTAGE,2017-03-18 02:48:23,FIXED,2017-03-18 04:48:31,120,315,3
+Bay Pky,An elevator,NW corner of Bay Parkway and 86th Street,Street To Mezzanine,OUTAGE,2017-03-21 11:38:53,FIXED,2017-03-21 15:09:45,210,315,3
+Bay Pky,An elevator,NW corner of Bay Parkway and 86th Street,Street To Mezzanine,OUTAGE,2017-03-22 12:28:40,FIXED,2017-03-22 16:09:15,220,315,3
+Bay Pky,An elevator,NW corner of Bay Parkway and 86th Street,Street To Mezzanine,OUTAGE,2017-03-24 02:38:44,FIXED,2017-03-24 06:48:33,249,315,3
+Bay Pky,An elevator,NW corner of Bay Parkway and 86th Street,Street To Mezzanine,OUTAGE,2017-03-26 20:48:45,FIXED,2017-03-27 00:09:20,200,315,3
+Bay Pky,An elevator,NW corner of Bay Parkway and 86th Street,Street To Mezzanine,OUTAGE,2017-03-28 17:18:50,FIXED,2017-03-29 04:28:26,600,315,3
+Bay Pky,An elevator,NW corner of Bay Parkway and 86th Street,Street To Mezzanine,OUTAGE,2017-04-01 16:18:31,FIXED,2017-04-01 22:28:47,370,315,3
+Bay Pky,An elevator,NW corner of Bay Parkway and 86th Street,Street To Mezzanine,OUTAGE,2017-04-06 11:09:11,FIXED,2017-04-06 21:48:33,600,315,3
+Bay Pky,An elevator,NW corner of Bay Parkway and 86th Street,Street To Mezzanine,OUTAGE,2017-04-07 17:09:10,FIXED,2017-04-07 22:08:44,299,315,3
+Borough Hall,An elevator,,Mezzanine To Uptown And Downtown Platforms,OUTAGE,2017-03-15 09:28:31,FIXED,2017-03-17 02:58:18,600,57,2
+Borough Hall,An elevator,,Mezzanine To Uptown And Downtown Platforms,OUTAGE,2017-03-19 03:38:28,FIXED,2017-03-19 04:38:37,60,57,2
+Borough Hall,An elevator,,Mezzanine To Uptown And Downtown Platforms,OUTAGE,2017-03-20 00:48:31,FIXED,2017-03-20 04:38:24,229,57,2
+Borough Hall,An elevator,,Mezzanine To Uptown And Downtown Platforms,OUTAGE,2017-03-27 10:38:21,FIXED,2017-03-27 18:58:31,500,57,2
+Borough Hall,An elevator,,Mezzanine To Uptown And Downtown Platforms,OUTAGE,2017-03-28 03:58:52,,,600,57,2
+Borough Hall,An elevator,,Mezzanine To Uptown And Downtown Platforms,OUTAGE,2017-03-30 03:58:41,FIXED,2017-03-30 08:38:43,280,57,2
+Borough Hall,An elevator,,Mezzanine To Uptown And Downtown Platforms,OUTAGE,2017-03-31 13:18:26,FIXED,2017-03-31 13:48:46,30,57,2
+Borough Hall,An elevator,,Mezzanine To Uptown And Downtown Platforms,OUTAGE,2017-04-05 04:09:29,FIXED,2017-04-05 05:58:25,108,57,2
+Borough Hall,An elevator,In front of Supreme Court Building at Court Street and Montague Street,Street To Mezzanine,OUTAGE,2017-03-23 03:58:37,FIXED,2017-03-23 04:38:47,40,57,2
+Borough Hall,An elevator,In front of Supreme Court Building at Court Street and Montague Street,Street To Mezzanine,OUTAGE,2017-03-27 13:18:38,,,600,57,2
+Borough Hall,An elevator,In front of Supreme Court Building at Court Street and Montague Street,Street To Mezzanine,OUTAGE,2017-03-30 17:28:44,FIXED,2017-03-30 18:38:48,70,57,2
+Borough Hall,An elevator,In front of Supreme Court Building at Court Street and Montague Street,Street To Mezzanine,OUTAGE,2017-03-31 13:48:45,,,600,57,2
+Borough Hall,An elevator,In front of Supreme Court Building at Court Street and Montague Street,Street To Mezzanine,OUTAGE,2017-04-03 06:48:26,,,600,57,2
+Borough Hall,An elevator,In front of Supreme Court Building at Court Street and Montague Street,Street To Mezzanine,OUTAGE,2017-04-08 12:28:29,,,600,57,2
+Brooklyn College - Flatbush Ave,An elevator,Corner of Flatbush Avenue and Nostrand Avenue,Street To Platforms,OUTAGE,2017-03-30 04:18:41,,,600,69,1
+Brooklyn College - Flatbush Ave,An elevator,Corner of Flatbush Avenue and Nostrand Avenue,Street To Platforms,OUTAGE,2017-03-31 03:58:46,,,600,69,1
+Brooklyn College - Flatbush Ave,An elevator,Corner of Flatbush Avenue and Nostrand Avenue,Street To Platforms,OUTAGE,2017-04-04 04:38:27,,,600,69,1
+Brooklyn College - Flatbush Ave,An elevator,Corner of Flatbush Avenue and Nostrand Avenue,Street To Platforms,OUTAGE,2017-04-05 04:18:52,FIXED,2017-04-07 00:08:59,600,69,1
+Brooklyn College - Flatbush Ave,An elevator,Corner of Flatbush Avenue and Nostrand Avenue,Street To Platforms,OUTAGE,2017-04-07 05:28:32,,,600,69,1
+Canal St,An elevator,NE corner of Canal Street and Lafayette Street,Street To Uptown Platform,OUTAGE,2017-03-21 03:58:26,FIXED,2017-03-21 09:28:33,330,436,2
+Canal St,An elevator,NE corner of Canal Street and Lafayette Street,Street To Uptown Platform,OUTAGE,2017-03-24 12:08:32,FIXED,2017-03-24 17:18:22,309,436,2
+Canal St,An elevator,NW corner of Canal Street and Lafayette Street,Street To Downtown Platform,OUTAGE,2017-03-15 04:28:27,,,600,436,2
+Canal St,An elevator,NW corner of Canal Street and Lafayette Street,Street To Downtown Platform,OUTAGE,2017-03-16 03:48:17,FIXED,2017-03-16 09:08:44,320,436,2
+Canal St,An elevator,NW corner of Canal Street and Lafayette Street,Street To Downtown Platform,OUTAGE,2017-03-20 03:38:44,FIXED,2017-03-20 08:58:19,319,436,2
+Chambers St,An elevator,,Mezzanine To Downtown,OUTAGE,2017-03-22 03:38:27,FIXED,2017-03-22 09:18:46,340,405,3
+Chambers St,An elevator,,Mezzanine To Downtown,OUTAGE,2017-03-26 03:38:29,FIXED,2017-03-26 09:28:37,350,405,3
+Chambers St,An elevator,,Mezzanine To Downtown,OUTAGE,2017-03-27 04:08:39,FIXED,2017-03-27 08:58:30,289,405,3
+Chambers St,An elevator,,Mezzanine To Downtown,OUTAGE,2017-03-28 03:38:45,FIXED,2017-03-28 09:09:18,330,405,3
+Chambers St,An elevator,,Mezzanine To Downtown,OUTAGE,2017-03-29 03:58:27,FIXED,2017-03-29 08:58:49,300,405,3
+Chambers St,An elevator,,Mezzanine To Downtown,OUTAGE,2017-04-05 08:38:24,FIXED,2017-04-05 09:09:03,30,405,3
+Chambers St,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-15 08:58:13,FIXED,2017-03-15 09:28:32,30,405,3
+Chambers St,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-16 03:48:17,FIXED,2017-03-16 08:58:19,310,405,3
+Chambers St,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-18 04:28:13,FIXED,2017-03-18 09:38:47,310,405,3
+Chambers St,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-19 23:48:44,FIXED,2017-03-20 01:48:51,120,405,3
+Chambers St,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-21 09:18:39,FIXED,2017-03-21 09:58:47,40,405,3
+Chambers St,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-29 20:48:22,FIXED,2017-03-30 00:18:45,210,405,3
+Chambers St,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-31 06:09:28,FIXED,2017-03-31 07:48:39,99,405,3
+Chambers St,An elevator,,Mezzanine To Uptown,OUTAGE,2017-04-05 05:48:19,FIXED,2017-04-05 07:28:14,99,405,3
+Chambers St,An elevator,NW corner of Hudson and Chambers Streets,Street To Mezzanine,OUTAGE,2017-03-17 22:08:26,FIXED,2017-03-17 23:38:18,89,405,3
+Chambers St,An elevator,NW corner of Hudson and Chambers Streets,Street To Mezzanine,OUTAGE,2017-03-25 06:38:39,FIXED,2017-03-25 08:58:38,139,405,3
+Chambers St,An elevator,NW corner of Hudson and Chambers Streets,Street To Mezzanine,OUTAGE,2017-04-05 04:18:52,FIXED,2017-04-05 05:38:19,79,405,3
+Church Ave,An elevator,,Mezzanine To Downtown,OUTAGE,2017-03-24 07:09:04,FIXED,2017-03-24 10:28:45,199,41,3
+Church Ave,An elevator,,Mezzanine To Downtown,OUTAGE,2017-04-01 18:58:27,FIXED,2017-04-01 23:18:49,260,41,3
+Church Ave,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-28 20:58:36,FIXED,2017-03-29 01:58:49,300,41,3
+Church Ave,An elevator,NW corner of Church Avenue and McDonald Avenue,Street To Mezzanine,OUTAGE,2017-04-04 04:48:46,FIXED,2017-04-04 08:28:31,219,41,3
+Church Ave,An elevator,NW corner of Church Avenue and McDonald Avenue,Street To Mezzanine,OUTAGE,2017-04-04 20:58:28,FIXED,2017-04-05 13:58:28,600,41,3
+Church Ave,An elevator,NW corner of Church Avenue and McDonald Avenue,Street To Mezzanine,OUTAGE,2017-04-05 16:18:30,,,600,41,3
+Church Ave,An elevator,SE corner of Church Avenue and Nostrand Avenue,Street To Uptown Platform,OUTAGE,2017-04-05 21:18:42,FIXED,2017-04-06 01:38:41,259,67,2
+Church Ave,An elevator,SW corner of Church Avenue and Nostrand Avenue,Street To Downtown Platform,OUTAGE,2017-03-26 04:18:18,FIXED,2017-03-26 08:58:46,280,67,2
+Coney Island - Stillwell Av,An elevator,,3 Landings,OUTAGE,2017-03-21 12:48:34,FIXED,2017-03-21 16:38:54,230,470,3
+Coney Island - Stillwell Av,An elevator,,3 Landings,OUTAGE,2017-03-22 04:28:40,FIXED,2017-03-22 08:38:37,249,470,3
+Coney Island - Stillwell Av,An elevator,,3 Landings,OUTAGE,2017-03-23 12:18:46,FIXED,2017-03-23 16:38:22,259,470,3
+Coney Island - Stillwell Av,An elevator,,Overpass To N Platform,OUTAGE,2017-03-15 19:38:29,FIXED,2017-03-16 06:38:31,600,470,3
+Coney Island - Stillwell Av,An elevator,,Overpass To N Platform,OUTAGE,2017-03-16 18:28:25,FIXED,2017-03-16 23:09:00,280,470,3
+Coney Island - Stillwell Av,An elevator,,Overpass To N Platform,OUTAGE,2017-03-17 12:28:25,FIXED,2017-03-17 16:58:46,270,470,3
+Coney Island - Stillwell Av,An elevator,,Overpass To N Platform,OUTAGE,2017-03-18 16:08:44,FIXED,2017-03-19 03:38:29,600,470,3
+Coney Island - Stillwell Av,An elevator,,Overpass To N Platform,OUTAGE,2017-03-19 14:28:20,FIXED,2017-03-20 00:48:32,600,470,3
+Coney Island - Stillwell Av,An elevator,,Overpass To N Platform,OUTAGE,2017-03-20 18:58:38,FIXED,2017-03-21 00:38:34,339,470,3
+Coney Island - Stillwell Av,An elevator,,Overpass To N Platform,OUTAGE,2017-03-21 11:48:31,FIXED,2017-03-21 17:18:29,329,470,3
+Coney Island - Stillwell Av,An elevator,,Overpass To N Platform,OUTAGE,2017-03-22 15:38:51,FIXED,2017-03-22 16:58:55,80,470,3
+Coney Island - Stillwell Av,An elevator,,Overpass To N Platform,OUTAGE,2017-03-23 13:18:22,FIXED,2017-03-26 08:58:46,600,470,3
+Court Sq,An elevator,,Level 2 To Mezzanine,OUTAGE,2017-03-29 07:19:01,FIXED,2017-03-29 09:09:04,110,14,3
+Court Sq,An elevator,,Street To Mezzanine,OUTAGE,2017-03-15 00:48:25,FIXED,2017-03-15 19:38:33,600,14,3
+Court Sq,An elevator,,Street To Mezzanine,OUTAGE,2017-03-15 00:48:25,FIXED,2017-03-15 19:38:33,600,14,3
+Court Sq,An elevator,,Street To Mezzanine,OUTAGE,2017-03-15 00:48:25,FIXED,2017-03-15 19:38:33,600,14,3
+Court Sq,An elevator,,Street To Mezzanine,OUTAGE,2017-03-16 03:08:27,FIXED,2017-03-18 01:28:16,600,14,3
+Court Sq,An elevator,,Street To Mezzanine,OUTAGE,2017-03-16 03:08:27,FIXED,2017-03-18 01:28:16,600,14,3
+Court Sq,An elevator,,Street To Mezzanine,OUTAGE,2017-03-16 03:08:27,FIXED,2017-03-18 01:28:16,600,14,3
+Court Sq,An elevator,,Street To Mezzanine,OUTAGE,2017-03-24 17:08:33,FIXED,2017-03-25 00:58:19,469,14,3
+Court Sq,An elevator,,Street To Mezzanine,OUTAGE,2017-03-24 17:08:33,FIXED,2017-03-25 00:58:19,469,14,3
+Court Sq,An elevator,,Street To Mezzanine,OUTAGE,2017-03-24 17:08:33,FIXED,2017-03-25 00:58:19,469,14,3
+Court Sq,An elevator,NE corner of Jackson Avenue and 23rd Street,Street To Mezzanine,OUTAGE,2017-03-15 23:58:18,FIXED,2017-03-16 02:58:26,180,14,3
+Court Sq,An elevator,NE corner of Jackson Avenue and 23rd Street,Street To Mezzanine,OUTAGE,2017-03-29 03:38:38,FIXED,2017-03-29 06:38:36,179,14,3
+Court Sq,An elevator,NE corner of Jackson Avenue and 23rd Street,Street To Mezzanine,OUTAGE,2017-04-03 19:28:54,FIXED,2017-04-03 23:18:58,230,14,3
+Crown Hts - Utica Ave,An elevator,,Mezzanine To Platforms,OUTAGE,2017-03-23 22:58:33,FIXED,2017-03-24 02:48:30,229,72,2
+Crown Hts - Utica Ave,An elevator,,Mezzanine To Platforms,OUTAGE,2017-03-26 04:38:32,,,600,72,2
+Crown Hts - Utica Ave,An elevator,,Mezzanine To Platforms,OUTAGE,2017-03-28 13:58:22,FIXED,2017-03-28 21:48:32,470,72,2
+Crown Hts - Utica Ave,An elevator,,Mezzanine To Platforms,OUTAGE,2017-03-31 13:28:58,FIXED,2017-03-31 19:09:21,340,72,2
+Crown Hts - Utica Ave,An elevator,,Mezzanine To Platforms,OUTAGE,2017-04-05 19:48:28,FIXED,2017-04-07 00:08:58,260,72,2
+Crown Hts - Utica Ave,An elevator,,Mezzanine To Platforms,OUTAGE,2017-04-07 22:48:40,FIXED,2017-04-08 00:18:17,89,72,2
+Crown Hts - Utica Ave,An elevator,Corner of Utica Avenue and Eastern Parkway,Street To Mezzanine,OUTAGE,2017-03-20 00:58:53,FIXED,2017-03-20 19:38:45,600,72,2
+Crown Hts - Utica Ave,An elevator,Corner of Utica Avenue and Eastern Parkway,Street To Mezzanine,OUTAGE,2017-04-02 03:48:32,FIXED,2017-04-02 09:08:53,320,72,2
+Crown Hts - Utica Ave,An elevator,Corner of Utica Avenue and Eastern Parkway,Street To Mezzanine,OUTAGE,2017-04-03 03:58:34,FIXED,2017-04-03 09:18:49,320,72,2
+DeKalb Ave,An elevator,SE corner of DeKalb Avenue and Flatbush Avenue,Street To Mezzanine,OUTAGE,2017-03-30 04:38:29,FIXED,2017-03-30 08:48:39,250,59,3
+Dyckman St,An elevator,SW corner of Hillside Avenue and St. Nicholas Avenue/Ft. George Hill,Street To Downtown Platform,OUTAGE,2017-03-27 16:09:03,,,600,277,1
+E 180th St,An elevator,NW corner of East 180th Street and Morris Park Avenue (inside station house),Street To Downtown Platform,OUTAGE,2017-03-18 02:48:24,,,600,276,2
+E 180th St,An elevator,NW corner of East 180th Street and Morris Park Avenue (inside station house),Street To Downtown Platform,OUTAGE,2017-03-31 03:18:44,,,600,276,2
+Euclid Ave,An elevator,,Mezzanine To Downtown,OUTAGE,2017-03-18 04:28:13,FIXED,2017-03-18 08:58:31,270,460,3
+Euclid Ave,An elevator,,Mezzanine To Downtown,OUTAGE,2017-03-19 05:18:41,FIXED,2017-03-19 08:28:30,189,460,3
+Euclid Ave,An elevator,,Mezzanine To Downtown,OUTAGE,2017-03-24 03:38:47,FIXED,2017-03-24 07:18:44,219,460,3
+Euclid Ave,An elevator,,Mezzanine To Uptown,OUTAGE,2017-04-07 14:08:40,,,600,460,3
+Euclid Ave,An elevator,NE corner of Euclid Avenue and Pitkin Avenue,Street To Mezzanine,OUTAGE,2017-03-15 05:08:51,FIXED,2017-03-15 09:08:34,239,460,3
+Euclid Ave,An elevator,NE corner of Euclid Avenue and Pitkin Avenue,Street To Mezzanine,OUTAGE,2017-03-29 20:18:41,FIXED,2017-03-30 01:08:40,289,460,3
+Euclid Ave,An elevator,NE corner of Euclid Avenue and Pitkin Avenue,Street To Mezzanine,OUTAGE,2017-03-30 04:48:27,,,600,460,3
+Far Rockaway - Mott Ave,An elevator,Corner of Mott Avenue and Beach 22nd Street (Inside station house),Street To Platform,OUTAGE,2017-03-19 05:28:22,,,600,194,2
+Far Rockaway - Mott Ave,An elevator,Corner of Mott Avenue and Beach 22nd Street (Inside station house),Street To Platform,OUTAGE,2017-03-19 05:28:22,,,600,194,2
+Far Rockaway - Mott Ave,An elevator,Corner of Mott Avenue and Beach 22nd Street (Inside station house),Street To Platform,OUTAGE,2017-03-20 14:18:28,,,600,194,2
+Far Rockaway - Mott Ave,An elevator,Corner of Mott Avenue and Beach 22nd Street (Inside station house),Street To Platform,OUTAGE,2017-03-20 14:18:28,,,600,194,2
+Far Rockaway - Mott Ave,An elevator,Corner of Mott Avenue and Beach 22nd Street (Inside station house),Street To Platform,OUTAGE,2017-03-21 13:58:25,FIXED,2017-03-28 18:48:52,290,194,2
+Far Rockaway - Mott Ave,An elevator,Corner of Mott Avenue and Beach 22nd Street (Inside station house),Street To Platform,OUTAGE,2017-03-21 13:58:25,FIXED,2017-03-28 18:48:52,290,194,2
+Far Rockaway - Mott Ave,An elevator,Corner of Mott Avenue and Beach 22nd Street (Inside station house),Street To Platform,OUTAGE,2017-03-29 13:48:33,,,600,194,2
+Far Rockaway - Mott Ave,An elevator,Corner of Mott Avenue and Beach 22nd Street (Inside station house),Street To Platform,OUTAGE,2017-03-29 13:48:33,,,600,194,2
+Far Rockaway - Mott Ave,An elevator,Corner of Mott Avenue and Beach 22nd Street (Inside station house),Street To Platform,OUTAGE,2017-03-30 22:18:49,,,600,194,2
+Far Rockaway - Mott Ave,An elevator,Corner of Mott Avenue and Beach 22nd Street (Inside station house),Street To Platform,OUTAGE,2017-03-30 22:18:49,,,600,194,2
+Far Rockaway - Mott Ave,An elevator,Corner of Mott Avenue and Beach 22nd Street (Inside station house),Street To Platform,OUTAGE,2017-04-01 05:18:48,,,600,194,2
+Far Rockaway - Mott Ave,An elevator,Corner of Mott Avenue and Beach 22nd Street (Inside station house),Street To Platform,OUTAGE,2017-04-01 05:18:48,,,600,194,2
+Far Rockaway - Mott Ave,An elevator,Corner of Mott Avenue and Beach 22nd Street (Inside station house),Street To Platform,OUTAGE,2017-04-08 04:38:23,,,600,194,2
+Far Rockaway - Mott Ave,An elevator,Corner of Mott Avenue and Beach 22nd Street (Inside station house),Street To Platform,OUTAGE,2017-04-08 04:38:23,,,600,194,2
+Flushing Ave,An elevator,,Mezzanine To Downtown,OUTAGE,2017-03-19 19:28:49,FIXED,2017-03-19 21:48:34,139,373,3
+Flushing Ave,An elevator,,Mezzanine To Downtown,OUTAGE,2017-03-26 12:28:48,FIXED,2017-03-26 16:38:31,249,373,3
+Flushing Ave,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-15 05:48:22,FIXED,2017-03-15 08:18:25,150,373,3
+Flushing Ave,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-15 08:48:21,FIXED,2017-04-01 16:28:37,460,373,3
+Flushing Ave,An elevator,,Mezzanine To Uptown,OUTAGE,2017-04-02 01:08:37,,,600,373,3
+Flushing Ave,An elevator,,Mezzanine To Uptown,OUTAGE,2017-04-05 20:48:21,FIXED,2017-04-06 18:38:20,600,373,3
+Flushing Ave,An elevator,SW corner of Flushing Avenue and Broadway,Street To Mezzanine,OUTAGE,2017-03-15 02:48:33,FIXED,2017-03-15 08:38:19,349,373,3
+Flushing Ave,An elevator,SW corner of Flushing Avenue and Broadway,Street To Mezzanine,OUTAGE,2017-03-15 13:28:34,,,600,373,3
+Flushing Ave,An elevator,SW corner of Flushing Avenue and Broadway,Street To Mezzanine,OUTAGE,2017-03-18 19:08:41,FIXED,2017-03-18 20:08:34,59,373,3
+Flushing Ave,An elevator,SW corner of Flushing Avenue and Broadway,Street To Mezzanine,OUTAGE,2017-03-19 19:28:49,FIXED,2017-03-20 00:48:32,319,373,3
+Flushing Ave,An elevator,SW corner of Flushing Avenue and Broadway,Street To Mezzanine,OUTAGE,2017-03-25 04:48:39,FIXED,2017-03-25 07:18:27,149,373,3
+Fordham Rd,An elevator,,Mezzanine To Downtown,OUTAGE,2017-04-04 14:18:41,FIXED,2017-04-04 15:09:51,51,409,3
+Fordham Rd,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-20 15:28:54,FIXED,2017-03-20 19:38:45,249,409,3
+Fordham Rd,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-21 17:48:29,FIXED,2017-03-21 21:38:24,229,409,3
+Fordham Rd,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-30 03:38:46,FIXED,2017-03-30 09:38:28,359,409,3
+Fordham Rd,An elevator,SE corner of Jerome Avenue and Fordham Road,Street To Mezzanine,OUTAGE,2017-03-28 17:28:36,FIXED,2017-03-28 20:48:33,199,409,3
+Forest Hills - 71st Av,An elevator,,Mezzanine To Southbound Platform,OUTAGE,2017-03-21 05:08:56,FIXED,2017-03-21 08:38:35,209,223,3
+Forest Hills - 71st Av,An elevator,,Mezzanine To Southbound Platform,OUTAGE,2017-03-27 20:48:51,FIXED,2017-03-28 00:10:04,201,223,3
+Forest Hills - 71st Av,An elevator,,Mezzanine To Southbound Platform,OUTAGE,2017-04-05 14:38:49,FIXED,2017-04-05 15:38:38,59,223,3
+Forest Hills - 71st Av,An elevator,,Mezzanine To Southbound Platform,OUTAGE,2017-04-06 14:38:45,FIXED,2017-04-06 16:18:31,99,223,3
+Forest Hills - 71st Av,An elevator,South side of Queens Boulevard between 70th Road and 71st Avenue,Street To Mezzanine All Trains,OUTAGE,2017-03-28 12:38:50,FIXED,2017-03-29 19:09:16,390,223,3
+Forest Hills - 71st Av,An elevator,South side of Queens Boulevard between 70th Road and 71st Avenue,Street To Mezzanine All Trains,OUTAGE,2017-03-31 17:09:06,,,600,223,3
+Forest Hills - 71st Av,An elevator,South side of Queens Boulevard between 70th Road and 71st Avenue,Street To Mezzanine All Trains,OUTAGE,2017-04-01 14:09:13,,,600,223,3
+Franklin Ave,An elevator,SW corner of Fulton Street and Franklin Avenue,Street To Downtown C Platform And S Platform,OUTAGE,2017-04-03 21:38:53,,,600,280,2
+Grand Central - 42nd St,An elevator,,Mezzanine To 7 Platform,OUTAGE,2017-03-22 03:58:24,FIXED,2017-03-22 04:18:36,20,471,4
+Grand Central - 42nd St,An elevator,,Mezzanine To 7 Platform,OUTAGE,2017-03-23 04:38:44,FIXED,2017-03-23 05:18:47,40,471,4
+Grand Central - 42nd St,An elevator,,Mezzanine To 7 Platform,OUTAGE,2017-03-28 04:39:01,FIXED,2017-03-28 05:09:00,29,471,4
+Grand Central - 42nd St,An elevator,,Mezzanine To 7 Platform,OUTAGE,2017-03-29 04:18:21,FIXED,2017-03-29 04:48:33,30,471,4
+Grand Central - 42nd St,An elevator,,Mezzanine To 7 Platform,OUTAGE,2017-03-30 04:28:40,FIXED,2017-03-30 04:48:28,19,471,4
+Grand Central - 42nd St,An elevator,,Mezzanine To 7 Platform,OUTAGE,2017-03-31 04:08:28,FIXED,2017-03-31 04:49:38,41,471,4
+Grand Central - 42nd St,An elevator,,Mezzanine To 7 Platform,OUTAGE,2017-04-03 04:38:48,FIXED,2017-04-03 04:58:48,20,471,4
+Grand Central - 42nd St,An elevator,,Mezzanine To 7 Platform,OUTAGE,2017-04-04 03:48:38,FIXED,2017-04-04 03:58:23,9,471,4
+Grand Central - 42nd St,An elevator,,Mezzanine To 7 Platform,OUTAGE,2017-04-05 04:09:29,FIXED,2017-04-05 04:28:56,19,471,4
+Grand Central - 42nd St,An elevator,,Mezzanine To 7 Platform,OUTAGE,2017-04-06 04:28:26,FIXED,2017-04-06 05:48:30,80,471,4
+Grand Central - 42nd St,An elevator,,Mezzanine To 7 Platform,OUTAGE,2017-04-07 05:38:30,FIXED,2017-04-07 06:18:19,39,471,4
+Grand Central - 42nd St,An elevator,,"Mezzanine To Downtown 4,5,6 Platform",OUTAGE,2017-03-15 11:28:30,FIXED,2017-03-15 14:48:45,200,471,4
+Grand Central - 42nd St,An elevator,,"Mezzanine To Downtown 4,5,6 Platform",OUTAGE,2017-03-16 06:58:26,FIXED,2017-03-16 07:28:15,29,471,4
+Grand Central - 42nd St,An elevator,,"Mezzanine To Downtown 4,5,6 Platform",OUTAGE,2017-03-20 03:48:38,FIXED,2017-03-20 09:08:26,319,471,4
+Grand Central - 42nd St,An elevator,,"Mezzanine To Downtown 4,5,6 Platform",OUTAGE,2017-03-21 03:58:25,FIXED,2017-03-21 09:08:32,310,471,4
+Grand Central - 42nd St,An elevator,,"Mezzanine To Downtown 4,5,6 Platform",OUTAGE,2017-04-05 16:18:30,FIXED,2017-04-05 16:28:30,10,471,4
+Grand Central - 42nd St,An elevator,,"Mezzanine To Downtown 4,5,6 Platform",OUTAGE,2017-04-06 09:28:22,FIXED,2017-04-06 09:38:46,10,471,4
+Grand Central - 42nd St,An elevator,,"Mezzanine To Uptown 4,5,6 Platform",OUTAGE,2017-04-05 16:58:45,FIXED,2017-04-05 17:18:15,19,471,4
+Grand Central - 42nd St,An elevator,,Street To Terminal/Mezzanine,OUTAGE,2017-03-23 03:58:36,FIXED,2017-03-23 06:48:41,170,471,4
+Grand Central - 42nd St,An elevator,,Street To Terminal/Mezzanine,OUTAGE,2017-04-01 04:18:44,FIXED,2017-04-03 08:38:47,260,471,4
+Grand Central - 42nd St,An elevator,,Street To Terminal/Mezzanine,OUTAGE,2017-04-03 09:08:44,,,600,471,4
+Grand Central - 42nd St,An elevator,,Street To Terminal/Mezzanine,OUTAGE,2017-04-04 19:28:56,FIXED,2017-04-05 21:28:43,119,471,4
+Grand Central - 42nd St,An elevator,,Street To Terminal/Mezzanine,OUTAGE,2017-04-05 23:09:12,,,600,471,4
+Grand Central - 42nd St,An elevator,,Street To Terminal/Mezzanine,OUTAGE,2017-04-06 13:48:45,FIXED,2017-04-06 16:18:32,149,471,4
+Grand Central - 42nd St,An elevator,,Street To Terminal/Mezzanine,OUTAGE,2017-04-08 02:18:39,,,600,471,4
+Gun Hill Rd,An elevator,Inside main entrance on White Plains Road between Gun Hill Road and 211 Street,Street To Mezzanine And Downtown Platform,OUTAGE,2017-03-24 20:28:32,FIXED,2017-03-26 01:38:33,310,262,2
+Gun Hill Rd,An elevator,Inside main entrance on White Plains Road between Gun Hill Road and 211 Street,Street To Mezzanine And Downtown Platform,OUTAGE,2017-03-29 03:28:47,,,600,262,2
+Gun Hill Rd,An elevator,Inside main entrance on White Plains Road between Gun Hill Road and 211 Street,Street To Mezzanine And Downtown Platform,OUTAGE,2017-03-30 03:58:42,,,600,262,2
+Herald Sq - 34th St,An elevator,,Mezzanine To Downtown,OUTAGE,2017-03-30 16:58:44,FIXED,2017-03-31 09:08:34,600,84,5
+Herald Sq - 34th St,An elevator,,Mezzanine To Downtown,OUTAGE,2017-03-30 16:58:44,FIXED,2017-03-31 09:08:34,600,84,5
+Herald Sq - 34th St,An elevator,,Mezzanine To Downtown,OUTAGE,2017-04-05 16:18:30,FIXED,2017-04-05 17:38:28,79,84,5
+Herald Sq - 34th St,An elevator,,Mezzanine To Downtown,OUTAGE,2017-04-05 16:18:30,FIXED,2017-04-05 17:38:28,79,84,5
+Herald Sq - 34th St,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-15 03:08:55,FIXED,2017-03-15 09:08:34,359,84,5
+Herald Sq - 34th St,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-15 03:08:55,FIXED,2017-03-15 09:08:34,359,84,5
+Herald Sq - 34th St,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-22 03:38:27,FIXED,2017-03-22 09:18:46,340,84,5
+Herald Sq - 34th St,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-22 03:38:27,FIXED,2017-03-22 09:18:46,340,84,5
+Herald Sq - 34th St,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-23 04:08:46,FIXED,2017-03-23 09:18:54,310,84,5
+Herald Sq - 34th St,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-23 04:08:46,FIXED,2017-03-23 09:18:54,310,84,5
+Herald Sq - 34th St,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-31 13:48:45,FIXED,2017-03-31 15:28:50,100,84,5
+Herald Sq - 34th St,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-31 13:48:45,FIXED,2017-03-31 15:28:50,100,84,5
+Herald Sq - 34th St,An elevator,,Mezzanine To Uptown,OUTAGE,2017-04-02 13:18:54,FIXED,2017-04-02 16:28:54,190,84,5
+Herald Sq - 34th St,An elevator,,Mezzanine To Uptown,OUTAGE,2017-04-02 13:18:54,FIXED,2017-04-02 16:28:54,190,84,5
+Herald Sq - 34th St,An elevator,Herald Center building on west side of Broadway south of 34th Street,Street To Mezzanine,OUTAGE,2017-03-21 20:48:28,FIXED,2017-03-22 08:28:36,600,84,5
+Herald Sq - 34th St,An elevator,Herald Center building on west side of Broadway south of 34th Street,Street To Mezzanine,OUTAGE,2017-04-02 18:28:48,,,600,84,5
+Herald Sq - 34th St,An elevator,Herald Center building on west side of Broadway south of 34th Street,Street To Mezzanine,OUTAGE,2017-04-06 13:08:59,FIXED,2017-04-06 14:48:30,99,84,5
+Howard Beach - JFK Airport,An elevator,Coleman Square and 159th Avenue,Street To Mezzanine,OUTAGE,2017-03-16 08:48:21,FIXED,2017-03-16 23:38:18,600,219,3
+Hunts Point Ave,An elevator,,Northbound Platform To Mezzanine,OUTAGE,2017-03-14 22:38:40,,,600,10,3
+Hunts Point Ave,An elevator,,Northbound Platform To Mezzanine,OUTAGE,2017-03-21 22:18:54,FIXED,2017-03-21 22:38:50,19,10,3
+Hunts Point Ave,An elevator,,Northbound Platform To Mezzanine,OUTAGE,2017-03-26 11:18:21,FIXED,2017-03-27 01:08:51,600,10,3
+Hunts Point Ave,An elevator,,Southbound Platform To Mezzanine,OUTAGE,2017-03-14 22:38:40,,,600,10,3
+Hunts Point Ave,An elevator,,Southbound Platform To Mezzanine,OUTAGE,2017-03-21 18:09:13,FIXED,2017-03-21 22:28:50,259,10,3
+Hunts Point Ave,An elevator,,Southbound Platform To Mezzanine,OUTAGE,2017-03-26 05:48:51,FIXED,2017-03-26 11:08:49,319,10,3
+Hunts Point Ave,An elevator,Hunts Point Avenue between Bruckner Boulevard and East 163rd Street,Street To Mezzanine,OUTAGE,2017-03-18 07:28:39,,,600,10,3
+Hunts Point Ave,An elevator,Hunts Point Avenue between Bruckner Boulevard and East 163rd Street,Street To Mezzanine,OUTAGE,2017-03-24 03:38:48,,,600,10,3
+Inwood - 207th St,An elevator,SW corner of Broadway and 207th Street,Street To Mezzanine,OUTAGE,2017-03-16 20:28:35,FIXED,2017-03-16 22:48:45,140,256,2
+Inwood - 207th St,An elevator,SW corner of Broadway and 207th Street,Street To Mezzanine,OUTAGE,2017-04-04 21:49:06,FIXED,2017-04-05 00:48:49,179,256,2
+Jamaica - 179th St,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-16 00:48:22,FIXED,2017-03-16 01:09:01,20,269,3
+Jamaica - 179th St,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-16 00:48:22,FIXED,2017-03-16 01:09:01,20,269,3
+Jamaica - 179th St,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-16 13:58:39,FIXED,2017-03-16 18:48:18,289,269,3
+Jamaica - 179th St,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-16 13:58:39,FIXED,2017-03-16 18:48:18,289,269,3
+Jamaica - 179th St,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-18 13:48:34,FIXED,2017-03-18 14:48:46,60,269,3
+Jamaica - 179th St,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-18 13:48:34,FIXED,2017-03-18 14:48:46,60,269,3
+Jamaica - 179th St,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-22 15:10:06,FIXED,2017-03-22 19:38:37,268,269,3
+Jamaica - 179th St,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-22 15:10:06,FIXED,2017-03-22 19:38:37,268,269,3
+Jamaica - 179th St,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-25 15:08:58,FIXED,2017-03-25 16:08:19,59,269,3
+Jamaica - 179th St,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-25 15:08:58,FIXED,2017-03-25 16:08:19,59,269,3
+Jamaica - 179th St,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-25 20:08:49,,,600,269,3
+Jamaica - 179th St,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-25 20:08:49,,,600,269,3
+Jamaica - 179th St,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-27 17:28:52,FIXED,2017-03-27 22:28:58,300,269,3
+Jamaica - 179th St,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-27 17:28:52,FIXED,2017-03-27 22:28:58,300,269,3
+Jamaica - 179th St,An elevator,,Mezzanine To Platform,OUTAGE,2017-04-07 00:28:40,FIXED,2017-04-07 01:38:30,69,269,3
+Jamaica - 179th St,An elevator,,Mezzanine To Platform,OUTAGE,2017-04-07 00:28:40,FIXED,2017-04-07 01:38:30,69,269,3
+Jamaica - 179th St,An elevator,SE corner of 179th Place and Hillside Avenue,Street To Mezzanine,OUTAGE,2017-03-21 03:58:25,FIXED,2017-03-21 08:58:37,300,269,3
+Jamaica - 179th St,An elevator,SE corner of 179th Place and Hillside Avenue,Street To Mezzanine,OUTAGE,2017-03-22 03:58:24,FIXED,2017-03-22 08:58:34,300,269,3
+Jamaica - 179th St,An elevator,SE corner of 179th Place and Hillside Avenue,Street To Mezzanine,OUTAGE,2017-03-30 15:48:23,FIXED,2017-03-30 19:08:31,200,269,3
+Jamaica - 179th St,An elevator,SE corner of 179th Place and Hillside Avenue,Street To Mezzanine,OUTAGE,2017-04-03 14:38:50,FIXED,2017-04-03 17:18:29,159,269,3
+Jamaica - Van Wyck,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-24 06:18:33,FIXED,2017-03-24 07:58:41,100,225,2
+Jamaica - Van Wyck,An elevator,Corner of 89th Avenue and the Van Wyck Expressway south service road,Street to Mezzanine,OUTAGE,2017-03-24 08:08:41,FIXED,2017-03-24 09:18:50,70,225,2
+Jamaica Ctr - Parsons / Archer,An elevator,,Mezzanine To Platforms,OUTAGE,2017-03-25 10:58:44,FIXED,2017-03-25 13:58:33,179,226,2
+Jamaica Ctr - Parsons / Archer,An elevator,,Mezzanine To Platforms,OUTAGE,2017-03-27 01:18:47,FIXED,2017-03-27 05:28:45,249,226,2
+Jamaica Ctr - Parsons / Archer,An elevator,,Mezzanine To Platforms,OUTAGE,2017-03-30 19:18:43,FIXED,2017-03-30 20:58:36,99,226,2
+Jamaica Ctr - Parsons / Archer,An elevator,,Mezzanine To Platforms,OUTAGE,2017-04-06 09:48:24,FIXED,2017-04-06 14:38:52,290,226,2
+Jamaica Ctr - Parsons / Archer,An elevator,,Mezzanine To Platforms,OUTAGE,2017-04-07 02:18:31,FIXED,2017-04-07 03:08:13,49,226,2
+Jay St - Metrotech,An elevator,,Mezzanine And Downtown,OUTAGE,2017-03-22 06:28:48,FIXED,2017-03-22 08:48:41,139,369,4
+Jay St - Metrotech,An elevator,,Mezzanine And Uptown,OUTAGE,2017-04-05 17:08:42,FIXED,2017-04-05 22:08:50,300,369,4
+Jay St - Metrotech,An elevator,NE corner of Jay and Willoughby Streets,Street To Mezzanine,OUTAGE,2017-03-22 03:48:51,FIXED,2017-03-22 06:09:43,140,369,4
+Jay St - Metrotech,An elevator,NE corner of Jay and Willoughby Streets,Street To Mezzanine,OUTAGE,2017-03-25 23:18:28,FIXED,2017-03-26 00:28:20,69,369,4
+Jay St - Metrotech,An elevator,NE corner of Jay and Willoughby Streets,Street To Mezzanine,OUTAGE,2017-03-30 18:48:39,FIXED,2017-03-30 21:18:52,150,369,4
+Jay St - Metrotech,An elevator,NE corner of Jay and Willoughby Streets,Street To Mezzanine,OUTAGE,2017-03-31 20:48:42,FIXED,2017-03-31 21:09:09,20,369,4
+Junction Blvd,An elevator,,Overpass To Uptown Platform,OUTAGE,2017-03-18 04:38:27,FIXED,2017-03-18 06:58:14,139,35,3
+Junction Blvd,An elevator,,Overpass To Uptown Platform,OUTAGE,2017-03-23 15:28:25,FIXED,2017-03-23 18:48:57,200,35,3
+Junction Blvd,An elevator,,Overpass To Uptown Platform,OUTAGE,2017-03-25 21:58:30,FIXED,2017-03-25 22:48:35,50,35,3
+Junction Blvd,An elevator,,Overpass To Uptown Platform,OUTAGE,2017-03-27 19:58:36,FIXED,2017-03-27 21:58:50,120,35,3
+Junction Blvd,An elevator,,Overpass To Uptown Platform,OUTAGE,2017-03-30 19:48:53,FIXED,2017-03-31 00:18:44,269,35,3
+Junction Blvd,An elevator,,Overpass To Uptown Platform,OUTAGE,2017-04-06 13:28:30,FIXED,2017-04-06 16:48:29,199,35,3
+Junction Blvd,An elevator,,Overpass To Uptown Platform,OUTAGE,2017-04-08 04:58:33,FIXED,2017-04-08 09:48:33,290,35,3
+Kew Gardens - Union Tpke,An elevator,,Mezzanine To Uptown,OUTAGE,2017-04-01 03:38:50,FIXED,2017-04-01 05:18:50,100,114,3
+Kew Gardens - Union Tpke,An elevator,SE corner of Union Turnpike and Kew Gardens Road,Street To Mezzanine,OUTAGE,2017-03-15 15:18:22,FIXED,2017-03-16 05:28:17,600,114,3
+Kew Gardens - Union Tpke,An elevator,SE corner of Union Turnpike and Kew Gardens Road,Street To Mezzanine,OUTAGE,2017-03-29 03:28:47,,,600,114,3
+Kew Gardens - Union Tpke,An elevator,SE corner of Union Turnpike and Kew Gardens Road,Street To Mezzanine,OUTAGE,2017-03-30 02:28:25,,,600,114,3
+Kings Hwy,An elevator,Kings Highway between 15th and 16th Streets (Inside station house),Street To Downtown Platform,OUTAGE,2017-03-21 02:48:48,,,600,331,2
+Kingsbridge Rd,An elevator,,Mezzanine To Southbound Platform,OUTAGE,2017-03-19 00:18:41,FIXED,2017-03-19 04:08:53,230,250,3
+Kingsbridge Rd,An elevator,,Mezzanine To Southbound Platform,OUTAGE,2017-04-01 08:58:44,FIXED,2017-04-01 11:48:48,170,250,3
+Kingsbridge Rd,An elevator,,Northbound Platform To Mezzanine,OUTAGE,2017-03-28 18:48:51,FIXED,2017-03-28 22:38:33,229,250,3
+Kingsbridge Rd,An elevator,,Northbound Platform To Mezzanine,OUTAGE,2017-03-30 10:08:50,FIXED,2017-03-30 16:18:50,370,250,3
+Kingsbridge Rd,An elevator,,Northbound Platform To Mezzanine,OUTAGE,2017-04-03 03:48:29,FIXED,2017-04-03 09:18:49,330,250,3
+Kingsbridge Rd,An elevator,,Northbound Platform To Mezzanine,OUTAGE,2017-04-04 03:48:38,,,600,250,3
+Kingsbridge Rd,An elevator,NE corner of E. Kingsbridge Road and Grand Concourse,Street To Mezzanine,OUTAGE,2017-03-29 19:28:50,FIXED,2017-03-29 23:28:40,239,250,3
+Lexington Ave - 53rd St,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-26 16:48:38,FIXED,2017-03-26 17:28:32,39,82,1
+Lexington Ave - 63rd St,An elevator,,Mezzanine To Downtown And Downtown To Uptown Platform,OUTAGE,2017-03-24 14:58:56,FIXED,2017-03-24 18:28:46,209,352,2
+Lexington Ave - 63rd St,An elevator,,Mezzanine To Downtown And Downtown To Uptown Platform,OUTAGE,2017-04-01 22:58:45,FIXED,2017-04-01 23:09:10,10,352,2
+Lexington Ave - 63rd St,An elevator,,Mezzanine To Downtown And Downtown To Uptown Platform,OUTAGE,2017-04-03 13:58:38,FIXED,2017-04-03 15:28:53,90,352,2
+Lexington Ave - 63rd St,An elevator,,Mezzanine To Downtown And Downtown To Uptown Platform,OUTAGE,2017-04-06 14:38:45,FIXED,2017-04-06 16:18:31,99,352,2
+Marcy Ave,An elevator,Corner of Marcy Avenue and Broadway,Street To Mezzanine And Downtown Platform,OUTAGE,2017-04-06 20:28:17,FIXED,2017-04-06 23:28:18,180,77,2
+Marcy Ave,An elevator,Corner of Marcy Avenue and Broadway,Street To Mezzanine And Downtown Platform,OUTAGE,2017-04-08 03:38:18,FIXED,2017-04-08 09:18:55,340,77,2
+Myrtle - Wyckoff Ave,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-15 04:38:23,FIXED,2017-03-15 06:48:34,130,178,3
+Myrtle - Wyckoff Ave,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-16 12:48:20,FIXED,2017-03-16 18:58:39,370,178,3
+Myrtle - Wyckoff Ave,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-17 06:38:33,FIXED,2017-03-17 16:48:32,600,178,3
+Myrtle - Wyckoff Ave,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-18 03:38:23,FIXED,2017-03-18 07:38:25,240,178,3
+Myrtle - Wyckoff Ave,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-20 21:18:25,FIXED,2017-03-20 23:48:46,150,178,3
+Myrtle - Wyckoff Ave,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-28 14:48:27,FIXED,2017-03-28 16:58:40,130,178,3
+Myrtle - Wyckoff Ave,An elevator,,Mezzanine To Platform,OUTAGE,2017-04-01 16:38:43,FIXED,2017-04-02 20:08:59,210,178,3
+Myrtle - Wyckoff Ave,An elevator,,Transfer Passageway Mezzanine To Platform,OUTAGE,2017-03-15 04:48:15,FIXED,2017-03-15 07:28:16,160,178,3
+Myrtle - Wyckoff Ave,An elevator,,Transfer Passageway Mezzanine To Platform,OUTAGE,2017-03-16 16:08:35,FIXED,2017-03-16 22:38:41,390,178,3
+Myrtle - Wyckoff Ave,An elevator,Intersection of Myrtle/Wyckoff Avenues (Inside station house),Street To Mezzanine And M Transfer Passageway,OUTAGE,2017-03-20 19:08:54,,,600,178,3
+Myrtle - Wyckoff Ave,An elevator,Intersection of Myrtle/Wyckoff Avenues (Inside station house),Street To Mezzanine And M Transfer Passageway,OUTAGE,2017-03-28 04:09:04,,,600,178,3
+Myrtle - Wyckoff Ave,An elevator,Intersection of Myrtle/Wyckoff Avenues (Inside station house),Street To Mezzanine And M Transfer Passageway,OUTAGE,2017-03-29 04:08:48,,,600,178,3
+Myrtle - Wyckoff Ave,An elevator,Intersection of Myrtle/Wyckoff Avenues (Inside station house),Street To Mezzanine And M Transfer Passageway,OUTAGE,2017-04-07 04:28:42,FIXED,2017-04-07 10:09:11,340,178,3
+Pelham Bay Park,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-31 03:28:44,FIXED,2017-03-31 09:28:22,359,163,2
+Pelham Bay Park,An elevator,,Mezzanine To Platform,OUTAGE,2017-04-01 04:18:47,FIXED,2017-04-01 09:18:40,299,163,2
+Pelham Bay Park,An elevator,,Mezzanine To Platform,OUTAGE,2017-04-06 06:48:40,FIXED,2017-04-06 07:38:31,49,163,2
+Pelham Pkwy,An elevator,,Mezzanine To Downtown,OUTAGE,2017-03-25 04:18:47,FIXED,2017-03-25 09:38:46,319,241,3
+Pelham Pkwy,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-16 13:38:22,FIXED,2017-03-16 16:48:27,190,241,3
+Pelham Pkwy,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-17 04:58:37,FIXED,2017-03-17 08:08:34,189,241,3
+Pelham Pkwy,An elevator,SW corner of Pelham Parkway and White Plains Road,Street To Mezzanine,OUTAGE,2017-03-22 12:58:49,FIXED,2017-03-22 17:28:50,270,241,3
+Pelham Pkwy,An elevator,SW corner of Pelham Parkway and White Plains Road,Street To Mezzanine,OUTAGE,2017-03-23 21:28:27,FIXED,2017-03-24 01:38:56,250,241,3
+Pelham Pkwy,An elevator,SW corner of Pelham Parkway and White Plains Road,Street To Mezzanine,OUTAGE,2017-03-24 12:38:49,FIXED,2017-03-24 14:59:10,140,241,3
+Pelham Pkwy,An elevator,SW corner of Pelham Parkway and White Plains Road,Street To Mezzanine,OUTAGE,2017-03-30 21:58:45,FIXED,2017-04-03 18:28:55,600,241,3
+Prospect Park,An elevator,Lincoln Road between Flatbush Avenue and Ocean Avenue,Street To Downtown Platform,OUTAGE,2017-04-02 03:48:33,,,600,46,2
+Prospect Park,An elevator,Lincoln Road between Flatbush Avenue and Ocean Avenue,Street To Downtown Platform,OUTAGE,2017-04-08 03:48:23,FIXED,2017-04-08 09:18:54,330,46,2
+Prospect Park,An elevator,Lincoln Road between Flatbush Avenue and Ocean Avenue,Street To Uptown Platform,OUTAGE,2017-04-03 05:38:46,FIXED,2017-04-04 00:48:53,600,46,2
+Prospect Park,An elevator,Lincoln Road between Flatbush Avenue and Ocean Avenue,Street To Uptown Platform,OUTAGE,2017-04-06 23:08:30,,,600,46,2
+Queens Plz,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-25 01:48:27,FIXED,2017-03-30 20:48:33,600,305,3
+Queens Plz,An elevator,,Mezzanine To Uptown,OUTAGE,2017-04-02 13:58:25,FIXED,2017-04-02 14:18:36,20,305,3
+Queens Plz,An elevator,Corner of Queens Plaza South and Jackson Avenue,Street To Mezzanine,OUTAGE,2017-03-15 11:18:21,FIXED,2017-03-15 16:38:21,320,305,3
+Queens Plz,An elevator,Corner of Queens Plaza South and Jackson Avenue,Street To Mezzanine,OUTAGE,2017-03-16 14:48:35,FIXED,2017-03-16 16:18:15,89,305,3
+Queens Plz,An elevator,Corner of Queens Plaza South and Jackson Avenue,Street To Mezzanine,OUTAGE,2017-03-17 19:38:18,FIXED,2017-03-17 23:58:18,260,305,3
+Queens Plz,An elevator,Corner of Queens Plaza South and Jackson Avenue,Street To Mezzanine,OUTAGE,2017-03-22 17:09:22,FIXED,2017-03-22 17:38:57,29,305,3
+Queens Plz,An elevator,Corner of Queens Plaza South and Jackson Avenue,Street To Mezzanine,OUTAGE,2017-03-28 04:09:04,FIXED,2017-03-28 08:09:30,240,305,3
+Queens Plz,An elevator,Corner of Queens Plaza South and Jackson Avenue,Street To Mezzanine,OUTAGE,2017-03-29 20:18:41,FIXED,2017-03-29 23:08:30,169,305,3
+Queens Plz,An elevator,Corner of Queens Plaza South and Jackson Avenue,Street To Mezzanine,OUTAGE,2017-03-31 00:18:42,FIXED,2017-03-31 08:48:36,509,305,3
+Queens Plz,An elevator,Corner of Queens Plaza South and Jackson Avenue,Street To Mezzanine,OUTAGE,2017-04-02 14:18:35,FIXED,2017-04-02 16:48:50,150,305,3
+Queens Plz,An elevator,Corner of Queens Plaza South and Jackson Avenue,Street To Mezzanine,OUTAGE,2017-04-03 13:48:45,FIXED,2017-04-03 16:48:39,179,305,3
+Roosevelt Island,An elevator,,Street To Downtown Platform,OUTAGE,2017-03-17 05:48:23,FIXED,2017-03-17 06:48:20,59,353,2
+Roosevelt Island,An elevator,,Street To Downtown Platform,OUTAGE,2017-03-29 07:58:45,FIXED,2017-03-29 09:18:50,80,353,2
+Simpson St,An elevator,NW corner of Simpson Street and Westchester Avenue,Street To Mezzanine And Downtown Platform,OUTAGE,2017-03-15 11:18:22,,,600,227,2
+Simpson St,An elevator,NW corner of Simpson Street and Westchester Avenue,Street To Mezzanine And Downtown Platform,OUTAGE,2017-03-16 02:48:25,,,600,227,2
+Simpson St,An elevator,NW corner of Simpson Street and Westchester Avenue,Street To Mezzanine And Downtown Platform,OUTAGE,2017-03-16 21:18:30,,,600,227,2
+Simpson St,An elevator,NW corner of Simpson Street and Westchester Avenue,Street To Mezzanine And Downtown Platform,OUTAGE,2017-03-17 09:28:15,FIXED,2017-03-18 09:18:25,600,227,2
+Simpson St,An elevator,NW corner of Simpson Street and Westchester Avenue,Street To Mezzanine And Downtown Platform,OUTAGE,2017-03-20 19:58:30,,,600,227,2
+Simpson St,An elevator,NW corner of Simpson Street and Westchester Avenue,Street To Mezzanine And Downtown Platform,OUTAGE,2017-03-22 12:58:49,FIXED,2017-03-25 08:38:46,600,227,2
+Simpson St,An elevator,NW corner of Simpson Street and Westchester Avenue,Street To Mezzanine And Downtown Platform,OUTAGE,2017-04-01 00:58:50,,,600,227,2
+Simpson St,An elevator,NW corner of Simpson Street and Westchester Avenue,Street To Mezzanine And Downtown Platform,OUTAGE,2017-04-05 13:18:37,FIXED,2017-04-06 07:58:39,600,227,2
+Simpson St,An elevator,NW corner of Simpson Street and Westchester Avenue,Street To Mezzanine And Downtown Platform,OUTAGE,2017-04-07 17:58:29,,,600,227,2
+Times Sq - 42nd St,An elevator,,"Mezzanine And Uptown 1,2,3 Trains Platform",OUTAGE,2017-03-25 04:08:31,FIXED,2017-03-25 08:18:30,249,360,4
+Times Sq - 42nd St,An elevator,,"Mezzanine And Uptown 1,2,3 Trains Platform",OUTAGE,2017-04-01 04:38:30,FIXED,2017-04-01 09:28:32,290,360,4
+Times Sq - 42nd St,An elevator,,"Mezzanine And Uptown 1,2,3 Trains Platform",OUTAGE,2017-04-04 03:38:52,FIXED,2017-04-04 09:58:57,380,360,4
+Times Sq - 42nd St,An elevator,,"Mezzanine And Uptown 1,2,3 Trains Platform",OUTAGE,2017-04-05 18:28:21,FIXED,2017-04-05 19:58:48,90,360,4
+Times Sq - 42nd St,An elevator,,"Mezzanine And Uptown 1,2,3 Trains Platform",OUTAGE,2017-04-07 13:38:42,FIXED,2017-04-07 15:28:29,109,360,4
+Times Sq - 42nd St,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-25 04:18:47,FIXED,2017-03-27 19:48:41,600,360,4
+Times Sq - 42nd St,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-27 23:19:02,FIXED,2017-03-28 11:28:40,600,360,4
+Times Sq - 42nd St,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-28 20:38:54,FIXED,2017-03-29 01:48:44,309,360,4
+Times Sq - 42nd St,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-29 15:58:26,,,600,360,4
+Times Sq - 42nd St,An elevator,,Mezzanine To Uptown,OUTAGE,2017-03-30 11:28:45,FIXED,2017-03-31 08:58:21,600,360,4
+Times Sq - 42nd St,An elevator,,Mezzanine To Uptown,OUTAGE,2017-04-01 02:58:42,FIXED,2017-04-01 09:08:45,370,360,4
+Union Sq - 14th St,An elevator,,"Mezzanine To Uptown Platform N,Q,R",OUTAGE,2017-03-22 11:28:34,FIXED,2017-03-22 13:09:24,100,34,3
+Union Sq - 14th St,An elevator,,"Mezzanine To Uptown Platform N,Q,R",OUTAGE,2017-03-23 23:18:26,FIXED,2017-03-24 01:28:25,129,34,3
+Union Sq - 14th St,An elevator,,"Mezzanine To Uptown Platform N,Q,R",OUTAGE,2017-03-24 18:09:00,FIXED,2017-03-25 01:38:45,449,34,3
+Union Sq - 14th St,An elevator,,"Mezzanine To Uptown Platform N,Q,R",OUTAGE,2017-03-26 07:48:46,FIXED,2017-03-26 13:09:16,320,34,3
+Union Sq - 14th St,An elevator,NE corner of 14th Street and Park Avenue South (Union Square East),Street To Mezzanine,OUTAGE,2017-03-24 18:09:00,FIXED,2017-03-25 08:38:47,600,34,3
+Union Sq - 14th St,An elevator,NE corner of 14th Street and Park Avenue South (Union Square East),Street To Mezzanine,OUTAGE,2017-03-30 13:18:33,FIXED,2017-03-30 15:38:46,140,34,3
+Utica Ave,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-15 11:58:31,FIXED,2017-03-15 18:48:46,410,294,3
+Utica Ave,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-16 13:48:42,FIXED,2017-03-16 15:28:22,99,294,3
+Utica Ave,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-18 02:48:24,FIXED,2017-03-18 08:38:19,349,294,3
+Utica Ave,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-18 18:58:42,FIXED,2017-03-18 19:18:48,20,294,3
+Utica Ave,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-24 02:38:44,FIXED,2017-03-24 06:08:46,210,294,3
+Utica Ave,An elevator,,Mezzanine To Platform,OUTAGE,2017-03-30 04:48:27,FIXED,2017-03-30 05:18:47,30,294,3
+Utica Ave,An elevator,,Mezzanine To Platform,OUTAGE,2017-04-06 12:08:54,FIXED,2017-04-06 14:08:55,120,294,3
+Utica Ave,An elevator,,Platform To Mezzanine,OUTAGE,2017-03-21 11:38:54,FIXED,2017-03-21 14:09:02,150,294,3
+Utica Ave,An elevator,NW corner of Fulton Street and Malcolm X Boulevard,Street To Mezzanine,OUTAGE,2017-03-31 03:48:46,FIXED,2017-03-31 06:18:24,149,294,3
+Utica Ave,An elevator,NW corner of Fulton Street and Malcolm X Boulevard,Street To Mezzanine,OUTAGE,2017-03-31 08:48:34,FIXED,2017-03-31 16:38:18,469,294,3
+Utica Ave,An elevator,NW corner of Fulton Street and Malcolm X Boulevard,Street To Mezzanine,OUTAGE,2017-04-05 05:58:25,FIXED,2017-04-05 07:48:21,109,294,3
+W 4th St - Washington Sq,An elevator,,Middle Mezzanine To Uptown Platforms,OUTAGE,2017-03-21 04:09:02,FIXED,2017-03-21 12:28:47,499,1,3
+W 4th St - Washington Sq,An elevator,,Middle Mezzanine To Uptown Platforms,OUTAGE,2017-03-30 04:18:42,FIXED,2017-03-30 08:58:41,279,1,3
+W 4th St - Washington Sq,An elevator,,Middle Mezzanine To Uptown Platforms,OUTAGE,2017-03-31 04:08:29,FIXED,2017-03-31 09:28:24,319,1,3
+W 4th St - Washington Sq,An elevator,,Middle Mezzanine To Uptown Platforms,OUTAGE,2017-04-01 04:18:47,FIXED,2017-04-01 09:28:32,309,1,3
+W 4th St - Washington Sq,An elevator,,Middle Mezzanine To Uptown Platforms,OUTAGE,2017-04-08 12:38:53,,,600,1,3
+W 4th St - Washington Sq,An elevator,NE corner of West 3rd Street and Sixth Avenue,Street To Mezzanine,OUTAGE,2017-03-23 19:48:47,FIXED,2017-03-23 22:18:40,149,1,3
+W 4th St - Washington Sq,An elevator,NE corner of West 3rd Street and Sixth Avenue,Street To Mezzanine,OUTAGE,2017-04-02 05:48:33,FIXED,2017-04-02 09:18:35,210,1,3

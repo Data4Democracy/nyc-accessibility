@@ -1,0 +1,4 @@
+datadotworld==1.0.0b5
+pandas==0.18.1
+requests==2.13.0
+Shapely==1.5.17.post1
