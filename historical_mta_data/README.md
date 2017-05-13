@@ -17,6 +17,6 @@ Documentation for contents of this folder:
   + Train lines
 
 Contacts:
-@peconeto and @ilev on [nyc-accessibility Slack channel](https://datafordemocracy.slack.com/messages/nyc-accessibility/)
+@peconeto and @ilev on [#nyc-accessibility Slack channel](https://datafordemocracy.slack.com/messages/nyc-accessibility/)
 
-![v0.0.1 schema](nycaccessibility_schema_v_0_0_1.png)
+![](nycaccessibility_schema_v_0_0_1.png)
