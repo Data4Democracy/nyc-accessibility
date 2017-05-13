@@ -1,0 +1,14 @@
+Outages: http://advisory.mtanyct.info/EEoutage/
+
+AWS DB
+DB Instance Identifier: nycaccessibility
+Master Username: admin
+Master Password: JznTWZBt2VbhhnEmgUiYwnwC
+
+Connecting: http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ConnectToInstance.html
+
+nycaccessibility.cmvg4gbxw9fy.us-east-1.rds.amazonaws.com
+
+AWS DB Instances Console: https://console.aws.amazon.com/rds/home?region=us-east-1#dbinstances:
+
+To connect: http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ConnectToInstance.html
