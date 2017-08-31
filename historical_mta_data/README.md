@@ -3,7 +3,6 @@
 The database in this folder is intended to scrape data from [the MTA elevator and escalator outsage site](http://advisory.mtanyct.info/EEoutage/). Once scraped and loaded, an ETL script can clean the data and shred it into tidy tables. Those tables can be used to analyze or generate many statistics regarding MTA elevator and escalator outage times.
 
 **Still need to:**
-- Complete scraping script
 - Create ELT script
 - Put it all together and schedule processes in AWS
 
