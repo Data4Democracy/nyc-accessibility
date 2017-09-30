@@ -1,0 +1,160 @@
+"station","equipmenttype","total"
+"125 St","EL",5
+"125 St","ES",3
+"135 St","EL",2
+"14 St","EL",4
+"14 St - Union Sq","EL",3
+"14 St - Union Sq","ES",2
+"145 St","ES",2
+"149 St - 3 Av","EL",2
+"161 St - Yankee Stadium","EL",5
+"161 St - Yankee Stadium","ES",2
+"168 St","EL",7
+"175 St","EL",2
+"179 St - Jamaica","EL",3
+"181 St","EL",7
+"181 St","ES",3
+"190 St","EL",3
+"191 St","EL",4
+"205 St - Norwood","ES",1
+"207 St - Inwood","EL",2
+"21 St - Queensbridge","EL",3
+"21 St - Queensbridge","ES",6
+"23 St","EL",2
+"231 St","EL",2
+"233 St","EL",3
+"28 St","EL",1
+"34 St - Herald Sq","EL",6
+"34 St - Herald Sq","ES",12
+"34 St - Hudson Yards","EL",4
+"34 St - Hudson Yards","ES",9
+"34 St - Penn","EL",7
+"42 St - Bryant Park","EL",4
+"42 St - Grand Central","EL",4
+"42 St - Grand Central","ES",13
+"42 St - Port Authority Bus Terminal","EL",4
+"42 St - Port Authority Bus Terminal","ES",2
+"47-50 St - Rockefeller Ctr","EL",3
+"49 St","EL",1
+"5 Av / 53 St","ES",4
+"50 St","EL",2
+"50 St","ES",2
+"51 St","ES",1
+"57 St - 7 Av","EL",1
+"59 St","ES",4
+"59 St - Columbus Cir","EL",5
+"599 Lexington Av","ES",1
+"61 St - Woodside","EL",5
+"61 St - Woodside","ES",1
+"66 St - Lincoln Center","EL",2
+"7 Av","ES",2
+"72 St","EL",2
+"72 St / 2 Av","EL",7
+"72 St / 2 Av","ES",10
+"8 Av","EL",1
+"86 St / 2 Av","EL",2
+"86 St / 2 Av","ES",13
+"96 St","EL",2
+"96 St / 2 Av","EL",2
+"96 St / 2 Av","ES",9
+"Atlantic Av-Barclays Ctr","EL",10
+"Atlantic Av-Barclays Ctr","ES",3
+"Bay Parkway","EL",3
+"Borough Hall","EL",2
+"Borough Hall","ES",1
+"Bowery","ES",1
+"Bowling Green","EL",2
+"Bowling Green","ES",9
+"Briarwood/Van Wyck Blvd","EL",1
+"Brighton Beach","ES",1
+"Broadway-Lafayette/Bleecker St","EL",5
+"Broadway-Lafayette/Bleecker St","ES",1
+"Broadway Junction","ES",3
+"Brooklyn Bridge - City Hall","EL",3
+"Canal St","EL",2
+"Chambers St","EL",3
+"Church Av","EL",5
+"Clark St","EL",3
+"Columbus Circle","ES",2
+"Coney Island Stillwell Av","EL",3
+"Corona Yard Signal Tower","EL",1
+"Cortlandt St","ES",1
+"Court Square","EL",3
+"Court Square","ES",4
+"Court Square - 23 St","PW",2
+"Court St","EL",2
+"Court St","ES",2
+"Crown Hts - Utica Av","EL",2
+"Dekalb Av","EL",3
+"Dekalb Av","ES",2
+"Delancey St Essex St","ES",2
+"Dyckman St","EL",1
+"Dyckman St Quarters","EL",1
+"East 180 St","EL",2
+"East Broadway","ES",1
+"Euclid Av","EL",3
+"Far Rockaway - Mott Av","EL",2
+"Flatbush Av Brooklyn College","EL",1
+"Flushing Av","EL",3
+"Flushing Main St","EL",1
+"Flushing Main St","ES",3
+"Fordham Rd","EL",3
+"Forest Hills - 71 Av","EL",3
+"Franklin Av","EL",2
+"Franklin Av","ES",1
+"Fulton St","EL",19
+"Fulton St","ES",12
+"Gun Hill Rd","EL",2
+"Gun Hill Rd","ES",2
+"High St","ES",5
+"Howard Beach","EL",6
+"Howard Beach","ES",4
+"Hunts Point","EL",3
+"Intervale Av","ES",1
+"Jackson Hts - Roosevelt Av","EL",4
+"Jackson Hts - Roosevelt Av","ES",5
+"Jamaica - Van Wyck","EL",2
+"Jamaica - Van Wyck","ES",5
+"Jamaica Center Parsons/Archer","EL",2
+"Jamaica Center Parsons/Archer","ES",10
+"Jay St - MetroTech","EL",5
+"Jay St - MetroTech","ES",6
+"Junction Blvd","EL",3
+"Kew Gardens / Union Tpk","EL",3
+"Kings Highway","EL",2
+"Kingsbridge Road","EL",3
+"Lexington Av / 53 St","EL",2
+"Lexington Av / 53 St","ES",7
+"Lexington Av / 59 St","ES",3
+"Lexington Av / 63 St","EL",7
+"Lexington Av / 63 St","ES",12
+"Marcy Av","EL",2
+"Myrtle Av / Wyckoff Av","EL",3
+"Myrtle Av / Wyckoff Av","ES",2
+"Park Place","ES",2
+"Parkchester","ES",1
+"Pelham Bay Park","EL",2
+"Pelham Bay Park","ES",2
+"Pelham Pkwy","EL",3
+"Pelham Pkwy","ES",2
+"President St","ES",1
+"Prospect Park","EL",2
+"Queens Plaza","EL",3
+"Rockaway Park - Beach 116 St","EL",1
+"Roosevelt Island","EL",2
+"Roosevelt Island","ES",10
+"Simpson St","EL",2
+"Smith - 9 Sts","ES",6
+"South Ferry","EL",2
+"South Ferry","ES",7
+"Sutphin Blvd - Archer Av - JFK Airport","EL",7
+"Sutphin Blvd - Archer Av - JFK Airport","ES",6
+"Times Sq - 42 St","EL",5
+"Times Sq - 42 St","ES",7
+"Utica Av","EL",3
+"Wall St","ES",2
+"West 4 St - Washington Sq","EL",3
+"West 4 St - Washington Sq","ES",2
+"West 8 St - NY Aquarium","ES",1
+"West Farms Sq - E Tremont Av","ES",1
+"Whitehall St - South Ferry","ES",3
