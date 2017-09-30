@@ -1,6 +1,6 @@
 # NYC Accessbility 
 
-[**Project Lead:**](https://github.com/Data4Democracy/read-this-first/blob/master/lead-role-description.md) [@henripal](https://datafordemocracy.slack.com/messages/@henripal/)
+[**Project Lead:**](https://github.com/Data4Democracy/read-this-first/blob/master/lead-role-description.md) [@bkey](https://datafordemocracy.slack.com/messages/@bkey/)[@henripal](https://datafordemocracy.slack.com/messages/@henripal/)
 
 The NYC Accessibility project encompasses two sets of tools:
 
@@ -21,8 +21,9 @@ The initial work for these projects was done at the first NYC D4D hackathon.
 ## Getting Started
 
 1. If you haven't already, [read this first](https://github.com/Data4Democracy/read-this-first)
-2. Join [the slack channel #nyc-accessibility](https://datafordemocracy.slack.com/messages/nyc-accessibility/) and introduce yourself. If you need an invite to our slack system, email team@datafordemocracy.org.
-3. Check out our [issues page on Github](https://github.com/Data4Democracy/nyc-accessibility/issues) to see if there's something you can contribute to. If you don't see anything or you have questions, ask in the slack channel.
-4. Fork the repo to your own github account. If you're not familiar with this process, you can find the steps [here](https://github.com/Data4Democracy/github-playground).
+2. Join [the slack channel #p-nyc-accessibility](https://datafordemocracy.slack.com/messages/p-nyc-accessibility/) and introduce yourself. If you need an invite to our slack system, email team@datafordemocracy.org.
+3. Read our [brainstorming document](https://docs.google.com/document/d/1VYgCU4CEjtGIPotEDvQOid6w2nk8wdoq_Q1pY2BpOVk/edit#)
+4. Check out our [issues page on Github](https://github.com/Data4Democracy/nyc-accessibility/issues) to see if there's something you can contribute to. If you don't see anything or you have questions, ask in the slack channel.
+5. Fork the repo to your own github account. If you're not familiar with this process, you can find the steps [here](https://github.com/Data4Democracy/github-playground).
 
 
