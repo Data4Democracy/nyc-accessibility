@@ -1,2 +1,4 @@
 *.pyc
 .idea/*
+notebooks/config.py
+notebooks/.ipynb_checkpoints/*
