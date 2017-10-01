@@ -1,0 +1,143 @@
+---
+title: "nyc_mta_scape_data_esc_and_el_outages"
+author: "darya akimova"
+date: "September 30, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(lubridate)
+library(stringr)
+library(cowplot)
+```
+
+
+```{r}
+raw.data <- read_csv(file = "../data/mta_accessibility_scrape.csv")
+
+manip.data <- raw.data %>%
+  separate(scrape_timestamp, c("scrape_date", "scrape_time"), sep = " ") %>%
+  mutate(scrape_date = ymd(scrape_date)) %>%
+  mutate(equipment_type = gsub("images/", "", equipment_type)) %>%
+  mutate(equipment_type = gsub(".gif", "", equipment_type)) %>%
+  mutate(equipment_type = str_to_lower(equipment_type))
+
+
+outage.by.day.equip <- manip.data %>%
+  group_by(scrape_date, equipment_type) %>%
+  count(equipment_mta_id) %>% 
+  arrange(scrape_date) %>%
+  distinct() %>% 
+  select(-n) %>% 
+  select(-equipment_mta_id) %>% 
+  mutate(tot_out = n()) %>% 
+  distinct()
+
+tot.out.by.day.plot <- outage.by.day.equip %>% 
+  ggplot(aes(x = scrape_date, y = tot_out, color = equipment_type, shape = equipment_type)) +
+  geom_point(size = 4) +
+  scale_color_manual(name = "Equipment Type", values = c("#E69F00", "#56B4E9", "#009E73")) +
+  scale_shape_discrete(guide = FALSE) +
+  xlab("Scrape Date") +
+  ylab("Total Equipment Out of Service") +
+  ggtitle("Total Equipment Out of Service Per Day\nGrouped by equipment type")
+tot.out.by.day.plot
+
+# Looks like about 50 elevators are out on any given day on average and 70 escalators (by eye)
+# What proportion is this of total equipment in the NYC subway system?
+
+raw.equip.data <- read_csv(file = "../data/equipment type by station.csv")
+raw.stat.data <- read_csv(file = "../data/stations.csv")
+
+# How many of each equipment type is there in the city?
+colSums(raw.equip.data[, 2:4], na.rm = TRUE)
+
+prop.out.by.day.plot <- outage.by.day.equip %>% 
+  filter(equipment_type == "elevator") %>%
+  mutate(proportion = (tot_out / sum(raw.equip.data$EL, na.rm = TRUE)) * 100) %>% 
+  bind_rows(
+    outage.by.day.equip %>% 
+      filter(equipment_type == "escalator") %>% 
+      mutate(proportion = (tot_out / sum(raw.equip.data$ES, na.rm = TRUE)) * 100)
+  ) %>% 
+  bind_rows(
+    outage.by.day.equip %>% 
+      filter(equipment_type == "powerwalk") %>% 
+      mutate(proportion = (tot_out / sum(raw.equip.data$PW, na.rm = TRUE)) * 100)
+  ) %>% 
+  ggplot(aes(x = scrape_date, y = proportion, color = equipment_type, shape = equipment_type)) +
+  geom_point(size = 4) +
+  scale_color_manual(name = "Equipment Type", values = c("#E69F00", "#56B4E9", "#009E73")) +
+  scale_shape_discrete(guide = FALSE) +
+  xlab("Scrape Date") +
+  ylab("Percent of Total Equipment Out of Service") +
+  ggtitle("Percent of Equipment Out of Service Per Day\nGrouped by equipment type")
+prop.out.by.day.plot
+
+# There are only 2 powerwalks total in the city and it's either 50% or 100% out of order, which distorts the 
+
+
+prop.out.by.day.noPW.plot <- outage.by.day.equip %>% 
+  filter(equipment_type == "elevator") %>%
+  mutate(proportion = (tot_out / sum(raw.equip.data$EL, na.rm = TRUE)) * 100) %>% 
+  bind_rows(
+    outage.by.day.equip %>% 
+      filter(equipment_type == "escalator") %>% 
+      mutate(proportion = (tot_out / sum(raw.equip.data$ES, na.rm = TRUE)) * 100)
+  ) %>% 
+  ggplot(aes(x = scrape_date, y = proportion, color = equipment_type, shape = equipment_type)) +
+  geom_point(size = 4) +
+  scale_color_manual(name = "Equipment Type", values = c("#E69F00", "#56B4E9")) +
+  scale_shape_discrete(guide = FALSE) +
+  xlab("Scrape Date") +
+  ylab("Percent of Total Equipment Out of Service") +
+  ggtitle("Percent of Equipment Out of Service Per Day\nGrouped by equipment type (No Powerwalk)")
+prop.out.by.day.noPW.plot
+
+tot.outages.group.plot <- plot_grid(
+  tot.out.by.day.plot, prop.out.by.day.plot, prop.out.by.day.noPW.plot,
+  ncol = 2, nrow = 2
+  )
+tot.outages.group.plot
+
+# save_plot("total_out_of_service_by_day.png", tot.outages.group.plot, base_height = 8, base_width = 12)
+
+
+outage.by.day.station <- manip.data %>%
+  group_by(scrape_date, station_name) %>%
+  count(equipment_mta_id) %>% 
+  arrange(scrape_date) %>%
+  distinct() %>% 
+  select(-n) %>% 
+  select(-equipment_mta_id) %>% 
+  mutate(tot_out = n()) %>% 
+  distinct()
+
+tot.outage.by.station <- outage.by.day.station %>%
+  group_by(station_name) %>% 
+  mutate(tot_station = sum(tot_out)) %>% 
+  select(-tot_out) %>% 
+  select(-scrape_date) %>% 
+  distinct() %>% 
+  arrange(desc(tot_station))
+  
+worst.10 <- tot.outage.by.station[1:10, ] %>% ungroup() %>% arrange(tot_station)
+worst.10$sort.ord <- factor(as.character(worst.10$station_name), levels = unique(as.character(worst.10$station_name)))
+
+stations.worst10.plot <- worst.10 %>% 
+  ggplot(aes(x = sort.ord, y = tot_station)) +
+  geom_bar(stat = "identity") +
+  coord_flip() +
+  xlab("Total Outages in 3 Month Period") +
+  ylab("Station Name") +
+  ggtitle("Stations with the most outages over a 3 month period")
+
+# save_plot("stations_worst10_plot.png", stations.worst10.plot, base_width = 8, base_height = 5)
+
+```
+
