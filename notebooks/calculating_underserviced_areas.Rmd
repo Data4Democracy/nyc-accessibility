@@ -1,0 +1,224 @@
+---
+title: "calculating_underserviced_areas"
+author: "darya akimova"
+date: "October 14, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r packages}
+library(tidyverse)
+library(ggmap)
+library(maps)
+library(stringr)
+library(broom)
+library(cowplot)
+library(viridis)
+library(geosphere)
+```
+
+
+```{r data}
+ada.raw.data <- read_csv(file = "../data/Elevator Escalator Station Data.csv") %>% 
+  arrange(station)
+sub.location.raw.data <- read_csv(file = "../data/NYC_Transit_Subway_Entrance_And_Exit_Data.csv") %>% 
+  arrange(`Station Name`)
+colnames(sub.location.raw.data)[3] <- "station"
+
+colnames(sub.location.raw.data) <- colnames(sub.location.raw.data) %>% 
+  str_to_lower() %>% 
+  gsub(pattern = " ", replacement = ".")
+colnames(ada.raw.data) <- colnames(ada.raw.data) %>% 
+  str_to_lower()
+# What are the cols and how many missing vales per col?
+sub.location.raw.data %>% 
+  is.na %>% 
+  as.data.frame() %>% 
+  sapply(sum)
+ada.raw.data %>% 
+  is.na %>% 
+  as.data.frame() %>% 
+  sapply(sum)
+
+
+full.join.mess <- ada.raw.data %>% 
+  full_join(sub.location.raw.data, by = "station") %>% 
+  arrange(station)
+inner.join.mess <- ada.raw.data %>% 
+  inner_join(sub.location.raw.data, by = "station") %>% 
+  arrange(station)
+full.join.mess %>% 
+  filter(!(station %in% unique(inner.join.mess$station)))
+# need to work on this
+```
+
+
+
+
+```{r}
+sub.location.raw.data %>% 
+  ggplot(aes(x = station.longitude, y = station.latitude)) +
+  geom_point() +
+  coord_quickmap()
+  
+
+test <- sub.location.raw.data %>% 
+  group_by(station.location) %>% 
+  mutate(ada.sum = sum(ada)) %>% 
+  select(division:entrance.type, ada, station.location, ada.sum) %>% 
+  unique()
+
+test2 <- test %>% 
+  select(division:route11, station.location:ada.sum) %>% 
+  unique() %>% 
+  ungroup() %>% 
+  arrange(ada.sum, station, line) 
+
+test2 %>% 
+  filter(ada.sum == 0) %>% 
+  ggplot(aes(x = station.longitude, y = station.latitude, color = division)) +
+  geom_point(size = 3, alpha = 0.5) +
+  coord_quickmap()
+
+test2 %>% 
+  filter(ada.sum > 0) %>% 
+  ggplot(aes(x = station.longitude, y = station.latitude, color = division)) +
+  geom_point(size = 3, alpha = 0.5) +
+  coord_quickmap()
+
+test3 <- test2 %>% 
+  filter(ada.sum == 0) %>% 
+  mutate(ada.class = "not.ada")
+test4 <- test2 %>% 
+  filter(ada.sum > 0) %>% 
+  mutate(ada.class = "ada.complnt")
+
+test5 <- test3 %>% 
+  bind_rows(test4) %>% 
+  arrange(station)
+
+test5 %>% 
+  ggplot(aes(x = station.longitude, y = station.latitude, color = ada.class)) +
+  geom_point(size = 3, alpha = 0.5) +
+  coord_quickmap()
+# take advantage of the fact that each borough is its own county
+map.ny.county1 <- map_data("county") %>% 
+  filter(region == "new york") %>% 
+  filter(subregion == "new york")
+
+map.ny.county1 %>% 
+  ggplot(aes(x = long, y = lat, group = group)) +
+  geom_polygon()
+
+# hideous
+
+mymap <- get_map(location = "New York City", maptype = "roadmap")
+ggmap(mymap) +
+  geom_point(data = test5, aes(x = station.longitude, y = station.latitude, color = ada.class), size = 3) +
+  ylim(40.495992, 40.915568) +
+  xlim(-74.257159, -73.699215)
+
+
+library(rgdal)
+
+nyc.shapefile <- readOGR(dsn = "../data/nybb_17c/nybb.shp")
+nyc.map.df <- fortify(nyc.shapefile)
+
+
+map <- ggplot() +
+geom_path(data = nyc.map.df, 
+          aes(x = long, y = lat, group = group), size = .2) 
+
+
+```
+
+NYC city limits?
+
+West Longitude: -74.257159
+East Longitude: -73.699215
+North Latitude: 40.915568
+South Latitude: 40.495992
+
+source http://www1.nyc.gov/site/planning/data-maps/open-data/districts-download-metadata.page
+
+Grabbed the locations from the 2015 NYC 311 calls data - use as random sample?
+
+```{r}
+nyc.311.loc <- read_csv(file = "../data/nyc_311_2015_locations.csv") %>% 
+  filter(Borough == "BROOKLYN" | Borough == "BRONX" | Borough == "MANHATTAN" | Borough == "QUEENS") %>% 
+  unique() %>%  # a lot of calls come from an identical lat/long
+  filter(Longitude > -78.0)  # there's one odd point out
+# too many points to just plot, but here's a density plot:
+
+nyc.311.loc %>% 
+  ggplot(aes(x = Longitude, y = Latitude)) +
+  geom_bin2d(bins = 300) +
+  scale_fill_viridis(option = "B") +
+  coord_quickmap()
+# can do a map with all points, but it takes a long time
+# uncomment if you want to see:
+#nyc.311.loc %>% 
+#  ggplot(aes(x = Longitude, y = Latitude)) +
+#  geom_point(alpha = 0.2, size = 0.25) +
+#  coord_quickmap()
+```
+
+Not bad.
+
+```{r}
+test6 <- test5 %>% 
+  mutate(station.id = paste(station, division, line, sep = " / ")) 
+loc.test <- nyc.311.loc %>% 
+  slice(1:10)
+
+
+test6 %>% 
+  group_by(station.id) %>% 
+  count() %>% 
+  filter(n > 1)
+
+test7 <- test6 %>% 
+  group_by(station.id) %>% 
+  mutate(avg.lat = mean(station.latitude)) %>% 
+  mutate(avg.long = mean(station.longitude))
+test8 <- test7 %>% 
+  select(station.id, division:station, avg.lat:avg.long, ada.class) %>% 
+  unique()
+nrow(test8)
+length(test8$station.id)
+
+t1 <- rbind(test8$station.id, test8$station.id)
+t2 <- as.data.frame(rbind(t1, t1, t1, t1, t1), stringsAsFactors = FALSE)
+colnames(t2) <- paste("stat", 1:ncol(t2), sep = "")
+
+t3 <- t2 %>% select(1:5)
+
+test9 <- bind_cols(loc.test, t3) 
+test10 <- test9 %>%
+  gather(key = "station.num", value = "station.id", 4:8) %>% 
+  arrange(station.num)
+test11 <- test10 %>% 
+  inner_join(test8, by = "station.id")
+test12 <- test11 %>% 
+  mutate(dist.to.stat = distGeo(p1 = as.matrix(test11 %>% select(Longitude, Latitude)), p2 = as.matrix(test11 %>% select(avg.long, avg.lat))) * 0.000621371) %>% 
+  mutate(loc.id = paste(Borough, Latitude, Longitude, sep = " / "))
+
+
+test12 %>% 
+  group_by(loc.id) %>% 
+  summarize(nearest.stat = min(dist.to.stat)) %>% 
+  ungroup() %>% 
+  inner_join((test12 %>% select(Longitude, Latitude, loc.id)), by = "loc.id") %>% 
+  unique() %>% 
+  ggplot(aes(x = Longitude, y = Latitude, color = nearest.stat)) +
+  geom_point(size = 3) +
+  scale_color_viridis(option = "D")
+```
+
+
+To tackle
+- Separate distance calculations by borough for both the random point and the station, in case "closest" stations are across a river. Probably can keep Queens and Brooklyn together?
+- 
