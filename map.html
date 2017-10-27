@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>NYC Accessibility</title>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+</head>
+<body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.js"></script>
+<script type="text/javascript"
+        src="http://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
+
+<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<div id="map" style="width: 1200px; height: 800px"></div>
+<script type="text/javascript" charset="utf-8">
+
+$(document).ready(function() {
+  $.ajax({
+    type: "GET",
+    url: "data/elevator escalator gis.csv",
+    dataType: "text",
+    success: function(data){displayData(data)}
+  });
+});
+
+
+
+function displayData(file_data){
+  var map = L.map('map', {
+  	center: new L.LatLng(40.7610312, -73.99729429),
+	zoom: 11,
+  });
+
+  var baseLayer = L.tileLayer(
+			'http://{s}.tile.cloudmade.com/ad132e106cd246ec961bbdfbe0228fe8/997/256/{z}/{x}/{y}.png',{
+				attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
+				maxZoom: 20
+			}
+		).addTo(map);
+
+  data = $.csv.toObjects(file_data);
+  data_array = [];
+  for (i = 1; i < data.length; i++) {
+    lat = parseFloat(data[i].Latitude);
+    lng = parseFloat(data[i].Longitude);
+    if (data[i].ADA == "Y") {
+        console.log(data[i]);
+        data_array.push([lat, lng, parseFloat(data[i].count)]);
+
+        L.circle([lat, lng], 1, {color: 'black'}).addTo(map).bindPopup(data[i].station + " - " + data[i].trainno);
+    }
+  };
+
+}
+
+</script>
+</body>
+</html>

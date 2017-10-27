@@ -1,4 +1,4 @@
-"","station","borough","trainno","equipmentno","equipmenttype","serving","ADA","Station.ID","Complex.ID","GTFS.Stop.ID","Division","Line","Stop.Name","Borough","Daytime.Routes","Structure","GTFS.Latitude","GTFS.Longitude"
+"","station","borough","trainno","equipmentno","equipmenttype","serving","ADA","Station.ID","Complex.ID","GTFS.Stop.ID","Division","Line","Stop.Name","Borough","Daytime.Routes","Structure","Latitude","Longitude"
 "1","125 St","MN","A/B/C/D","EL143","EL","MEZZANINE AND DOWNTOWN","Y",439,439,"225","IRT","Lenox - White Plains Rd","125 St","M","2 3","Subway",40.807754,-73.945495
 "2","125 St","MN","A/B/C/D","EL143","EL","MEZZANINE AND DOWNTOWN","Y",392,392,"621","IRT","Lexington - Shuttle","125 St","M","4 5 6","Subway",40.804138,-73.937594
 "3","125 St","MN","A/B/C/D","EL143","EL","MEZZANINE AND DOWNTOWN","Y",153,153,"A15","IND","8th Av - Fulton St","125 St","M","A B C D","Subway",40.811109,-73.952343
