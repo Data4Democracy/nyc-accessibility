@@ -145,8 +145,6 @@ ggmap(nyc.map) +
   xlab("longitude") +
   ylab("latitude") +
   ggtitle("All NYC Subway Stations\nin the Subway Entrance/Exit Locations Data\nColor by Accessibility")
-
-
 ```
 
 Now the next questions is how do I "sample" points from the area of NYC? 
@@ -163,7 +161,7 @@ North Latitude: 40.915568
 South Latitude: 40.495992
 
 
-```{r}
+```{r, eval = FALSE}
 library(rgdal)
 nyc.shapefile <- readOGR(dsn = "../data/nybb_17c/nybb.shp")
 nyc.map.df <- fortify(nyc.shapefile)
@@ -270,7 +268,7 @@ dist.test.nearest <- dist.test.res %>%
 
 ggmap(nyc.map) +
   geom_point(data = dist.test.nearest, aes(x = Longitude, y = Latitude, color = nearest.stat), size = 3) +
-  #scale_color_viridis(option = "D")  +
+  scale_color_viridis(option = "D")  +
   ylim(40.55, 40.915568) +  # NYC city limits latitude coordinates
   xlim(-74.1, -73.699215) +  # NYC city limits longitude coordinates
   xlab("longitude") +
@@ -278,40 +276,201 @@ ggmap(nyc.map) +
   ggtitle("Direct distance to nearest subway station from point in NYC")
 ```
 
-
 Test run with a small fraction of the data seems to have worked, now to tackle the full data.
 
-```{r}
+#### Run the following chunk at your own risk. R took up >40GB of RAM at some points for me.
+
+(It's currently set to not evaluate)
+
+I exported the distance to any nearest subway station to any point and the distance to the nearest ada subway station into csv files. They're imported in the next chunk.
+
+```{r full_dist_calc, eval = FALSE}
 nrow(nyc.311.loc)
 # need to duplicate the station.id row that many times
 stat.df <- as.data.frame(t1, stringsAsFactors = FALSE)
 colnames(stat.df) <- paste("stat", 1:ncol(stat.df), sep = "")
 # full df with all stations with enough rows for the nyc.311.loc df
 stat.df.full <- stat.df[rep(seq_len(nrow(stat.df)), (nrow(nyc.311.loc) / 2)), ]
-
 dist.full <- bind_cols(nyc.311.loc, stat.df.full)
 # need to use my work computer to get through this step, takes up too much RAM
 dist.full.t2 <- dist.full %>%
   gather(key = "station.num", value = "station.id", 4:ncol(dist.full)) %>% 
   arrange(station.num)
-# each of the 10 (long,lat) points is now paired with each of the 5 stations selected
-dist.test
-# link the station.id to a (long,lat) pair for that station: 
-dist.test.w.stat.loc <- dist.test %>% 
+dist.full.w.stat.loc <- dist.full.t2 %>% 
   inner_join(sub.loc.ada.annot, by = "station.id")
-# now calculate distance between point and the station using the geosphere package:
-dist.test.res <- dist.test.w.stat.loc  %>% 
+rm(dist.full, dist.full.t2, stat.df.full)  # remove some monster variables
+gc()  # get some memory back
+dist.full.res <- dist.full.w.stat.loc  %>% 
   mutate(
     dist.to.stat = distGeo(
       # p1 = NYC 311 location
-      p1 = as.matrix(dist.test.w.stat.loc %>% select(Longitude, Latitude)), 
+      p1 = as.matrix(dist.full.w.stat.loc %>% select(Longitude, Latitude)), 
       # p2 = subway station location
-      p2 = as.matrix(dist.test.w.stat.loc  %>% select(avg.long, avg.lat))
+      p2 = as.matrix(dist.full.w.stat.loc  %>% select(avg.long, avg.lat))
       ) * 0.000621371  # convert meters to miles
     ) %>% 
   mutate(loc.id = paste(Borough, Latitude, Longitude, sep = " / "))
-
+# freeing up memory again
+rm(dist.test.w.stat.loc)
+gc()
+dim(dist.full.res)
+# dim: 192529530 x 13
+dist.full.nearest <- dist.full.res %>% 
+  group_by(loc.id) %>% 
+  summarize(nearest.stat = min(dist.to.stat)) %>% 
+  ungroup() %>% 
+  inner_join((dist.full.res %>% select(Longitude, Latitude, loc.id)), by = "loc.id") %>% 
+  unique()
+# write_csv(dist.full.nearest, path = "dist_to_any_nearest_station_nyc311.csv")
+dist.ada.nearest <- dist.full.res %>% 
+  filter(ada.class == "ada.complnt") %>% 
+  group_by(loc.id) %>% 
+  summarize(nearest.stat = min(dist.to.stat)) %>% 
+  ungroup() %>% 
+  inner_join((dist.full.res %>% select(Longitude, Latitude, loc.id)), by = "loc.id") %>% 
+  unique()
+# write_csv(dist.ada.nearest, path = "dist_to_nearest_ada_station_nyc311.csv")
+rm(dist.full.res)
+gc()
 ```
+
+Import of the resulting csv files (to avoid evaluating that chunk above again):
+
+```{r result_csv_import}
+dist.full.nearest <- read_csv(file = "../data/dist_to_any_nearest_station_nyc311.csv")
+dist.ada.nearest <- read_csv(file = "../data/dist_to_nearest_ada_station_nyc311.csv")
+```
+
+
+Plots of the results!
+
+Distance to any type of station from a particular point in NYC: 
+
+```{r plot_full_dist_calc, fig.height=8, fig.width=8}
+dist.full.nearest %>% 
+  ggplot(aes(x = Longitude, y = Latitude, color = nearest.stat)) +
+  geom_point(size = 0.2) +
+  scale_color_viridis(option = "B") +
+  theme(panel.background = element_rect(fill = 'grey75')) +
+  coord_quickmap() +
+  ggtitle("Direct distance to any nearest subway station from point in NYC")
+
+dist.full.nearest %>% 
+  ggplot(aes(x = Longitude, y = Latitude, color = nearest.stat)) +
+  geom_point(size = 0.2, alpha = 0.2) +
+  scale_color_viridis(option = "B") +
+  theme(panel.background = element_rect(fill = 'grey75')) +
+  coord_quickmap() +
+  ggtitle("Direct distance to any nearest subway station from point in NYC")
+
+ggmap(nyc.map) +
+  geom_point(data = dist.full.nearest, aes(x = Longitude, y = Latitude, color = nearest.stat), size = 0.2) +
+  scale_color_viridis(option = "B")  +
+  ylim(40.55, 40.915568) +  # NYC city limits latitude coordinates
+  xlim(-74.1, -73.699215) +  # NYC city limits longitude coordinates
+  xlab("longitude") +
+  ylab("latitude") +
+  ggtitle("Direct distance to any nearest subway station from point in NYC")
+```
+
+Uh oh, there seems to be an overlap problem.
+
+```{r}
+dist.ada.nearest %>% 
+  ggplot(aes(x = Longitude, y = Latitude, color = nearest.stat)) +
+  geom_point(size = 0.2) +
+  scale_color_viridis(option = "B") +
+  theme(panel.background = element_rect(fill = 'grey75')) +
+  coord_quickmap() +
+  ggtitle("Direct distance to nearest ADA-accessible subway station from point in NYC")
+
+dist.ada.nearest %>% 
+  ggplot(aes(x = Longitude, y = Latitude, color = nearest.stat)) +
+  geom_point(size = 0.2, alpha = 0.2) +
+  scale_color_viridis(option = "B") +
+  theme(panel.background = element_rect(fill = 'grey75')) +
+  coord_quickmap() +
+  ggtitle("Direct distance to nearest ADA-accessible subway station from point in NYC")
+
+ggmap(nyc.map) +
+  geom_point(data = dist.ada.nearest, aes(x = Longitude, y = Latitude, color = nearest.stat), size = 0.2) +
+  scale_color_viridis(option = "B")  +
+  ylim(40.55, 40.915568) +  # NYC city limits latitude coordinates
+  xlim(-74.1, -73.699215) +  # NYC city limits longitude coordinates
+  xlab("longitude") +
+  ylab("latitude") +
+  ggtitle("Direct distance to nearest ADA-accessible subway station from point in NYC")
+```
+
+Unsurprisingly, some areas are just far from any subway stations and that carries over into what areas are far from ADA stations. 
+
+```{r combining_distances}
+colnames(dist.full.nearest)[2:4] <- c("near.any.stat", "any.long", "any.lat")
+colnames(dist.ada.nearest)[2:4] <- c("near.ada.stat", "ada.long", "ada.lat")
+dist.combo <- dist.full.nearest %>% 
+  full_join(dist.ada.nearest, by = "loc.id")
+# sanity checks for joining:
+sapply(dist.full.nearest, anyNA)
+sapply(dist.ada.nearest, anyNA)
+sapply(dist.combo, anyNA)
+all.equal(dist.combo$any.lat, dist.combo$ada.lat)
+all.equal(dist.combo$any.long, dist.combo$ada.long)
+# joining seems ok
+dist.combo <- dist.combo %>% 
+  select(loc.id, any.long, any.lat, near.any.stat, near.ada.stat) %>% 
+  mutate(any.vs.ada.dist = near.ada.stat - near.any.stat) %>% 
+  mutate(any.vs.ada.ratio = near.ada.stat / near.any.stat)
+```
+
+Distance viz
+
+```{r norm_distance_viz, fig.width=8, fig.height=8}
+dist.combo %>% 
+  ggplot(aes(x = any.vs.ada.dist)) +
+  geom_histogram()
+dist.combo %>% 
+  ggplot(aes(x = any.vs.ada.ratio)) +
+  geom_histogram()
+# okay so some of the ratio values are really, really large - these are probably points right on top of stations that are not ADA-certified
+dist.combo %>% 
+  filter(any.vs.ada.ratio < 50) %>%
+  ggplot(aes(x = any.vs.ada.ratio)) +
+  geom_histogram()
+
+dist.combo %>% 
+  ggplot(aes(x = any.long, y = any.lat, color = any.vs.ada.dist)) +
+  geom_point(size = 0.2, alpha = 0.2) +
+  scale_color_viridis(option = "B") +
+  theme(panel.background = element_rect(fill = 'grey75')) +
+  coord_quickmap() +
+  ggtitle("Direct distance to nearest ADA-accessible subway station from point in NYC")
+
+dist.combo %>% 
+  filter(any.vs.ada.ratio < 100) %>%  # this number was trial and error
+  ggplot(aes(x = any.long, y = any.lat, color = any.vs.ada.ratio)) +
+  geom_point(size = 0.2, alpha = 0.2) +
+  scale_color_viridis(option = "B") +
+  theme(panel.background = element_rect(fill = 'grey75')) +
+  coord_quickmap() +
+  ggtitle("Direct distance to nearest ADA-accessible subway station from point in NYC")
+# I was right, looks like its points right on top of stations that are really "far" from ada-accessible stations
+
+dist.combo %>% 
+  filter(any.vs.ada.ratio > 5) %>%  # this number was trial and error
+  mutate(any.vs.ada.ratio = 5) %>% 
+  bind_rows(
+    dist.combo %>% 
+      filter(any.vs.ada.ratio < 5)
+    ) %>% 
+  ggplot(aes(x = any.long, y = any.lat, color = any.vs.ada.ratio)) +
+  geom_point(size = 0.2, alpha = 0.2) +
+  scale_color_viridis(option = "B") +
+  theme(panel.background = element_rect(fill = 'grey75')) +
+  coord_quickmap() +
+  ggtitle("Direct distance to nearest ADA-accessible subway station from point in NYC")
+```
+
+
 
 To tackle
 - Separate distance calculations by borough for both the random point and the station, in case "closest" stations are across a river. Probably can keep Queens and Brooklyn together?
