@@ -3,7 +3,7 @@ appnope==0.1.0
 asn1crypto==0.22.0
 attrs==16.3.0
 Automat==0.5.0
-bleach==2.0.0
+bleach==3.1.1
 cffi==1.10.0
 constantly==15.1.0
 cryptography==1.8.1
