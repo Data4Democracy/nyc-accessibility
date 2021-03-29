@@ -4,7 +4,7 @@ certifi==2017.7.27.1
 chardet==3.0.4
 dataset==1.0.2
 idna==2.6
-lxml==4.6.2
+lxml==4.6.3
 Mako==1.0.7
 MarkupSafe==1.0
 normality==0.4.4
